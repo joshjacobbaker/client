@@ -12,3 +12,11 @@
 
 - Episode 1
 - Episode 2
+
+### Github Pages
+
+- git checkout gh-pages
+- git subtree push --prefix dist origin gh-pages
+- npm run deploy
+- https://joshjacobbaker.github.io/yousalon/
+-
