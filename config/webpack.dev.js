@@ -14,7 +14,7 @@ module.exports = {
     path: path.resolve(__dirname, "../dist"),
     publicPath: "/",
     clean: true,
-    assetModuleFilename: "images/[name][ext][query]",
+    // assetModuleFilename: "images/[name][ext][query]",
   },
   mode: mode,
   devtool: "source-map",
@@ -37,6 +37,9 @@ module.exports = {
       // omit minSize in real use case to use the default of 30kb
     },
   },
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
   plugins: [new HtmlWebpackPlugin({ template: "./src/index.html", scriptLoading: "defer", inject: "body" }), new MiniCssExtractPlugin({ filename: "styles/[name].css", chunkFilename: "styles/[id].css" }), new webpack.HotModuleReplacementPlugin()],
   module: {
     rules: [
@@ -45,9 +48,9 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
-          },
+          // options: {
+          //   presets: ["@babel/preset-env", "@babel/preset-react"],
+          // },
         },
       },
       {

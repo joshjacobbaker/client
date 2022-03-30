@@ -1,9 +1,11 @@
-require("./styles/index.scss")
-require("./images/dog.jpg")
+// Vendor Modules
+// import react from "react"
+import { render } from "react-dom"
 
-const obj = { a: "a", b: "b", c: "c", d: "d" }
-const newObj = { ...obj, c: "charlie" }
-console.log(newObj)
+// Developer Modules
+import App from "./components/App"
+
+render(<App />, document.getElementById("root"))
 
 if (module.hot) {
   module.hot.accept()
