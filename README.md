@@ -4,19 +4,15 @@
 
 ### Backlog
 
-### To DO
+- image loader in webpack configuration
 
-- Look into webpack context, paths, resolve, etc.
-  - [context link]("https://stackoverflow.com/questions/43037590/field-browser-doesnt-contain-a-valid-alias-configuration")
+### To DO
 
 ### WIP
 
 - [47:00 minute mark]("https://www.youtube.com/watch?v=PwJVivB_XcE")
 
 ### Finished
-
-- Episode 1
-- Episode 2
 
 ### Github Pages
 
