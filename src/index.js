@@ -6,7 +6,6 @@ import { render } from "react-dom"
 import App from "./components/App"
 
 // Assets
-import "./sass/abstracts/_variables.scss"
 import "./sass/index.scss"
 
 render(<App />, document.getElementById("root"))

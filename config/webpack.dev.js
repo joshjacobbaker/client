@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 const mode = process.env.NODE_ENV === "production" ? "production" : "development"
-
+const devMode = process.env.NODE_ENV !== "production"
 module.exports = {
   entry: {
     bundle: path.resolve(__dirname, "../src/index.js"),
@@ -12,7 +12,7 @@ module.exports = {
   output: {
     filename: "[name].[chunkhash].js",
     path: path.resolve(__dirname, "../dist"),
-    publicPath: "auto",
+    // publicPath: "/",
     clean: true,
     assetModuleFilename: "images/[name].[hash][ext][query]",
   },
@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         test: /\.s?[ac]ss$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"],
+        use: [devMode ? "style-loader" : MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"],
         // type: "asset/resource",
         // generator: {
         //   filename: "styles/[name][ext][query]",

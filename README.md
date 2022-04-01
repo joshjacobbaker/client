@@ -6,12 +6,14 @@
 
 ### WIP
 
-- [4:00 minute mark]("https://www.youtube.com/watch?v=PwJVivB_XcE")
+- Scss Udemy Tutorial [Udemy Link]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 
 ### Finished
 
-- Episode 1
-- Episode 2
+- - HMR for scss [see link]("https://stackoverflow.com/questions/52043727/webpack-live-hot-reload-for-sass")
+  - Problem: scss styles aren't being HMR, solution: styles-loader in dev (see link above) or perhaps a <link type="text/css" rel="stylesheet"> update in minicssextractplugin...?
+
+- Swashbuckling Youtube video Webpack Setup [Youtube Link]("https://www.youtube.com/watch?v=TOb1c39m64A")
 
 ### Github Pages
 
