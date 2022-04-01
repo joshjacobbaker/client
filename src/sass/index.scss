@@ -1,0 +1,29 @@
+// abstracts folder
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+// // base folder
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// components folder
+@import "./components/button";
+
+// layout folder
+@import "./layout/grid";
+@import "./layout/header";
+
+// pages folder
+// @import "pages/";
+
+// themes folder
+// @import "themes";
+
+// vendors folder
+// @import "vendors/";
+
+// CURRENTLY MOVING
+@import "images";

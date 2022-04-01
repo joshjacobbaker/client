@@ -1,21 +1,23 @@
 /******/ (function() { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/components/App.jsx":
-/*!********************************!*\
-  !*** ./src/components/App.jsx ***!
-  \********************************/
+/***/ "./src/components/App.js":
+/*!*******************************!*\
+  !*** ./src/components/App.js ***!
+  \*******************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Recipes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Recipes */ "./src/components/Recipes.js");
-/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/index.scss */ "./src/styles/index.scss");
-/* harmony import */ var _images_dog_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/dog.jpg */ "./src/images/dog.jpg");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/components/Header.js");
+/* harmony import */ var _images_dog_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/dog.jpg */ "./src/images/dog.jpg");
+/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/index.scss */ "./src/sass/index.scss");
+/* harmony import */ var _sass_index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_index_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
  // Components
+
 
  // Assets
 
@@ -23,15 +25,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 var App = function App() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
-      children: " Oh, hiii React "
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Recipes__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
       number: "1"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-      src: _images_dog_jpg__WEBPACK_IMPORTED_MODULE_3__,
+      src: _images_dog_jpg__WEBPACK_IMPORTED_MODULE_2__,
       alt: ""
     })]
   });
@@ -41,16 +40,18 @@ var App = function App() {
 
 /***/ }),
 
-/***/ "./src/components/Recipes.js":
-/*!***********************************!*\
-  !*** ./src/components/Recipes.js ***!
-  \***********************************/
+/***/ "./src/components/Header.js":
+/*!**********************************!*\
+  !*** ./src/components/Header.js ***!
+  \**********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _images_dog_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/dog.jpg */ "./src/images/dog.jpg");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -65,61 +66,49 @@ function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Sy
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-var obj = {
-  a: "a",
-  b: "b",
-  c: "c",
-  d: "d"
-};
-
-var newObj = _objectSpread(_objectSpread({}, obj), {}, {
-  c: "charlie"
-});
-
-console.log(newObj);
+ // Assets
 
 
 
 
-var Recipes = function Recipes(props) {
+
+var Header = function Header(props) {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),
       _useState2 = _slicedToArray(_useState, 2),
       state = _useState2[0],
       setState = _useState2[1];
 
   console.log(_typeof(parseInt(props.number)));
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-      style: {
-        fontSize: "20px"
-      },
-      children: state
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-      onClick: function onClick() {
-        return setState(function (prev) {
-          return prev + 1;
-        });
-      },
-      children: "Click Add 1"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-      onClick: function onClick() {
-        return setState(function (prev) {
-          return prev - 1;
-        });
-      },
-      children: "Click Subtract 1"
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "header",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      className: "header__logo-box",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+        src: _images_dog_jpg__WEBPACK_IMPORTED_MODULE_1__,
+        className: "header__logo"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "header__text-box",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("h1", {
+        className: "heading-primary",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+          className: "heading-primary--main",
+          children: "Outdoors"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+          className: "heading-primary--sub",
+          children: "is where life happens"
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", {
+        href: "#",
+        className: "btn btn--white btn--animated",
+        children: "Discover Our Tours"
+      })]
     })]
   });
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Recipes);
+/* harmony default export */ __webpack_exports__["default"] = (Header);
 
 /***/ }),
 
@@ -129,9 +118,10 @@ var Recipes = function Recipes(props) {
   \**********************/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/App */ "./src/components/App.jsx");
+/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/App */ "./src/components/App.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 // Vendor Modules
 // import react from "react"
@@ -147,22 +137,13 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/styles/index.scss":
-/*!*******************************!*\
-  !*** ./src/styles/index.scss ***!
-  \*******************************/
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/sass/index.scss":
+/*!*****************************!*\
+  !*** ./src/sass/index.scss ***!
+  \*****************************/
+/***/ (function() {
 
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-    if(true) {
-      // 1648689511470
-      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":false});
-      module.hot.dispose(cssReload);
-      module.hot.accept(undefined, cssReload);
-    }
-  
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nHookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n  ╷\n8 │   background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.745), rgba($color-primary-dark, 0.74)), url(\"../images/dog.jpg\");\n  │                                                           ^^^^^^^^^^^^^^^^^^^^\n  ╵\n  src/sass/layout/_header.scss 8:59  @use\n  src/sass/index.scss 24:1           root stylesheet\n    at tryRunOrWebpackError (/home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/HookWebpackError.js:88:9)\n    at __webpack_require_module__ (/home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5049:12)\n    at __webpack_require__ (/home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5006:18)\n    at /home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5077:20\n    at symbolIterator (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:3485:9)\n    at timesSync (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:2297:7)\n    at Object.eachLimit (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:3463:5)\n    at /home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:4949:16\n    at symbolIterator (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:3485:9)\n    at done (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:3527:9)\n-- inner error --\nError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n  ╷\n8 │   background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.745), rgba($color-primary-dark, 0.74)), url(\"../images/dog.jpg\");\n  │                                                           ^^^^^^^^^^^^^^^^^^^^\n  ╵\n  src/sass/layout/_header.scss 8:59  @use\n  src/sass/index.scss 24:1           root stylesheet\n    at Object.<anonymous> (/home/beethoven/Documents/reactServerSideRendering/node_modules/css-loader/dist/cjs.js!/home/beethoven/Documents/reactServerSideRendering/node_modules/postcss-loader/dist/cjs.js!/home/beethoven/Documents/reactServerSideRendering/node_modules/sass-loader/dist/cjs.js!/home/beethoven/Documents/reactServerSideRendering/src/sass/index.scss:1:7)\n    at /home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/javascript/JavascriptModulesPlugin.js:441:11\n    at Hook.eval [as call] (eval at create (/home/beethoven/Documents/reactServerSideRendering/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at /home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5051:39\n    at tryRunOrWebpackError (/home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/HookWebpackError.js:83:7)\n    at __webpack_require_module__ (/home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5049:12)\n    at __webpack_require__ (/home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5006:18)\n    at /home/beethoven/Documents/reactServerSideRendering/node_modules/webpack/lib/Compilation.js:5077:20\n    at symbolIterator (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:3485:9)\n    at timesSync (/home/beethoven/Documents/reactServerSideRendering/node_modules/neo-async/async.js:2297:7)\n\nGenerated code for /home/beethoven/Documents/reactServerSideRendering/node_modules/css-loader/dist/cjs.js!/home/beethoven/Documents/reactServerSideRendering/node_modules/postcss-loader/dist/cjs.js!/home/beethoven/Documents/reactServerSideRendering/node_modules/sass-loader/dist/cjs.js!/home/beethoven/Documents/reactServerSideRendering/src/sass/index.scss\n1 | throw new Error(\"Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nSassError: Undefined variable.\\n  ╷\\n8 │   background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.745), rgba($color-primary-dark, 0.74)), url(\\\"../images/dog.jpg\\\");\\n  │                                                           ^^^^^^^^^^^^^^^^^^^^\\n  ╵\\n  src/sass/layout/_header.scss 8:59  @use\\n  src/sass/index.scss 24:1           root stylesheet\");");
 
 /***/ }),
 
@@ -172,7 +153,8 @@ __webpack_require__.r(__webpack_exports__);
   \****************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "311e51dc649e52092c23.jpg";
+"use strict";
+module.exports = __webpack_require__.p + "images/dog.311e51dc649e52092c23.jpg";
 
 /***/ })
 
@@ -307,7 +289,7 @@ module.exports = __webpack_require__.p + "311e51dc649e52092c23.jpg";
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "0b32290274709862b4e5"; }
+/******/ 		__webpack_require__.h = function() { return "d32d536fefcf346c7dc4"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1426,9 +1408,9 @@ module.exports = __webpack_require__.p + "311e51dc649e52092c23.jpg";
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_mini-css-extract-plugin_dist_hmr_hotModuleReplacement_js-node_modules_re-b75ad8"], function() { return __webpack_require__("./src/index.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_react-dom_index_js-node_modules_react_jsx-runtime_js"], function() { return __webpack_require__("./src/index.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.f02144fba5e900e11207.js.map
+//# sourceMappingURL=bundle.7c7cd07e84c62cfa7a3b.js.map

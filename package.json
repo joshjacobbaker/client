@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack serve --config=config/webpack.dev.js",
     "build": "NODE_ENV=development webpack --config=config/webpack.dev.js",
-    "build:dev": "webpack --watch --config=config/webpack.dev.js"
+    "build:dev": "webpack --watch --config=config/webpack.dev.js",
+    "gh-pages:deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",

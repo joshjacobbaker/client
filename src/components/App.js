@@ -1,15 +1,14 @@
 import React from "react"
 
 // Components
-import Recipes from "./Recipes"
-// Assets
-import "../styles/index.scss"
+import Header from "./Header"
+import Body from "./Body"
 import dog from "../images/dog.jpg"
 
 const App = () => (
   <div>
-    <h1> Oh, hiii React </h1>
-    <Recipes number="1" />
+    <Header number="1" />
+    <Body />
     <img src={dog} alt="" />
   </div>
 )

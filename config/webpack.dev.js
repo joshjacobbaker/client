@@ -14,7 +14,7 @@ module.exports = {
     path: path.resolve(__dirname, "../dist"),
     publicPath: "auto",
     clean: true,
-    // assetModuleFilename: "images/[name][ext][query]",
+    assetModuleFilename: "images/[name].[hash][ext][query]",
   },
   mode: mode,
   devtool: "source-map",
@@ -40,7 +40,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
-  plugins: [new HtmlWebpackPlugin({ template: "./src/index.html", scriptLoading: "defer", inject: "body" }), new MiniCssExtractPlugin({ filename: "styles/[name].css", chunkFilename: "styles/[id].css" }), new webpack.HotModuleReplacementPlugin()],
+  plugins: [new HtmlWebpackPlugin({ template: "./src/index.html", scriptLoading: "defer", inject: "body" }), new MiniCssExtractPlugin({ filename: "styles/[name].[hash].css", chunkFilename: "styles/[id].[hash].css" }), new webpack.HotModuleReplacementPlugin()],
   module: {
     rules: [
       {
@@ -62,7 +62,7 @@ module.exports = {
         // },
       },
       {
-        test: /\.(jpg|png|gif)$/,
+        test: /\.(jpe?g|png|gif|svg)$/i,
         type: "asset/resource",
         // generator: {
         //   filename: "images/[hash][ext][query]",
