@@ -4,6 +4,10 @@
 
 ### Backlog
 
+- Redux [Quick Start Link]("https://react-redux.js.org/tutorials/quick-start")
+- Router [Quick Start Link]("https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md")
+- Express Server
+
 ### WIP
 
 - Scss Udemy Tutorial [Udemy Link]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")

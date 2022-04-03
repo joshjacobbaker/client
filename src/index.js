@@ -1,14 +1,23 @@
 // Vendor Modules
-// import react from "react"
-import { render } from "react-dom"
+import react from "react"
+import ReactDOM from "react-dom"
 
-// Developer Modules
-import App from "./components/App"
+// Redux
+import { Provider } from "react-redux"
+import store from "./js/redux/store"
+
+// Componentss
+import App from "./js/App"
 
 // Assets
 import "./sass/index.scss"
 
-render(<App />, document.getElementById("root"))
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+)
 
 if (module.hot) {
   module.hot.accept()
