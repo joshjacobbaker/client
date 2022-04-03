@@ -6,12 +6,7 @@ const Footer = () => {
     <div>
       <h2>Footer</h2>
       <ul>
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/counter">Counter</NavLink>
-        </li>
+        <li>Copy Right 2022</li>
       </ul>
     </div>
   )

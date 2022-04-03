@@ -7,10 +7,14 @@
 - Redux [Quick Start Link]("https://react-redux.js.org/tutorials/quick-start")
 - Router [Quick Start Link]("https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md")
 - Express Server
+- Add Github Pages build script
+- React Router Transitions
 
 ### WIP
 
-- Scss Udemy Tutorial [Udemy Link]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
+- [React-Redux]("https://redux.js.org/tutorials/essentials/part-4-using-data")
+
+- [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 
 ### Finished
 
@@ -25,4 +29,7 @@
 - git subtree push --prefix dist origin gh-pages
 - npm run deploy
 - https://joshjacobbaker.github.io/reactServerRendering/
--
+
+### Netlify
+
+- https://bucolic-dragon-4f576d.netlify.app/
