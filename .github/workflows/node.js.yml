@@ -14,10 +14,12 @@ jobs:
       matrix:
         node-version: [14.x]
 
-steps:
-  - uses: actions/checkout@v3
-  - uses: actions/setup-node@v3
-    with:
-      node-version: "14"
-  - run: npm install
-  - run: npm build
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "14"
+      - name: Install
+      - run: npm install
+      - name: Build
+      - run: npm build
