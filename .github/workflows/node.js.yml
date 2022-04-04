@@ -32,4 +32,4 @@ jobs:
       - name: Build
         run: npm build
       - name: Deploy
-        run: npm run deploy
+        run: npm run gh-pages:deploy
