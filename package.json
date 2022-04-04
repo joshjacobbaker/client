@@ -9,7 +9,7 @@
     "build": "NODE_ENV=production webpack --config=config/webpack.dev.js",
     "build:dev": "webpack --watch --config=config/webpack.dev.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "gh-pages:deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
