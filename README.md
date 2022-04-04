@@ -12,7 +12,8 @@
 
 ### WIP
 
-- [React-Redux]("https://redux.js.org/tutorials/essentials/part-4-using-data")
+- [gh-pages]("https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp")
+- [React-Redux]("https://redux.js.org/tutorials/essentials/part-5-async-logic")
 
 - [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 

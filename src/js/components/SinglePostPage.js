@@ -4,6 +4,7 @@ import { useParams, NavLink } from "react-router-dom"
 
 import PostAuthor from "./PostAuthor"
 import TimeAgo from "./TimeAgo"
+import ReactionButtons from "./ReactionButtons"
 
 const SinglePostPage = () => {
   let { postId } = useParams()
@@ -28,6 +29,7 @@ const SinglePostPage = () => {
         <TimeAgo timestamp={post.date} />
         <PostAuthor userId={post.user} />
         <p className="post-content">{post.content}</p>
+        <ReactionButtons post={post} />
         <NavLink to={`/editpost/${post.id}`} className="button">
           Edit Post
         </NavLink>

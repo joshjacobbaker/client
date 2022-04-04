@@ -1,7 +1,7 @@
 import React from "react"
 
 // Router
-import { BrowserRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
+import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 
 // HOF Components
 import Layout from "./layout"
@@ -17,7 +17,7 @@ import EditPostForm from "./components/EditPostForm"
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" exact index element={<Body />}></Route>
@@ -36,7 +36,7 @@ const App = () => {
           />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

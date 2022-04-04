@@ -2,11 +2,14 @@
   "name": "reactserversiderendering",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://joshjacobbaker.github.io/reactServerRendering/",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack serve --config=config/webpack.dev.js",
     "build": "NODE_ENV=production webpack --config=config/webpack.dev.js",
     "build:dev": "webpack --watch --config=config/webpack.dev.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "gh-pages:deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
@@ -20,6 +23,7 @@
     "css-loader": "^6.7.1",
     "extract-loader": "^5.1.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
