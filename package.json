@@ -10,16 +10,21 @@
     "build:dev": "webpack --watch --config=config/webpack.dev.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "gh-pages:deploy": "git subtree push --prefix dist origin gh-pages"
+    "gh-pages:deploy": "git subtree push --prefix dist origin gh-pages",
+    "gitpushmaster": "git push -u origin master"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
+    "@faker-js/faker": "^6.1.2",
     "babel-loader": "^8.2.4",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "css-loader": "^6.7.1",
     "extract-loader": "^5.1.0",
     "file-loader": "^6.2.0",

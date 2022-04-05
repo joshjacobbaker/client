@@ -6,13 +6,15 @@ import PostAuthor from "./PostAuthor"
 import TimeAgo from "./TimeAgo"
 import ReactionButtons from "./ReactionButtons"
 
+import { selectPostById } from "../redux/features/posts/postsSlice"
+
 const SinglePostPage = () => {
   let { postId } = useParams()
 
   // const { postId } = match.params
   console.log(postId)
 
-  const post = useSelector((state) => state.posts.find((post) => post.id === postId))
+  const post = useSelector((state) => selectPostById(state, postId))
 
   if (!post) {
     return (

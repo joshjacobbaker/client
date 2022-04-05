@@ -1,41 +1,44 @@
-import React from "react"
-import { useSelector } from "react-redux"
-import { NavLink } from "react-router-dom"
+import React, { useEffect } from "react"
+import { useSelector, useDispatch } from "react-redux"
 
-import PostAuthor from "./PostAuthor"
-import TimeAgo from "./TimeAgo"
-import ReactionButtons from "./ReactionButtons"
+import Spinner from "./Spinner"
+import PostExcerpt from "./PostExcerpt"
+
+import { selectAllPosts, fetchPosts } from "../redux/features/posts/postsSlice"
 
 const PostsList = () => {
-  const posts = useSelector((state) => state.posts)
+  const dispatch = useDispatch()
+  const posts = useSelector(selectAllPosts)
+  const postStatus = useSelector((state) => state.posts.status)
+  const error = useSelector((state) => state.posts.error)
 
-  const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
+  useEffect(() => {
+    if (postStatus === "idle") {
+      dispatch(fetchPosts())
+    }
+  }, [postStatus, dispatch])
 
-  const renderedPosts = orderedPosts.map((post) => (
-    <article className="post-excerpt" key={post.id}>
-      <div>
-        <h3>{post.title}</h3>
-      </div>
+  // const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
 
-      <div>
-        <TimeAgo timestamp={post.date} />
-      </div>
-      <div>
-        <PostAuthor userId={post.user} />
-      </div>
+  // const renderedPosts = orderedPosts.map((post) => <PostExcerpt key={post.id} post={post} />)
 
-      <p className="post-content">{post.content.substring(0, 100)}</p>
-      <ReactionButtons post={post} />
-      <NavLink to={`/posts/${post.id}`} className="button muted-button">
-        View Post
-      </NavLink>
-    </article>
-  ))
+  let content
+
+  if (postStatus === "loading") {
+    content = <Spinner text="Loading..." />
+  } else if (postStatus === "succeeded") {
+    // Sort posts in reverse chronological order by datetime string
+    const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
+
+    content = orderedPosts.map((post) => <PostExcerpt key={post.id} post={post} />)
+  } else if (postStatus === "failed") {
+    content = <div>{error}</div>
+  }
 
   return (
     <section className="posts-list">
-      <h2>Posts</h2>
-      {renderedPosts}
+      <h2>Posts...</h2>
+      {content || <p>No Content...</p>}
     </section>
   )
 }

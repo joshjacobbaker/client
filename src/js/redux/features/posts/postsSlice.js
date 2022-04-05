@@ -1,25 +1,26 @@
-import { createSlice, nanoid } from "@reduxjs/toolkit"
+import { createSlice, nanoid, createAsyncThunk } from "@reduxjs/toolkit"
+import axios from "axios"
 import { sub } from "date-fns"
 
-const initialState = [
-  { id: "1", title: "First Post!", content: "Hello!", date: sub(new Date(), { minutes: 10 }).toISOString(), reactions: { thumbsUp: 0, hooray: 0, heart: 0, rocket: 0, eyes: 0 } },
-  { id: "2", title: "Second Post", content: "More text", date: sub(new Date(), { minutes: 10 }).toISOString(), reactions: { thumbsUp: 0, hooray: 0, heart: 0, rocket: 0, eyes: 0 } },
-]
+const initialState = { posts: [], status: "idle", error: null }
+
+export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
+  try {
+    const response = await axios.get("http://localhost:3001/api")
+    console.log(response)
+    return response.data
+  } catch (e) {
+    console.error(`Error during GET request: ${e}`)
+  }
+})
 
 const postsSlice = createSlice({
   name: "posts",
   initialState,
   reducers: {
-    reactionAdded(state, action) {
-      const { postId, reaction } = action.payload
-      const existingPost = state.find((post) => post.id === postId)
-      if (existingPost) {
-        existingPost.reactions[reaction]++
-      }
-    },
     postAdded: {
       reducer(state, action) {
-        state.push(action.payload)
+        state.posts.push(action.payload)
       },
       prepare(title, content, userId) {
         return {
@@ -34,17 +35,43 @@ const postsSlice = createSlice({
         }
       },
     },
+    reactionAdded(state, action) {
+      const { postId, reaction } = action.payload
+      const existingPost = state.posts.find((post) => post.id === postId)
+      if (existingPost) {
+        existingPost.reactions[reaction]++
+      }
+    },
     postUpdated(state, action) {
       const { id, title, content } = action.payload
-      const existingPost = state.find((post) => post.id === id)
+      const existingPost = state.posts.find((post) => post.id === id)
       if (existingPost) {
         existingPost.title = title
         existingPost.content = content
       }
     },
   },
+  extraReducers(builder) {
+    builder
+      .addCase(fetchPosts.pending, (state, action) => {
+        state.status = "loading"
+      })
+      .addCase(fetchPosts.fulfilled, (state, action) => {
+        state.status = "succeeded"
+        // Add any fetched posts to the array
+        state.posts = state.posts.concat(action.payload)
+      })
+      .addCase(fetchPosts.rejected, (state, action) => {
+        state.status = "failed"
+        state.error = action.error.message
+      })
+  },
 })
 
 export const { postAdded, postUpdated, reactionAdded } = postsSlice.actions
 
 export default postsSlice.reducer
+
+export const selectAllPosts = (state) => state.posts.posts
+
+export const selectPostById = (state, postId) => state.posts.posts.find((post) => post.id === postId)
