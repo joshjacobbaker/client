@@ -24,7 +24,7 @@ module.exports = {
       overlay: true,
     },
     compress: true,
-    // port: 3000,
+    port: 3000,
     historyApiFallback: true,
     hot: true,
   },

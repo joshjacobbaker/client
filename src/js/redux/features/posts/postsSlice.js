@@ -6,7 +6,7 @@ const initialState = { posts: [], status: "idle", error: null }
 
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
   try {
-    const response = await axios.get("http://localhost:3001/api")
+    const response = await axios.get("http://localhost:8080/db/users")
     console.log(response)
     return response.data
   } catch (e) {
