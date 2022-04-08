@@ -30,7 +30,7 @@ const SinglePostPage = () => {
         <h2>{post.title}</h2>
         <TimeAgo timestamp={post.date} />
         <PostAuthor userId={post.user} />
-        <p className="post-content">{post.content}</p>
+        <p className="post-body">{post.body}</p>
         <ReactionButtons post={post} />
         <NavLink to={`/editpost/${post.id}`} className="button">
           Edit Post

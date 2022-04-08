@@ -22,23 +22,23 @@ const PostsList = () => {
 
   // const renderedPosts = orderedPosts.map((post) => <PostExcerpt key={post.id} post={post} />)
 
-  let content
+  let postedContent
 
   if (postStatus === "loading") {
-    content = <Spinner text="Loading..." />
+    postedContent = <Spinner text="Loading..." />
   } else if (postStatus === "succeeded") {
     // Sort posts in reverse chronological order by datetime string
-    const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
-
-    content = orderedPosts.map((post) => <PostExcerpt key={post.id} post={post} />)
+    // const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
+    // const orderedPosts = posts.slice()
+    postedContent = posts.map((post) => <PostExcerpt key={post.id} post={post} />)
   } else if (postStatus === "failed") {
-    content = <div>{error}</div>
+    postedContent = <div>{error}</div>
   }
 
   return (
     <section className="posts-list">
       <h2>Posts...</h2>
-      {content || <p>No Content...</p>}
+      {postedContent || <p>No Body...</p>}
     </section>
   )
 }

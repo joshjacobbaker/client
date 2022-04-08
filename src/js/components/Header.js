@@ -15,7 +15,7 @@ const Header = (props) => {
     <div>
       <h1>Header</h1>
       <div onClick={onClickShowMessageHandler}>
-        <button>Click Me to for fortune cookie</button>
+        <button>Click Me for fortune cookie</button>
         {showMessage ? <p>Cuz you're looking at the beginning of your Salon's Website!</p> : <p>Momma Bear! You stoked?</p>}
       </div>
       <ul>

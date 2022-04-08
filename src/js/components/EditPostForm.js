@@ -12,17 +12,17 @@ const EditPostForm = () => {
   const post = useSelector((state) => selectPostById(state, postId))
 
   const [title, setTitle] = useState(post.title)
-  const [content, setContent] = useState(post.content)
+  const [body, setBody] = useState(post.body)
 
   const dispatch = useDispatch()
   const navigate = useNavigate()
 
   const onTitleChanged = (e) => setTitle(e.target.value)
-  const onContentChanged = (e) => setContent(e.target.value)
+  const onBodyChanged = (e) => setBody(e.target.value)
 
   const onSavePostClicked = () => {
-    if (title && content) {
-      dispatch(postUpdated({ id: postId, title, content }))
+    if (title && body) {
+      dispatch(postUpdated({ id: postId, title, body }))
       navigate(`/posts/${postId}`)
     }
   }
@@ -35,8 +35,8 @@ const EditPostForm = () => {
       <form>
         <label htmlFor="postTitle">Post Title:</label>
         <input type="text" id="postTitle" name="postTitle" placeholder="What's on your mind?" value={title} onChange={onTitleChanged} />
-        <label htmlFor="postContent">Content:</label>
-        <textarea id="postContent" name="postContent" value={content} onChange={onContentChanged} />
+        <label htmlFor="postBody">Body:</label>
+        <textarea id="postBody" name="postBody" value={body} onChange={onBodyChanged} />
       </form>
       <button type="button" onClick={onSavePostClicked}>
         Save Post

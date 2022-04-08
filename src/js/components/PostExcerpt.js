@@ -13,7 +13,7 @@ const PostExcerpt = ({ post }) => {
         <PostAuthor userId={post.user} />
         <TimeAgo timestamp={post.date} />
       </div>
-      <p className="post-content">{post.content.substring(0, 100)}</p>
+      <p className="post-body">{post.body.substring(0, 100)}</p>
 
       <ReactionButtons post={post} />
       <NavLink to={`/posts/${post.id}`} className="button muted-button">
