@@ -37,6 +37,9 @@ const Header = (props) => {
         <li>
           <NavLink to="/editpost/:postId">Edit Post</NavLink>
         </li>
+        <li>
+          <NavLink to="/users">User</NavLink>
+        </li>
       </ul>
     </div>
   )

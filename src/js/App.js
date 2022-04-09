@@ -11,6 +11,8 @@ import PostsList from "./components/PostsList"
 import AddPostForm from "./components/AddPostForm"
 import SinglePostPage from "./components/SinglePostPage"
 import EditPostForm from "./components/EditPostForm"
+import UsersList from "./components/users/UsersList"
+import UserPage from "./components/users/UserPage"
 
 //pages
 // import Page1 from "./pages/page1"
@@ -20,12 +22,14 @@ const App = () => {
     <HashRouter>
       <Layout>
         <Routes>
-          <Route path="/" exact index element={<Body />}></Route>
+          <Route exact index path="/" element={<Body />}></Route>
           <Route path="/counter" element={<Counter />}></Route>
           <Route path="/postslist" element={<PostsList />}></Route>
           <Route path="/addpostform" element={<AddPostForm />}></Route>
           <Route path="/posts/:postId" element={<SinglePostPage />}></Route>
           <Route path="/editpost/:postId" element={<EditPostForm />}></Route>
+          <Route exact path="/users" element={<UsersList />} />
+          <Route exact path="/users/:userId" element={<UserPage />} />
           <Route
             path="*"
             element={

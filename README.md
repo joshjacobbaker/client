@@ -13,7 +13,7 @@
 ### WIP
 
 - [backendExpressServer]("Setup API Endpoint")
-- [React-Redux]("https://redux.js.org/tutorials/essentials/part-5-async-logic#checking-thunk-results-in-components")
+- [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 - [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 
