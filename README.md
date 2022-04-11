@@ -9,6 +9,9 @@
 - Express Server
 
 - React Router Transitions
+- React-Spring
+- Grid Layout
+- Tailwind-CSS integration
 
 ### WIP
 
