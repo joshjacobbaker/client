@@ -28,9 +28,9 @@ const PostsList = () => {
     postedContent = <Spinner text="Loading..." />
   } else if (postStatus === "succeeded") {
     // Sort posts in reverse chronological order by datetime string
-    // const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
+    const orderedPosts = posts.slice().sort((a, b) => b.date.localeCompare(a.date))
     // const orderedPosts = posts.slice()
-    postedContent = posts.map((post) => <PostExcerpt key={post.id} post={post} />)
+    postedContent = orderedPosts.map((post) => <PostExcerpt key={post.id} post={post} />)
   } else if (postStatus === "failed") {
     postedContent = <div>{error}</div>
   }
