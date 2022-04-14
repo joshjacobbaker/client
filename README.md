@@ -11,17 +11,19 @@
 - React Router Transitions
 - React-Spring
 - Grid Layout
-- Tailwind-CSS integration
+- [Tailwind-CSS integration]("https://tailwindcss.com/docs/using-with-preprocessors")
+- Autoprefixer
 
 ### WIP
 
-- [backendExpressServer]("Setup API Endpoint")
+- figma
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 - [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 
 ### Finished
 
+- [backendExpressServer]("Setup API Endpoint")
 - [Redux - Thunk regenerator error]("https://techstrology.com/react-async-await-regeneratorruntime-is-not-defined-babel-6/")
 - [gh-pages]("https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp")
 - - HMR for scss [see link]("https://stackoverflow.com/questions/52043727/webpack-live-hot-reload-for-sass")

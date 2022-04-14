@@ -4,42 +4,16 @@
 // @include variables;
 
 // $color-primary: #55c57a;
-// $color-primary-light: #7ed56f;
-// $color-primary-dark: #28b485;
-
-// $color-grey-dark: #777;
-// $color-white: #fff;
-// $color-black: #000;
 
 .header {
-  position: relative;
-  height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.745), rgba($color-primary-dark, 0.74)), url("../images/dog.jpg");
-  background-size: cover;
-  background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+  display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: column;
+  border: 1px solid red;
+  background-color: #78aaf5;
+  grid-area: header;
 
-  &__text-box {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  &__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
-  }
-
-  &__logo {
-    height: 30rem;
-  }
-
-  &__logo:hover {
-    animation-name: moveInRight;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in;
+  &__item {
+    align-content: space-between;
   }
 }

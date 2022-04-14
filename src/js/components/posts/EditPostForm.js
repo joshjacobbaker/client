@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useHistory, useParams, useNavigate } from "react-router-dom"
 
-import { postUpdated, selectPostById } from "../redux/features/posts/postsSlice"
+import { postUpdated, selectPostById } from "../../redux/features/posts/postsSlice"
 
 import PostAuthor from "./PostAuthor"
 import TimeAgo from "./TimeAgo"

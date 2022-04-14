@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux"
 import Spinner from "./Spinner"
 import PostExcerpt from "./PostExcerpt"
 
-import { selectAllPosts, fetchPosts } from "../redux/features/posts/postsSlice"
+import { selectAllPosts, fetchPosts } from "../../redux/features/posts/postsSlice"
 
 const PostsList = () => {
   const dispatch = useDispatch()

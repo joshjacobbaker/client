@@ -1,23 +1,28 @@
 // abstracts folder
 @import "abstracts/variables";
-@import "abstracts/functions";
-@import "abstracts/mixins";
+// @import "abstracts/functions";
+// @import "abstracts/mixins";
 
 // // base folder
-@import "base/animations";
+// @import "base/animations";
 @import "base/base";
 @import "base/typography";
-@import "base/utilities";
+// @import "base/utilities";
 
 // components folder
-@import "./components/button";
+// @import "./components/button";
 
 // layout folder
 @import "./layout/grid";
 @import "./layout/header";
+@import "./layout/hero";
+@import "./layout/left";
+@import "./layout/main";
+@import "./layout/right";
+@import "./layout/footer";
 
 // pages folder
-@import "pages/home";
+// @import "pages/home";
 
 // themes folder
 // @import "themes";

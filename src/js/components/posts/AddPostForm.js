@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { addNewPost } from "../redux/features/posts/postsSlice"
+import { addNewPost } from "../../redux/features/posts/postsSlice"
 
 const AddPostForm = () => {
   const [title, setTitle] = useState("")
