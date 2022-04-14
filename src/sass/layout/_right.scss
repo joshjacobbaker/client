@@ -1,5 +1,34 @@
 .right {
   border: 1px solid red;
-  background-color: #c4c4c4;
+  background-color: $color-black;
   grid-area: right;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+  margin: auto;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  background-color: $color-black;
+  padding: 0em;
+  margin: 0rem auto;
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1000%);
+  }
 }
