@@ -14,6 +14,10 @@ import EditPostForm from "./components/posts/EditPostForm"
 import UsersList from "./components/users/UsersList"
 import UserPage from "./components/users/UserPage"
 
+// Page Components
+
+import Admin from "./pages/Admin"
+
 //pages
 // import Page1 from "./pages/page1"
 
@@ -30,6 +34,7 @@ const App = () => {
           <Route path="/editpost/:postId" element={<EditPostForm />}></Route>
           <Route exact path="/users" element={<UsersList />} />
           <Route exact path="/users/:userId" element={<UserPage />} />
+          <Route exact path="/admin" element={<Admin />}></Route>
           <Route
             path="*"
             element={

@@ -13,7 +13,9 @@ const Header = (props) => {
 
   return (
     <div className="header">
-      <h1 className="header__item">Header</h1>
+      <div class="header__container">
+        <i class="fa header__you">Y.O.U. Salon</i>
+      </div>
       <div className="header__item" onClick={onClickShowMessageHandler}>
         <button>Click Me for fortune cookie</button>
         {showMessage ? <p>Cuz you're looking at the beginning of your Salon's Website!</p> : <p>Momma Bear! You stoked?</p>}
@@ -39,6 +41,9 @@ const Header = (props) => {
         </li>
         <li>
           <NavLink to="/users">User</NavLink>
+        </li>
+        <li>
+          <NavLink to="/admin">Admin</NavLink>
         </li>
       </ul>
     </div>

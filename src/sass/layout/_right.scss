@@ -1,10 +1,11 @@
 .right {
-  border: 1px solid red;
+  border: 1px solid $color-white;
   background-color: $color-black;
   grid-area: right;
+  overflow: hidden;
 }
 
-img {
+.slide-img {
   width: 100px;
   height: 100px;
   animation: scroll 60s linear infinite;
@@ -21,7 +22,6 @@ img {
   background-color: $color-black;
   padding: 0em;
   margin: 0rem auto;
-  overflow: hidden;
 }
 
 @keyframes scroll {

@@ -6,76 +6,64 @@ const Right = () => {
     <div className="right">
       <div class="slider">
         <div class="slide-track">
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide">
+          <div class="slide slide-img">
             <img src={dog} alt="" />
           </div>
         </div>

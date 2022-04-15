@@ -27,3 +27,9 @@
 # Design
 
 - [Glowing Icons replaced with letters "Y.O.U."]("https://codepen.io/Krishnaa_Gupta/pen/MWoRqmr")
+
+[Typing]("https://codepen.io/chrissymitsch/pen/OJgEZYb")
+
+[Admin]("https://codepen.io/hoanghien0410/pen/MMPaqm")
+
+[Carousel]("https://codepen.io/havardob/pen/ExvwGBr")

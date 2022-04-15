@@ -1,7 +1,9 @@
 .footer {
-  border: 1px solid red;
+  border: 1px solid $color-white;
   background-color: #78aaf5;
   grid-area: footer;
+  height: 100%;
+  width: 100%;
 
   background: $color-black;
 

@@ -16,13 +16,13 @@
 @import "./layout/grid";
 @import "./layout/header";
 @import "./layout/hero";
-@import "./layout/left";
 @import "./layout/main";
 @import "./layout/right";
 @import "./layout/footer";
 
 // pages folder
-// @import "pages/home";
+@import "pages/Admin";
+@import "pages/Carousel";
 
 // themes folder
 // @import "themes";

@@ -3,7 +3,6 @@ import React, { useState } from "react"
 import Header from "./Header"
 import Footer from "./Footer"
 import Hero from "./Hero"
-import Left from "./Left"
 import Right from "./Right"
 import Main from "./Main"
 
@@ -19,7 +18,6 @@ const Layout = (props) => {
       <div className="footer">Footer</div> */}
       <Header number={state} />
       <Hero></Hero>
-      <Left></Left>
       <Main>{props.children}</Main>
       <Right></Right>
       <Footer />
