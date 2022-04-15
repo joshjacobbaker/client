@@ -13,8 +13,8 @@ const Header = (props) => {
 
   return (
     <div className="header">
-      <div class="header__container">
-        <i class="fa header__you">Y.O.U. Salon</i>
+      <div className="header__container">
+        <i className="fa header__you">Y.O.U. Salon</i>
       </div>
       <div className="header__item" onClick={onClickShowMessageHandler}>
         <button>Click Me for fortune cookie</button>

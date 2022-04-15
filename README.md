@@ -13,9 +13,14 @@
 - Grid Layout
 - [Tailwind-CSS integration]("https://tailwindcss.com/docs/using-with-preprocessors")
 - Autoprefixer
+- Remove ReactDOM and use createRoot
 
 ### WIP
 
+- Typing CSS feature... Need to integrate it into react
+- Stylists Carousel... Need to integrate it into react, Clickable, selectable, and media queried
+- Photo Shoot Slider... Add images, update dimensions in media queries
+- Admin Page
 - figma
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 

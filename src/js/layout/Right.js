@@ -4,66 +4,33 @@ import dog from "../../images/dog.jpg"
 const Right = () => {
   return (
     <div className="right">
-      <div class="slider">
-        <div class="slide-track">
-          <div class="slide slide-img">
+      <div className="slider">
+        <div className="slide-track">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
-            <img src={dog} alt="" />
-          </div>
-          <div class="slide slide-img">
+          <div className="slide slide-img">
             <img src={dog} alt="" />
           </div>
         </div>
