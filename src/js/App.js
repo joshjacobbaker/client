@@ -4,8 +4,7 @@ import React from "react"
 import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 
 // HOF Components
-import Layout from "./layout"
-import Body from "./components/Body"
+import HomePageLayout from "./layout/HomePage/HomePage"
 import Counter from "./components/counter/Counter"
 import PostsList from "./components/posts/PostsList"
 import AddPostForm from "./components/posts/AddPostForm"
@@ -14,19 +13,12 @@ import EditPostForm from "./components/posts/EditPostForm"
 import UsersList from "./components/users/UsersList"
 import UserPage from "./components/users/UserPage"
 
-// Page Components
-
-import Admin from "./pages/Admin"
-
-//pages
-// import Page1 from "./pages/page1"
-
 const App = () => {
   return (
     <HashRouter>
-      <Layout>
+      <HomePageLayout>
         <Routes>
-          <Route exact index path="/" element={<Body />}></Route>
+          <Route exact path="/" element={<div>Hi</div>}></Route>
           <Route path="/counter" element={<Counter />}></Route>
           <Route path="/postslist" element={<PostsList />}></Route>
           <Route path="/addpostform" element={<AddPostForm />}></Route>
@@ -34,7 +26,6 @@ const App = () => {
           <Route path="/editpost/:postId" element={<EditPostForm />}></Route>
           <Route exact path="/users" element={<UsersList />} />
           <Route exact path="/users/:userId" element={<UserPage />} />
-          <Route exact path="/admin" element={<Admin />}></Route>
           <Route
             path="*"
             element={
@@ -44,7 +35,7 @@ const App = () => {
             }
           />
         </Routes>
-      </Layout>
+      </HomePageLayout>
     </HashRouter>
   )
 }

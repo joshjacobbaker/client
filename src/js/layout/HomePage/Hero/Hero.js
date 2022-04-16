@@ -1,7 +1,7 @@
 import React from "react"
 
 // Components
-import Carousel from "../pages/Carousel"
+import Carousel from "../../../components/carousel/Carousel"
 
 const Hero = () => {
   return (

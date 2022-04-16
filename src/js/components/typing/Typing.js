@@ -10,7 +10,7 @@ const Typing = () => {
   }
 
   return (
-    <div>
+    <div className="typing-body">
       <div onClick={onClickHandler} ref={typingElement} className="typing animate"></div>
     </div>
   )

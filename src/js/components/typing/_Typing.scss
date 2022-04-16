@@ -1,21 +1,16 @@
 // @media (max-width: 960px) @media (max-width: 550px)
 
 .typing-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: #eee;
 }
 
 .typing.animate {
   width: 21ch;
   border-right: 0.1em solid black;
   font-family: monospace;
-  font-size: 5rem;
+  font-size: 2rem;
   animation: type 2.5s steps(20), writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
   overflow: hidden;
   white-space: nowrap;
@@ -23,7 +18,7 @@
 }
 
 .typing.animate::before {
-  content: "Hello, I'm Christine";
+  content: "Hello, welcome to YOU.";
   animation: type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
 }
 
@@ -39,22 +34,22 @@
 @keyframes type2 {
   from {
     width: 16ch;
-    content: "Hello, I'm Chrissy. ";
+    content: "Hello, Welcome to YOU.";
   }
   to {
-    width: 20ch;
-    content: "Hello, I'm Chrissy. ";
+    width: 22ch;
+    content: "Hello, Welcome to YOU.";
   }
 }
 
 @keyframes type3 {
   from {
-    width: 20ch;
-    content: "Hello, I'm Chrissy. Welcome to my Website!";
+    width: 22ch;
+    content: "Hello, Welcome to YOU. Where YOU matter.";
   }
   to {
-    width: 42ch;
-    content: "Hello, I'm Chrissy. Welcome to my Website!";
+    width: 40ch;
+    content: "Hello, Welcome to YOU. Where YOU matter.";
   }
 }
 

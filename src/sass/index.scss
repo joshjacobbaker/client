@@ -9,24 +9,16 @@
 @import "base/typography";
 // @import "base/utilities";
 
-// components folder
-// @import "./components/button";
-
 // layout folder
-@import "./layout/grid";
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/main";
-@import "./layout/right";
-@import "./layout/footer";
+@import "../js/layout/HomePage/HomePage";
+@import "../js/layout/HomePage/Header/Header";
+@import "../js/layout/HomePage/Hero/Hero";
+@import "../js/layout/HomePage/Main/Main";
+@import "../js/layout/HomePage/Right/Right";
+@import "../js/layout/HomePage/Footer/Footer";
 
-// pages folder
-@import "pages/Admin";
-@import "pages/Carousel";
-@import "pages/Typing";
-
-// themes folder
-// @import "themes";
-
-// vendors folder
-// @import "vendors/";
+// components folder
+// @import "../js/components/admin/Admin";
+@import "../js/components/carousel/Carousel";
+@import "../js/components/signup/CustomerSignup";
+@import "../js/components/typing/Typing";

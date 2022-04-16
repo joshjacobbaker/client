@@ -2,9 +2,6 @@ import React from "react"
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 
-// Assets
-import dog from "../../images/dog.jpg"
-
 const Header = (props) => {
   const [showMessage, setShowMessage] = useState(false)
   const onClickShowMessageHandler = (e) => setShowMessage(!showMessage)
@@ -12,7 +9,7 @@ const Header = (props) => {
   console.log(typeof parseInt(props.number), props.number)
 
   return (
-    <div className="header">
+    <header className="header">
       <div className="header__container">
         <i className="fa header__you">Y.O.U. Salon</i>
       </div>
@@ -46,7 +43,7 @@ const Header = (props) => {
           <NavLink to="/admin">Admin</NavLink>
         </li>
       </ul>
-    </div>
+    </header>
   )
 }
 

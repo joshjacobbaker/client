@@ -1,5 +1,7 @@
 import React from "react"
-import dog from "../../images/dog.jpg"
+
+// Assets
+import dog from "../../../../images/dog.jpg"
 
 const Right = () => {
   return (
