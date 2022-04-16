@@ -1,46 +1,17 @@
 // https://codepen.io/ShoniIsra/pen/MWOeZOw
+// @media (max-width: 960px) @media (max-width: 550px)
 
-.mycard {
-  height: 100%;
-  width: 100%;
-  max-width: 24rem;
-}
-.cardtitle {
-  font-weight: bold;
-  --tw-text-opacity: 1;
-  color: rgba(31, 41, 55, var(--tw-text-opacity));
-  text-align: center;
-}
-.cardimg {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2.75rem;
-  margin-bottom: 2.75rem;
-  max-height: 6rem;
-  border-radius: 9999px;
-}
-.carddescription {
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
-  text-align: center;
-}
-
-// body {
-//   margin: 0;
-//   color: #fff;
-//   font-family: sans-serif;
-//   display: flex;
-//   align-items: center;
-//   min-height: 100vh;
-// }
 .slider {
   width: 100%;
-
   min-height: 385px;
+  color: #fff;
+  font-family: sans-serif;
 }
-.slider input {
+
+.slider__input {
   display: none;
 }
+
 .testimonials {
   display: flex;
   align-items: center;
@@ -51,7 +22,8 @@
   margin-top: 5rem;
   overflow: hidden;
 }
-.testimonials .item {
+
+.testimonials__item {
   max-width: 20rem;
   border-radius: 1.5rem;
   border-width: 2px;
@@ -70,23 +42,42 @@
   user-select: none;
   cursor: pointer;
 }
-.testimonials .item img {
-  width: 100px;
+
+.testimonials__card {
+  height: 100%;
+  width: 100%;
+  max-width: 24rem;
+}
+
+.testimonials__item__img {
   border-radius: 50%;
-  border: 13px solid #3b344d;
+  border: 5px solid #3b344d;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9999px;
+  display: block;
+  max-width: 100%;
 }
-.testimonials .item p {
+.testimonials__item__p {
   color: #ddd;
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+  text-align: center;
 }
-.testimonials .item h2 {
+.testimonials__item__h2 {
   font-size: 14px;
+  font-weight: bold;
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+  text-align: center;
 }
 .dots {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.dots label {
+
+.dots__label {
   display: block;
   height: 5px;
   width: 5px;

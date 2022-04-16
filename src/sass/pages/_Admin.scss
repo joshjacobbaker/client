@@ -1,4 +1,5 @@
 // https://codepen.io/havardob/pen/ExvwGBr
+// @media (max-width: 960px) @media (max-width: 550px)
 
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -23,23 +24,17 @@
   --c-text-tertiary: var(--c-gray-500);
 }
 
-body {
-  line-height: 1.5;
-  min-height: 100vh;
-  font-family: "Be Vietnam Pro", sans-serif;
-  background-color: var(--c-gray-900);
-  color: var(--c-text-primary);
-  display: flex;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  justify-content: center;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+// body {
+//   line-height: 1.5;
+//   min-height: 100vh;
+//   font-family: "Be Vietnam Pro", sans-serif;
+//   background-color: var(--c-gray-900);
+//   color: var(--c-text-primary);
+//   display: flex;
+//   padding-top: 3vw;
+//   padding-bottom: 3vw;
+//   justify-content: center;
+// }
 
 img {
   display: block;
@@ -72,6 +67,15 @@ a {
   padding: 2vw 4vw 6vw;
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: var(--c-gray-900);
+  color: var(--c-text-primary);
+  display: flex;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  justify-content: center;
 }
 
 .app-header {
@@ -144,10 +148,7 @@ a {
   }
 }
 
-.app-body-sidebar {
-}
-
-.footer {
+.app-footer {
   margin-top: auto;
   h1 {
     font-size: 1.5rem;

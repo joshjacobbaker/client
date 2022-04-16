@@ -60,74 +60,74 @@ const Carousel = () => {
   }
   return (
     <div className="slider">
-      <input onChange={onCheckedHandler} type="radio" name="testimonial" id="t-1" ref={t1Checked} />
-      <input onChange={onCheckedHandler} type="radio" name="testimonial" id="t-2" ref={t2Checked} />
-      <input onChange={onCheckedHandler} type="radio" name="testimonial" id="t-3" ref={t3Checked} />
-      <input onChange={onCheckedHandler} type="radio" name="testimonial" id="t-4" ref={t4Checked} />
-      <input onChange={onCheckedHandler} type="radio" name="testimonial" id="t-5" ref={t5Checked} />
-      <div className="testimonials mb-8">
-        <label className="item" htmlFor="t-1">
-          <div className="mycard">
-            <p className="cardtitle">Práctica</p>
+      <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-1" ref={t1Checked} />
+      <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-2" ref={t2Checked} />
+      <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-3" ref={t3Checked} />
+      <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-4" ref={t4Checked} />
+      <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-5" ref={t5Checked} />
+      <div className="testimonials">
+        <label className="testimonials__item" htmlFor="t-1">
+          <div className="testimonials__card">
+            <h2 className="testimonials__item__h2">Práctica</h2>
             <div>
-              <img src="https://i.pravatar.cc/200" alt="nivel5" className="cardimg" />
+              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
             </div>
             <div>
-              <p className="carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-        <label className="item" htmlFor="t-2">
-          <div className="mycard">
-            <p className="cardtitle">Práctica</p>
-            <div>
-              <img src="https://i.pravatar.cc/200" alt="nivel5" className="cardimg" />
-            </div>
-            <div>
-              <p className="carddescription">Poner en práctica los conocimientos adquiridos.</p>
+              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
             </div>
           </div>
         </label>
-        <label className="item" htmlFor="t-3">
-          <div className="mycard">
-            <p className="cardtitle">Práctica</p>
+        <label className="testimonials__item" htmlFor="t-2">
+          <div className="testimonials__card">
+            <h2 className="testimonials__item__h2">Práctica</h2>
             <div>
-              <img src="https://i.pravatar.cc/200" alt="nivel5" className="cardimg" />
+              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
             </div>
             <div>
-              <p className="carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-        <label className="item" htmlFor="t-4">
-          <div className="mycard">
-            <p className="cardtitle">Práctica</p>
-            <div>
-              <img src="https://i.pravatar.cc/200" alt="nivel5" className="cardimg" />
-            </div>
-            <div>
-              <p className="carddescription">Poner en práctica los conocimientos adquiridos.</p>
+              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
             </div>
           </div>
         </label>
-        <label className="item" htmlFor="t-5">
-          <div className="mycard">
-            <p className="cardtitle">Práctica</p>
+        <label className="testimonials__item" htmlFor="t-3">
+          <div className="testimonials__card">
+            <h2 className="testimonials__item__h2">Práctica</h2>
             <div>
-              <img src="https://i.pravatar.cc/200" alt="nivel5" className="cardimg" />
+              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
             </div>
             <div>
-              <p className="carddescription">Poner en práctica los conocimientos adquiridos.</p>
+              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
+            </div>
+          </div>
+        </label>
+        <label className="testimonials__item" htmlFor="t-4">
+          <div className="testimonials__card">
+            <h2 className="testimonials__item__h2">Práctica</h2>
+            <div>
+              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
+            </div>
+            <div>
+              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
+            </div>
+          </div>
+        </label>
+        <label className="testimonials__item" htmlFor="t-5">
+          <div className="testimonials__card">
+            <h2 className="testimonials__item__h2">Práctica</h2>
+            <div>
+              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
+            </div>
+            <div>
+              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
             </div>
           </div>
         </label>
       </div>
       <div className="dots">
-        <label htmlFor="t-1"></label>
-        <label htmlFor="t-2"></label>
-        <label htmlFor="t-3"></label>
-        <label htmlFor="t-4"></label>
-        <label htmlFor="t-5"></label>
+        <label className="dots__label" htmlFor="t-1"></label>
+        <label className="dots__label" htmlFor="t-2"></label>
+        <label className="dots__label" htmlFor="t-3"></label>
+        <label className="dots__label" htmlFor="t-4"></label>
+        <label className="dots__label" htmlFor="t-5"></label>
       </div>
     </div>
   )

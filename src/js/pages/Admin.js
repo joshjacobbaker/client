@@ -78,7 +78,7 @@ const Admin = () => {
                 <span>Exchange</span>
               </a>
             </nav>
-            <footer className="footer">
+            <footer className="app-footer">
               <h1>
                 Almeria<small>©</small>
               </h1>
