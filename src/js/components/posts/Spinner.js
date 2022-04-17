@@ -2,6 +2,8 @@ import React from "react"
 
 const Spinner = ({ text = "", size = "5em" }) => {
   const header = text ? <h4>{text}</h4> : null
+
+  console.log("Spinner Mounted")
   return (
     <div className="spinner">
       {header}

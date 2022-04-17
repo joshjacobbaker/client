@@ -11,6 +11,12 @@
 - Contact Salon?
 - Find salon on a map? Address?
 
+# Page Layout
+
+- Modal
+- Header Sticky at top of page
+- Sidedrawer
+
 # Admin Features:
 
 - scheduling

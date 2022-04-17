@@ -10,7 +10,7 @@ import Main from "./Main/Main"
 const HomePage = (props) => {
   const [number, setNumber] = useState(0)
   return (
-    <div className="grid">
+    <div className="gridHomePage">
       <Header number={number} />
       <Hero></Hero>
       <Main>{props.children}</Main>

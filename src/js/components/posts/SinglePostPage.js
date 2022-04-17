@@ -15,7 +15,7 @@ const SinglePostPage = () => {
   console.log(postId)
 
   const post = useSelector((state) => selectPostById(state, postId))
-
+  console.log("SinglePostPage Mounted")
   if (!post) {
     return (
       <section>
