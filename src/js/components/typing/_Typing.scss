@@ -11,7 +11,7 @@
   border-right: 0.1em solid black;
   font-family: monospace;
   font-size: 2rem;
-  animation: type 2.5s steps(20), writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
+  animation: type 2.5s steps(21) forwards, writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
@@ -19,7 +19,7 @@
 
 .typing.animate::before {
   content: "Hello, welcome to YOU.";
-  animation: type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
+  animation: type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
 }
 
 @keyframes type {

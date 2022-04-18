@@ -12,14 +12,20 @@
   width: 100vw;
 }
 
-@media (max-width: 960px) {
+@media (max-width: $screen-medium) {
   .gridHomePage {
+    display: grid;
+    grid-template-areas:
+      "header header header header right"
+      "hero hero hero hero right"
+      "main main main main right"
+      "footer footer footer footer right";
     grid-template-rows: 95px repeat(2, 500px) 95px;
     grid-template-columns: 1fr 132px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: $screen-small) {
   .gridHomePage {
     grid-template-rows: 95px repeat(2, 500px) 95px;
     grid-template-columns: 1fr;

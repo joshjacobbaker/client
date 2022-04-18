@@ -14,11 +14,12 @@
 - [Tailwind-CSS integration]("https://tailwindcss.com/docs/using-with-preprocessors")
 - Autoprefixer
 - Remove ReactDOM and use createRoot
+- JSS; CSS in JavaScript
 
 ### WIP
 
-- Typing CSS feature... Need to integrate it into react
 - Stylists Carousel... Need to integrate it into react, Clickable, selectable, and media queried
+
 - Photo Shoot Slider... Add images, update dimensions in media queries
 - Admin Page
 - figma
@@ -28,6 +29,8 @@
 
 ### Finished
 
+- Typing CSS feature... Need to integrate it into react
+- Componentize sidebar animation
 - [backendExpressServer]("Setup API Endpoint")
 - [Redux - Thunk regenerator error]("https://techstrology.com/react-async-await-regeneratorruntime-is-not-defined-babel-6/")
 - [gh-pages]("https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp")
