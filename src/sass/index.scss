@@ -20,7 +20,15 @@
 // components folder
 // @import "../js/components/admin/Admin";
 @import "../js/components/carousel/Carousel";
+@import "../js/components/carousel/cards/Cards";
+@import "../js/components/carousel/dots/Dots";
 @import "../js/components/signup/CustomerSignup";
 @import "../js/components/typing/Typing";
 @import "../js/components/you/You";
 @import "../js/components/socialMediaIcons/SocialMediaIcons";
+@import "../js/components/slider/Slider";
+@import "../js/components/linksEffect/LinksEffect";
+
+// Module Folders
+// @use "../../../sass/index.scss" as mixin;
+// mixin.$color-black

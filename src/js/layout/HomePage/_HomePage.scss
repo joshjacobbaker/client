@@ -27,7 +27,7 @@
 
 @media (max-width: $screen-small) {
   .gridHomePage {
-    grid-template-rows: 95px repeat(2, 500px) 95px;
+    grid-template-rows: 95px repeat(2, 500px) 300px 95px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"

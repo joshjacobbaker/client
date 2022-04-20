@@ -15,21 +15,25 @@
 - Autoprefixer
 - Remove ReactDOM and use createRoot
 - JSS; CSS in JavaScript
-
-### WIP
-
+- VH & VW for screen proportionality
+- Typing CSS feature... React Component, Styling, Media Queries for small, medium, large screens
 - Stylists Carousel... Need to integrate it into react, Clickable, selectable, and media queried
 
 - Photo Shoot Slider... Add images, update dimensions in media queries
 - Admin Page
 - figma
+- Swap Fontawesome with more performant SVG replacement from iconify.design
+
+### WIP
+
+- Scope all scss files to component with [name].module.scss
+
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 - [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 
 ### Finished
 
-- Typing CSS feature... Need to integrate it into react
 - Componentize sidebar animation
 - [backendExpressServer]("Setup API Endpoint")
 - [Redux - Thunk regenerator error]("https://techstrology.com/react-async-await-regeneratorruntime-is-not-defined-babel-6/")

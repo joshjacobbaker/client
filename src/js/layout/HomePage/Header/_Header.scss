@@ -65,8 +65,8 @@
     ul {
       // background-color: blue;
       display: grid;
-      grid-template-columns: repeat(2, 50%);
-      grid-template-rows: repeat(3, 33%);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
     }
 
     li {
@@ -85,4 +85,39 @@
 }
 
 @media (max-width: $screen-small) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+
+    border: 1px solid $color-white;
+    background-color: $color-black;
+    grid-area: header;
+
+    &__item {
+      // background-color: red;
+      width: 80%;
+    }
+
+    ul {
+      // background-color: blue;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+
+    li {
+      font-size: 1.2rem;
+      &:hover {
+        transform: scale(1.2);
+      }
+      list-style: none;
+
+      & > * {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
 }

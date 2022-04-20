@@ -2,6 +2,10 @@
 
 import React, { useRef, useEffect } from "react"
 
+// React Components
+import Cards from "./cards/Cards"
+import Dots from "./dots/Dots"
+
 const Carousel = () => {
   const t1Checked = useRef(null)
   const t2Checked = useRef(null)
@@ -65,70 +69,8 @@ const Carousel = () => {
       <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-3" ref={t3Checked} />
       <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-4" ref={t4Checked} />
       <input className="slider__input" onChange={onCheckedHandler} type="radio" name="testimonial" id="t-5" ref={t5Checked} />
-      <div className="testimonials">
-        <label className="testimonials__item" htmlFor="t-1">
-          <div className="testimonials__card">
-            <h2 className="testimonials__item__h2">Práctica</h2>
-            <div>
-              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
-            </div>
-            <div>
-              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-        <label className="testimonials__item" htmlFor="t-2">
-          <div className="testimonials__card">
-            <h2 className="testimonials__item__h2">Práctica</h2>
-            <div>
-              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
-            </div>
-            <div>
-              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-        <label className="testimonials__item" htmlFor="t-3">
-          <div className="testimonials__card">
-            <h2 className="testimonials__item__h2">Práctica</h2>
-            <div>
-              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
-            </div>
-            <div>
-              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-        <label className="testimonials__item" htmlFor="t-4">
-          <div className="testimonials__card">
-            <h2 className="testimonials__item__h2">Práctica</h2>
-            <div>
-              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
-            </div>
-            <div>
-              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-        <label className="testimonials__item" htmlFor="t-5">
-          <div className="testimonials__card">
-            <h2 className="testimonials__item__h2">Práctica</h2>
-            <div>
-              <img className="testimonials__item__img cardimg" src="https://i.pravatar.cc/200" alt="nivel5" />
-            </div>
-            <div>
-              <p className="testimonials__item__p carddescription">Poner en práctica los conocimientos adquiridos.</p>
-            </div>
-          </div>
-        </label>
-      </div>
-      <div className="dots">
-        <label className="dots__label" htmlFor="t-1"></label>
-        <label className="dots__label" htmlFor="t-2"></label>
-        <label className="dots__label" htmlFor="t-3"></label>
-        <label className="dots__label" htmlFor="t-4"></label>
-        <label className="dots__label" htmlFor="t-5"></label>
-      </div>
+      <Cards />
+      <Dots />
     </div>
   )
 }

@@ -5,34 +5,6 @@
   overflow: hidden;
 }
 
-.slide-img {
-  width: 20rem;
-  height: 20rem;
-  animation: scroll 60s linear infinite;
-  margin: auto;
-}
-
-.slide-track {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.slider {
-  background-color: $color-black;
-  padding: 0em;
-  margin: 0rem auto;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-1000%);
-  }
-}
-
 @media (max-width: $screen-medium) {
 }
 

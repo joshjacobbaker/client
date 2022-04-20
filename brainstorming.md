@@ -10,6 +10,7 @@
 - Special Order Product?
 - Contact Salon?
 - Find salon on a map? Address?
+- Catalog of different haircuts from former customers
 
 # Page Layout
 

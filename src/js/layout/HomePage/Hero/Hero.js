@@ -6,8 +6,7 @@ import Carousel from "../../../components/carousel/Carousel"
 const Hero = () => {
   return (
     <div className="hero">
-      Hero
-      <Carousel></Carousel>
+      <Carousel />
     </div>
   )
 }

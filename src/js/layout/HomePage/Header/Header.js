@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom"
 
 // Components
 import You from "../../../components/you/You"
+import LinksEffect from "../../../components/linksEffect/LinksEffect"
 
 const Header = (props) => {
   return (
@@ -14,7 +15,8 @@ const Header = (props) => {
       <div className="header__item">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            {/* <NavLink to="/">Home</NavLink> */}
+            <LinksEffect />
           </li>
           <li>
             <NavLink to="/counter">Counter</NavLink>
