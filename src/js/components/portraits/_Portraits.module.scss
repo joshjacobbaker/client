@@ -1,0 +1,58 @@
+@use "../../../sass/index.scss" as mixin;
+
+.portraits {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "stylist1 stylist2 stylist3 stylist4";
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+
+  @media (max-width: mixin.$screen-medium) {
+    grid-template-areas:
+      "stylist1 stylist2"
+      "stylist3 stylist4";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  @media (max-width: mixin.$screen-small) {
+    grid-template-areas:
+      "stylist1 stylist2"
+      "stylist3 stylist4";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+.portrait1 {
+  grid-area: stylist1;
+  background-image: url(../../../images/dog.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.portrait2 {
+  grid-area: stylist2;
+  background-image: url(../../../images/dog.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.portrait3 {
+  grid-area: stylist3;
+  background-image: url(../../../images/dog.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.portrait4 {
+  grid-area: stylist4;
+  background-image: url(../../../images/dog.jpg);
+  background-size: cover;
+  background-position: center center;
+}

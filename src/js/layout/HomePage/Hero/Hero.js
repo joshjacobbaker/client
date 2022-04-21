@@ -1,12 +1,12 @@
 import React from "react"
 
 // Components
-import Carousel from "../../../components/carousel/Carousel"
+import Portrait from "../../../components/portraits/Portraits"
 
 const Hero = () => {
   return (
     <div className="hero">
-      <Carousel />
+      <Portrait />
     </div>
   )
 }

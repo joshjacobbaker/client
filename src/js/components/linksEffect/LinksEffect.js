@@ -6,14 +6,10 @@ import { NavLink } from "react-router-dom"
 //  React Components
 
 // modules.scss
-import styles from "./Test.module.scss"
+// import styles from "./Test.module.scss"
 
 const LinksEffect = () => {
-  return (
-    <NavLink className={styles.test} to="/">
-      Home
-    </NavLink>
-  )
+  return <NavLink to="/">Home</NavLink>
 }
 
 export default LinksEffect
