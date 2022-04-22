@@ -21,8 +21,12 @@
 
 - Photo Shoot Slider... Add images, update dimensions in media queries
 - Admin Page
+- Trigger a Function when Scrolling to an Element in React with Intersection Observer
 - figma
 - Swap Fontawesome with more performant SVG replacement from iconify.design
+- styled-components
+- react context
+- jsconfig.json for relative routes
 
 ### WIP
 
@@ -57,7 +61,7 @@ New:
 
 ### Github Pages
 
-- https://joshjacobbaker.github.io/reactServerRendering/
+- https://joshjacobbaker.github.io/client/
 
 ### Netlify
 
