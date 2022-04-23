@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 
+import { Outlet } from "react-router-dom"
 // Sections of Layout w/ Components
 import Header from "./Header/Header"
 import Footer from "./Footer/Footer"
@@ -14,7 +15,10 @@ const HomePage = (props) => {
     <div className="gridHomePage">
       <Header number={number} />
       <Hero></Hero>
-      <Main>{props.children}</Main>
+      <Main>
+        <Outlet />
+        {props.children}
+      </Main>
       <Right></Right>
       <StyledFooter />
     </div>
