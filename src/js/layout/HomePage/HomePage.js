@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer"
 import Hero from "./Hero/Hero"
 import Right from "./Right/Right"
 import Main from "./Main/Main"
+import StyledFooter from "./Footer/Styled.Footer"
 
 const HomePage = (props) => {
   const [number, setNumber] = useState(0)
@@ -15,7 +16,7 @@ const HomePage = (props) => {
       <Hero></Hero>
       <Main>{props.children}</Main>
       <Right></Right>
-      <Footer />
+      <StyledFooter />
     </div>
   )
 }

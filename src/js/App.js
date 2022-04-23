@@ -12,6 +12,7 @@ import SinglePostPage from "./components/posts/SinglePostPage"
 import EditPostForm from "./components/posts/EditPostForm"
 import UsersList from "./components/users/UsersList"
 import UserPage from "./components/users/UserPage"
+import Card from "./components/card/Card"
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/addpostform" element={<AddPostForm />}></Route>
           <Route path="/posts/:postId" element={<SinglePostPage />}></Route>
           <Route path="/editpost/:postId" element={<EditPostForm />}></Route>
+          <Route path="/card" element={<Card>Button</Card>}></Route>
           <Route exact path="/users" element={<UsersList />} />
           <Route exact path="/users/:userId" element={<UserPage />} />
           <Route

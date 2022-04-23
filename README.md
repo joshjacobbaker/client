@@ -24,11 +24,14 @@
 - Trigger a Function when Scrolling to an Element in React with Intersection Observer
 - figma
 - Swap Fontawesome with more performant SVG replacement from iconify.design
-- styled-components
 - react context
 - jsconfig.json for relative routes
+- framer motion animations
+- react-spring animations
 
 ### WIP
+
+- styled-components
 
 - Scope all scss files to component with [name].module.scss
 

@@ -7,6 +7,8 @@ import { Provider } from "react-redux"
 import store from "./js/redux/store"
 import { fetchUsers } from "./js/redux/features/users/usersSlice"
 
+// Establishing access to .env variables
+// require("dotenv").config()
 // Componentss
 import App from "./js/App"
 
