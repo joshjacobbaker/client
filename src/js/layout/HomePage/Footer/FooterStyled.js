@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 import Typing from "../../../components/typing/Typing"
 import SocialMediaIcons from "../../../components/socialMediaIcons/SocialMediaIcons"
-import deviceSize from "../../../globals/device"
+import screenSize from "../../../globals/screenSize"
 
-const Footer = styled.footer`
+const FooterStyled = styled.footer`
   border: 1px solid white;
   background: black;
   grid-area: footer;
@@ -16,10 +16,10 @@ const Footer = styled.footer`
   align-items: center;
   justify-content: center;
 
-  @media ${deviceSize.desktop} {
+  @media ${screenSize.desktop} {
   }
 
-  @media ${deviceSize.laptop} {
+  @media ${screenSize.laptop} {
     border: 1px solid white;
     grid-area: footer;
     height: 100%;
@@ -32,16 +32,8 @@ const Footer = styled.footer`
     justify-items: center;
   }
 
-  @media ${deviceSize.mobileL} {
+  @media ${screenSize.mobileL} {
   }
 `
-const FooterOutput = () => {
-  return (
-    <Footer>
-      <Typing />
-      <SocialMediaIcons />
-    </Footer>
-  )
-}
 
-export default FooterOutput
+export default FooterStyled

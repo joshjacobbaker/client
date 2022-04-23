@@ -42,6 +42,9 @@ const Header = (props) => {
           <li>
             <NavLink to="/card">Card</NavLink>
           </li>
+          <li>
+            <NavLink to="/admin">Admin</NavLink>
+          </li>
         </ul>
       </div>
     </header>

@@ -1,7 +1,9 @@
 import React from "react"
 
+import MainStyled from "./MainStyled"
+
 const Main = (props) => {
-  return <main className="main">{props.children}</main>
+  return <MainStyled>{props.children}</MainStyled>
 }
 
 export default Main
