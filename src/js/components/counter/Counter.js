@@ -2,13 +2,15 @@ import React, { useState } from "react"
 import { useSelector, useDispatch } from "react-redux"
 import { decrement, increment, incrementByAmount, incrementAsync, selectCount } from "../../redux/features/counter/counterSlice"
 
+import CounterStyled from "./CounterStyled"
+
 const Counter = () => {
   const count = useSelector(selectCount)
   const dispatch = useDispatch()
   const [incrementAmount, setIncrementAmount] = useState("2")
 
   return (
-    <div>
+    <CounterStyled>
       <h2>Counter</h2>
       <input aria-label="Set increment amount" value={incrementAmount} onChange={(e) => setIncrementAmount(e.target.value)} />
       <button onClick={() => dispatch(incrementByAmount(Number(incrementAmount) || 0))}>IncrementByAmount</button>
@@ -22,7 +24,7 @@ const Counter = () => {
         </button>
       </div>
       {/* omit additional rendering output here */}
-    </div>
+    </CounterStyled>
   )
 }
 

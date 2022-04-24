@@ -30,6 +30,7 @@
 - react-spring animations
 - Linear-gradient Background
 - Global Next.js Header Component
+- ID selector smooth scroll animation
 
 ### WIP
 

@@ -1,4 +1,14 @@
-// // https://bennettfeely.com/clippy/
+import styled from "styled-components"
+import { NavLink } from "react-router-dom"
+
+const LinksEffectStyled = styled(NavLink)`
+  background-color: purple;
+  font-weight: bold;
+`
+
+export default LinksEffectStyled
+
+// https://bennettfeely.com/clippy/
 // .linkcontainer {
 //   position: relative;
 //   width: 100%;
