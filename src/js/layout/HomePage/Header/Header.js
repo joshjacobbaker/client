@@ -2,13 +2,15 @@ import React from "react"
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 
+// Styled Components
+import HeaderStyled from "./HeaderStyled"
 // Components
 import You from "../../../components/you/You"
 import LinksEffect from "../../../components/linksEffect/LinksEffect"
 
 const Header = (props) => {
   return (
-    <header className="header">
+    <HeaderStyled>
       <div className="header__item">
         <You />
       </div>
@@ -47,7 +49,7 @@ const Header = (props) => {
           </li>
         </ul>
       </div>
-    </header>
+    </HeaderStyled>
   )
 }
 

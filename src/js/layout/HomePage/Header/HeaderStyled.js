@@ -1,18 +1,15 @@
-/*Header*/
+import styled from "styled-components"
+import screenSize from "../../../globals/screenSize"
 
-// @use "../abstracts/variables";
-// @include variables;
+const HeaderStyled = styled.header`
 
-// $color-primary: #55c57a;
-
-.header {
   display: grid;
   grid-template-columns: 2fr 8fr;
   justify-items: center;
   align-items: center;
 
-  border: 1px solid $color-white;
-  background-color: $color-black;
+  border: 1px solid white;
+  background-color: black;
   grid-area: header;
 
   &__item {
@@ -45,8 +42,8 @@
     }
   }
 }
-
-@media (max-width: $screen-medium) {
+@media ${screenSize.desktop} {}
+@media ${screenSize.laptop} {
   .header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -84,7 +81,7 @@
   }
 }
 
-@media (max-width: $screen-small) {
+@media ${screenSize.mobileL}  {
   .header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -120,4 +117,7 @@
       }
     }
   }
-}
+
+`
+
+export default HeaderStyled

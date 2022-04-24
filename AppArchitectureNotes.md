@@ -5,6 +5,7 @@ react-tilt
 react intersection observer
 react icons
 framer-motion
+react scroll
 
 #CSS
 ##current setup

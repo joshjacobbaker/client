@@ -1,19 +1,21 @@
 import styled from "styled-components"
 
 const MainStyled = styled.main`
-  border: 1px solid $color-white;
-  background-color: $color-black;
+  border: 1px solid white;
+  background-color: linear-gradient(to-bottom, black, white)
   grid-area: main;
   overflow: scroll;
   display: grid;
   justify-items: center;
   align-items: center;
-
-  @media (max-width: $screen-medium) {
-  }
-
-  @media (max-width: $screen-small) {
-  }
 `
 
 export default MainStyled
+/* @media ${screenSize.desktop} {
+  }
+
+  @media ${screenSize.laptop} {
+  }
+
+  @media ${screenSize.mobileL} {
+  } */

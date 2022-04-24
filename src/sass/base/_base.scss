@@ -1,33 +1,33 @@
 /* Global Reset */
 // @media (max-width: 960px) @media (max-width: 550px)
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+// *,
+// *::after,
+// *::before {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: inherit;
+// }
 
 /*Percentage is better for Browser/User Accessibility */
-html {
-  //This defines what 1 rem is
-  font-size: 62.5%;
-}
+// html {
+//   //This defines what 1 rem is
+//   font-size: 62.5%;
+// }
 
 /* Website Defaults */
-body {
-  box-sizing: border-box;
-}
+// body {
+//   box-sizing: border-box;
+// }
 
 // Reset List Styles
-li {
-  list-style: none;
+// li {
+//   list-style: none;
 
-  & > * {
-    text-decoration: none;
-    color: inherit;
-  }
-}
+//   & > * {
+//     text-decoration: none;
+//     color: inherit;
+//   }
+// }
 
 // @media (max-width: $screen-medium) {
 // }
