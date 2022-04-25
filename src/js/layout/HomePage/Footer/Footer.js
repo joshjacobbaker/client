@@ -7,7 +7,7 @@ import SocialMediaIcons from "../../../components/socialMediaIcons/SocialMediaIc
 
 const Footer = () => {
   return (
-    <FooterStyled>
+    <FooterStyled color="secondary">
       <Typing />
       <SocialMediaIcons />
     </FooterStyled>

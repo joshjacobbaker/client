@@ -31,6 +31,9 @@
 - Linear-gradient Background
 - Global Next.js Header Component
 - ID selector smooth scroll animation
+- ThemeProvider
+- Id % 2 ? row : row-reverse
+- [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
 
 ### WIP
 
@@ -40,9 +43,9 @@
 
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
-- [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
-
 ### Finished
+
+- [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 
 - Componentize sidebar animation
 - [backendExpressServer]("Setup API Endpoint")
@@ -57,13 +60,15 @@
 
 New:
 
-- We run "npm run gitpushmaster" and our github-actions-workflow-build-pipeline-webhook deploys our app to gh-pages and Netlify builds too.
-  <!-- "gitpushmaster": "git push -u origin master" -->
-  <!-- .github/workflows/node.js.yml -->
+- We have a .github hook that runs a build script
+- Does it build Netlify?
+  <!-- - We run "npm run gitpushmaster" and our github-actions-workflow-build-pipeline-webhook deploys our app to gh-pages and Netlify builds too. -->
+    <!-- "gitpushmaster": "git push -u origin master" -->
+    <!-- .github/workflows/node.js.yml -->
   Old:
-  <!-- - git checkout gh-pages
-  - git subtree push --prefix dist origin gh-pages
-  - npm run deploy -->
+    <!-- - git checkout gh-pages
+    - git subtree push --prefix dist origin gh-pages
+    - npm run deploy -->
 
 ### Github Pages
 
