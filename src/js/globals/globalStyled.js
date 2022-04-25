@@ -30,7 +30,19 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: grey;
+  background-color: charcoal;
   padding: 1rem;
+}
+
+${
+  "" /* main {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: grey;
+  background-color: charcoal;
+  padding: 1rem;
+} */
 }
 
 `

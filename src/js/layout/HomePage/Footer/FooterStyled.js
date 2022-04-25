@@ -8,9 +8,8 @@ const FooterStyled = styled.footer`
   border: 1px solid white;
   /* background: ${(props) => props.theme.primary} */
   ${(props) =>
-    props.color &&
     css`
-      background-color: ${(props) => props.theme[props.color]};
+      background: linear-gradient(red, ${props.theme.color});
     `}
   grid-area: footer;
   height: 100%;

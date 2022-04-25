@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 //
 import { ThemeProvider } from "styled-components"
 // Router
@@ -6,30 +6,20 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 
 // Global Styles
 import GlobalStyled from "./globals/globalStyled"
+import themeStyled from "./globals/themeStyled"
 // Pages Components
 import HomePage from "./layout/HomePage/HomePage"
 import AdminPage from "./layout/AdminPage/AdminPage"
 
-// Define our `fg` and `bg` on the theme
-const theme = {
-  fg: "palevioletred",
-  bg: "white",
-}
-
-// This theme swaps `fg` and `bg`
-const invertTheme = ({ fg, bg }) => ({
-  fg: bg,
-  bg: fg,
-})
-
 const App = () => {
+  const [switchTheme, setSwitchTheme] = useState(false)
   return (
     <>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={switchTheme ? themeStyled.baseTheme : themeStyled.darkTheme}>
         <HashRouter>
           <GlobalStyled />
           <Routes>
-            <Route path="/*" element={<HomePage />} />
+            <Route path="/*" element={<HomePage switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />} />
             <Route exact path="/admin" element={<AdminPage />} />
           </Routes>
         </HashRouter>

@@ -1,6 +1,6 @@
 // Vendor Modules
 import react from "react"
-import ReactDOM from "react-dom"
+import * as ReactDOMClient from "react-dom/client"
 
 // Redux
 import { Provider } from "react-redux"
@@ -17,11 +17,12 @@ import "./sass/index.scss"
 
 store.dispatch(fetchUsers())
 
-ReactDOM.render(
+const root = ReactDOMClient.createRoot(document.getElementById("root"))
+
+root.render(
   <Provider store={store}>
     <App />
-  </Provider>,
-  document.getElementById("root")
+  </Provider>
 )
 
 if (module.hot) {

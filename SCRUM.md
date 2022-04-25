@@ -13,12 +13,9 @@
 - Grid Layout
 - [Tailwind-CSS integration]("https://tailwindcss.com/docs/using-with-preprocessors")
 - Autoprefixer
-- Remove ReactDOM and use createRoot
-- JSS; CSS in JavaScript
 - VH & VW for screen proportionality
 - Typing CSS feature... React Component, Styling, Media Queries for small, medium, large screens
 - Stylists Carousel... Need to integrate it into react, Clickable, selectable, and media queried
-
 - Photo Shoot Slider... Add images, update dimensions in media queries
 - Admin Page
 - Trigger a Function when Scrolling to an Element in React with Intersection Observer
@@ -26,34 +23,33 @@
 - Swap Fontawesome with more performant SVG replacement from iconify.design
 - react context
 - jsconfig.json for relative routes
-- framer motion animations
+- [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
 - react-spring animations
-- Linear-gradient Background
 - Global Next.js Header Component
 - ID selector smooth scroll animation
-- ThemeProvider
 - Id % 2 ? row : row-reverse
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
 
 ### WIP
 
-- styled-components
-
-- Scope all scss files to component with [name].module.scss
+- ThemeProvider
 
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 ### Finished
 
+- Remove ReactDOM and use createRoot
+- Linear-gradient Background
+- Scope all scss files to component with [name].module.scss
+- styled-components
 - [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
-
+- JSS; CSS in JavaScript
 - Componentize sidebar animation
 - [backendExpressServer]("Setup API Endpoint")
 - [Redux - Thunk regenerator error]("https://techstrology.com/react-async-await-regeneratorruntime-is-not-defined-babel-6/")
 - [gh-pages]("https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp")
 - - HMR for scss [see link]("https://stackoverflow.com/questions/52043727/webpack-live-hot-reload-for-sass")
   - Problem: scss styles aren't being HMR, solution: styles-loader in dev (see link above) or perhaps a <link type="text/css" rel="stylesheet"> update in minicssextractplugin...?
-
 - Swashbuckling Youtube video Webpack Setup [Youtube Link]("https://www.youtube.com/watch?v=TOb1c39m64A")
 
 ## Github

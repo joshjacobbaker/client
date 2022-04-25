@@ -22,6 +22,11 @@ import Card from "../../components/card/Card"
 
 const HomePage = (props) => {
   const [number, setNumber] = useState(0)
+
+  const onClickHandler = (e) => {
+    props.setSwitchTheme((p) => !p)
+    console.log("theme button clicked")
+  }
   return (
     <HomePageStyled>
       <Header number={number} />
@@ -47,9 +52,11 @@ const HomePage = (props) => {
         </Routes>
 
         <Outlet />
+        <button onClick={onClickHandler}>Switch Theme? CLick me!</button>
         {props.children}
       </Main>
       <Right></Right>
+
       <Footer />
     </HomePageStyled>
   )

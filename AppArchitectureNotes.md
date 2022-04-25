@@ -12,10 +12,10 @@ react scroll
 Sass for globals
 modules for locals
 
-JSS for animations
-React-Spring for animations
-Styled.components?
-Polished.js ?
+- styled-components
+- Scope all scss files to component with [name].module.scss
+  React-Spring for animations
+  Polished.js ?
 
 twin.macro
 tailwind
@@ -28,6 +28,10 @@ linaria vs compiled
 <!-- https://ui.dev/react-router-nested-routes -->
 
 Mobile First Design
-. Apple recommends at least a 44-pixel square for touch targets.
+
+- styled-components
+
+- Scope all scss files to component with [name].module.scss
+  . Apple recommends at least a 44-pixel square for touch targets.
 
 <!-- https://xd.adobe.com/ideas/process/ui-design/what-is-mobile-first-design/ -->
