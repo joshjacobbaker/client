@@ -1,7 +1,9 @@
 import styled from "styled-components"
 
 const MainStyled = styled.main`
-  border: 1px solid white;
+  height: 100%;
+  width: 100vw;
+  /* border: 1px solid white; */
   background-color: linear-gradient(to-bottom, black, white)
   grid-area: main;
   overflow: scroll;

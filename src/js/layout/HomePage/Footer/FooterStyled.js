@@ -5,7 +5,8 @@ import SocialMediaIcons from "../../../components/socialMediaIcons/SocialMediaIc
 import screenSize from "../../../globals/screenSize"
 
 const FooterStyled = styled.footer`
-  border: 1px solid white;
+  width: 100vw;
+  /* border: 1px solid white; */
   /* background: ${(props) => props.theme.primary} */
   ${(props) =>
     css`
@@ -13,7 +14,6 @@ const FooterStyled = styled.footer`
     `}
   grid-area: footer;
   height: 100%;
-  width: 100%;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
@@ -24,10 +24,9 @@ const FooterStyled = styled.footer`
   }
 
   @media ${screenSize.laptop} {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     grid-area: footer;
     height: 100%;
-    width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
@@ -42,6 +41,13 @@ const FooterStyled = styled.footer`
   }
 
   @media ${screenSize.mobileL} {
+    grid-area: footer;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50vw 50vw;
+    align-items: center;
+    justify-content: center;
     ${(props) =>
       props.color &&
       css`

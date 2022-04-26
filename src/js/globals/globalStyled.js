@@ -26,12 +26,14 @@ li {
 }
   
 body {
-  font-family: sans-serif;
+  ${
+    "" /* font-family: sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: grey;
   background-color: charcoal;
-  padding: 1rem;
+  padding: 1rem; */
+  }
 }
 
 ${

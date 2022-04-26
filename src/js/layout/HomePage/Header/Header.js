@@ -23,7 +23,7 @@ const Header = (props) => {
           <li>
             <NavLink to="/counter">Counter</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/postslist">List Posts</NavLink>
           </li>
           <li>
@@ -46,7 +46,7 @@ const Header = (props) => {
           </li>
           <li>
             <NavLink to="/admin">Admin</NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </HeaderStyled>

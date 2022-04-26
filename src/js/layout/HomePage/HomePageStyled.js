@@ -6,7 +6,7 @@ const HomePageStyled = styled.main`
     display: grid;
     grid-template-rows: 20vh repeat(2, 500px) 20vh;
     grid-template-columns: 1fr 132px;
-    grid-gap: 1rem;
+    /* grid-gap: 1rem; */
     height: 100vh;
     width: 100vw;
     grid-template-areas:
@@ -28,14 +28,13 @@ const HomePageStyled = styled.main`
   }
 
   @media ${screenSize.mobileL} {
+    width: 100vw;
     display: grid;
-    grid-template-rows: 20vh repeat(2, 500px) 20vh;
+    grid-template-rows: 20vh 1fr 20vh;
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"
-      "hero"
       "main"
-      "right"
       "footer";
   }
 `

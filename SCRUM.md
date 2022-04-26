@@ -4,10 +4,6 @@
 
 ### Backlog
 
-- Redux [Quick Start Link]("https://react-redux.js.org/tutorials/quick-start")
-- Router [Quick Start Link]("https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md")
-- Express Server
-
 - React Router Transitions
 - React-Spring
 - Grid Layout
@@ -42,6 +38,9 @@
 - Linear-gradient Background
 - Scope all scss files to component with [name].module.scss
 - styled-components
+- Redux [Quick Start Link]("https://react-redux.js.org/tutorials/quick-start")
+- Router [Quick Start Link]("https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md")
+- Express Server
 - [SCSS]("https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274494#overview")
 - JSS; CSS in JavaScript
 - Componentize sidebar animation

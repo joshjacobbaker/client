@@ -1,23 +1,26 @@
 /* Global Reset */
 // @media (max-width: 960px) @media (max-width: 550px)
-// *,
-// *::after,
-// *::before {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: inherit;
-// }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
 /*Percentage is better for Browser/User Accessibility */
-// html {
-//   //This defines what 1 rem is
-//   font-size: 62.5%;
-// }
+html {
+  //This defines what 1 rem is
+  top: 0;
+  left: 0;
+}
 
 /* Website Defaults */
-// body {
-//   box-sizing: border-box;
-// }
+body {
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
 
 // Reset List Styles
 // li {

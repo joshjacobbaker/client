@@ -2,8 +2,7 @@ import styled from "styled-components"
 import screenSize from "../../../globals/screenSize"
 
 const RightStyled = styled.div`
-  border: 1px solid $color-white;
-  background-color: $color-black;
+  /* width: 100vw; */
   grid-area: right;
   overflow: hidden;
 

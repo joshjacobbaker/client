@@ -14,17 +14,15 @@ import AdminPage from "./layout/AdminPage/AdminPage"
 const App = () => {
   const [switchTheme, setSwitchTheme] = useState(false)
   return (
-    <>
-      <ThemeProvider theme={switchTheme ? themeStyled.baseTheme : themeStyled.darkTheme}>
-        <HashRouter>
-          <GlobalStyled />
-          <Routes>
-            <Route path="/*" element={<HomePage switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />} />
-            <Route exact path="/admin" element={<AdminPage />} />
-          </Routes>
-        </HashRouter>
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={switchTheme ? themeStyled.baseTheme : themeStyled.darkTheme}>
+      <HashRouter>
+        {/* <GlobalStyled /> */}
+        <Routes>
+          <Route path="/*" element={<HomePage switchTheme={switchTheme} setSwitchTheme={setSwitchTheme} />} />
+          <Route exact path="/admin" element={<AdminPage />} />
+        </Routes>
+      </HashRouter>
+    </ThemeProvider>
   )
 }
 

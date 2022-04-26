@@ -2,13 +2,14 @@ import styled from "styled-components"
 import screenSize from "../../../globals/screenSize"
 
 const HeaderStyled = styled.header`
-
+  width: 100vw;
+  height: 100%;
   display: grid;
   grid-template-columns: 2fr 8fr;
   justify-items: center;
   align-items: center;
 
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-color: black;
   grid-area: header;
 
@@ -44,42 +45,8 @@ const HeaderStyled = styled.header`
 }
 @media ${screenSize.desktop} {}
 @media ${screenSize.laptop} {
-  .header {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
 
-    border: 1px solid $color-white;
-    background-color: $color-black;
-    grid-area: header;
-
-    &__item {
-      // background-color: red;
-      width: 100%;
-    }
-
-    ul {
-      // background-color: blue;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(3, 1fr);
-    }
-
-    li {
-      font-size: 1.2rem;
-      &:hover {
-        transform: scale(1.2);
-      }
-      list-style: none;
-
-      & > * {
-        text-decoration: none;
-        color: inherit;
-      }
-    }
-  }
-}
+} 
 
 @media ${screenSize.mobileL}  {
   .header {
@@ -88,7 +55,7 @@ const HeaderStyled = styled.header`
     justify-items: center;
     align-items: center;
 
-    border: 1px solid $color-white;
+    /* border: 1px solid $color-white; */
     background-color: $color-black;
     grid-area: header;
 

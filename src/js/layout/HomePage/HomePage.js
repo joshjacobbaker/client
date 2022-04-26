@@ -30,8 +30,9 @@ const HomePage = (props) => {
   return (
     <HomePageStyled>
       <Header number={number} />
-      <Hero></Hero>
+
       <Main>
+        {/* <Hero></Hero> */}
         <Routes>
           <Route path="counter" element={<Counter />} />
           <Route path="postslist" element={<PostsList />} />
@@ -44,7 +45,7 @@ const HomePage = (props) => {
           <Route
             path="*"
             element={
-              <main style={{ padding: "1rem" }}>
+              <main style={{}}>
                 <p>There's nothing here!</p>
               </main>
             }
@@ -53,9 +54,8 @@ const HomePage = (props) => {
 
         <Outlet />
         <button onClick={onClickHandler}>Switch Theme? CLick me!</button>
-        {props.children}
+        {/* <Right></Right> */}
       </Main>
-      <Right></Right>
 
       <Footer />
     </HomePageStyled>
