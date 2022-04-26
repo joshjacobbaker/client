@@ -11,6 +11,7 @@ react scroll
 ##current setup
 Sass for globals
 modules for locals
+[Css Reset]("https://piccalil.li/blog/a-modern-css-reset/")
 
 - styled-components
 - Scope all scss files to component with [name].module.scss

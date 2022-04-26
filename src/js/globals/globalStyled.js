@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components"
+import screenSize from "./screenSize"
 
 const globalStyle = createGlobalStyle`
 /* Box sizing rules */
@@ -79,7 +80,10 @@ select {
 `
 
 export const Container = styled.div`
-  height: 500px;
+  @media ${screenSize.mobileL} {
+    height: 610px;
+  }
+
   width: 100%;
   background: linear-gradient(to bottom, blue, white);
 `

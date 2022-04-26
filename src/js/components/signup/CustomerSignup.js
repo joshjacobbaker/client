@@ -1,8 +1,9 @@
 import React from "react"
+import CustomerSignupStyled from "./CustomerSignupStyled"
 
 const CustomerSignup = () => {
   return (
-    <div className="container">
+    <CustomerSignupStyled>
       <form action="">
         <h3>Customer Signup</h3>
         <fieldset>
@@ -16,7 +17,7 @@ const CustomerSignup = () => {
         </fieldset>
         <button>Submit</button>
       </form>
-    </div>
+    </CustomerSignupStyled>
   )
 }
 
