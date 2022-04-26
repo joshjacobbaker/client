@@ -6,11 +6,7 @@ import HeroStyled from "./HeroStyled"
 import Portrait from "../../../components/portraits/Portraits"
 
 const Hero = () => {
-  return (
-    <HeroStyled>
-      <Portrait />
-    </HeroStyled>
-  )
+  return <HeroStyled>{/* <Portrait /> */}</HeroStyled>
 }
 
 export default Hero

@@ -11,19 +11,19 @@ import LinksEffect from "../../../components/linksEffect/LinksEffect"
 const Header = (props) => {
   return (
     <HeaderStyled>
-      <div className="header__item">
+      {/* <div className="header__item">
         <You />
       </div>
       <div className="header__item">
         <ul>
           <li>
-            {/* <NavLink to="/">Home</NavLink> */}
+            <NavLink to="/">Home</NavLink>
             <LinksEffect to="/">Home</LinksEffect>
           </li>
           <li>
             <NavLink to="/counter">Counter</NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink to="/postslist">List Posts</NavLink>
           </li>
           <li>
@@ -46,9 +46,9 @@ const Header = (props) => {
           </li>
           <li>
             <NavLink to="/admin">Admin</NavLink>
-          </li> */}
+          </li>
         </ul>
-      </div>
+      </div> */}
     </HeaderStyled>
   )
 }

@@ -12,8 +12,6 @@ import { fetchUsers } from "./js/redux/features/users/usersSlice"
 // Componentss
 import App from "./js/App"
 
-import GlobalStyled from "./js/globals/globalStyled"
-
 // Assets
 import "./sass/index.scss"
 
@@ -23,7 +21,6 @@ const root = ReactDOMClient.createRoot(document.getElementById("root"))
 
 root.render(
   <Provider store={store}>
-    <GlobalStyled />
     <App />
   </Provider>
 )

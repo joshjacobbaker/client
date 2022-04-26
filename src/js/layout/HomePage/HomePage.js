@@ -45,15 +45,15 @@ const HomePage = (props) => {
           <Route
             path="*"
             element={
-              <main style={{}}>
+              <div style={{}}>
                 <p>There's nothing here!</p>
-              </main>
+              </div>
             }
           />
         </Routes>
 
         <Outlet />
-        <button onClick={onClickHandler}>Switch Theme? CLick me!</button>
+        {/* <button onClick={onClickHandler}>Switch Theme? CLick me!</button> */}
         {/* <Right></Right> */}
       </Main>
 
