@@ -15,6 +15,7 @@
 - Photo Shoot Slider... Add images, update dimensions in media queries
 - Admin Page
 - Trigger a Function when Scrolling to an Element in React with Intersection Observer
+- Media Queries landscape, portrait
 - figma
 - Swap Fontawesome with more performant SVG replacement from iconify.design
 - react context

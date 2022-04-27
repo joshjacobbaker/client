@@ -19,6 +19,7 @@ import EditPostForm from "../../components/posts/EditPostForm"
 import UsersList from "../../components/users/UsersList"
 import UserPage from "../../components/users/UserPage"
 import Card from "../../components/card/Card"
+import CustomerSignup from "../../components/customerSignup/CustomerSignup"
 
 const HomePage = (props) => {
   const [number, setNumber] = useState(0)
@@ -34,6 +35,15 @@ const HomePage = (props) => {
       <Main>
         {/* <Hero></Hero> */}
         <Routes>
+          <Route
+            path="signup"
+            element={
+              <>
+                <CustomerSignup />
+                <CustomerSignup />
+              </>
+            }
+          />
           <Route path="counter" element={<Counter />} />
           <Route path="postslist" element={<PostsList />} />
           <Route path="addpostform" element={<AddPostForm />} />

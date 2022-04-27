@@ -80,8 +80,9 @@ select {
 `
 
 export const Container = styled.div`
+  display: block;
   @media ${screenSize.mobileL} {
-    height: 610px;
+    height: 100%;
   }
 
   width: 100%;

@@ -31,8 +31,8 @@ const HomePageStyled = styled.main`
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 10vh 1fr 10vh;
-    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-columns: 100vw;
     grid-template-areas:
       "header"
       "main"
