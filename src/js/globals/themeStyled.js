@@ -1,3 +1,5 @@
+import screenSize from "./screenSize"
+
 // Define our `fg` and `bg` on the theme
 const theme = {
   baseTheme: {
@@ -5,6 +7,7 @@ const theme = {
     bg: "white",
     color: "orange",
     backgroundColor: "orange",
+    screenSize,
   },
 
   darkTheme: {
@@ -12,6 +15,7 @@ const theme = {
     bg: "palevioletred",
     color: "purple",
     backgroundColor: "green",
+    screenSize,
   },
 }
 

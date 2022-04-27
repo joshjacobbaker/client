@@ -26,7 +26,7 @@ const Header = (props) => {
             <NavLink to="/counter">Counter</NavLink>
           </li>
           <li>
-            <NavLink to="/postslist">List Posts</NavLink>
+            <NavLink to="/addpostform">Add Post</NavLink>
           </li>
         </ul>
       </div>

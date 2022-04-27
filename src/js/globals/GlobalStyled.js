@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components"
 import screenSize from "./screenSize"
 
-const globalStyle = createGlobalStyle`
+const GlobalStyled = createGlobalStyle`
 /* Box sizing rules */
 *,
 *::before,
@@ -89,4 +89,4 @@ export const Container = styled.div`
   background: linear-gradient(to bottom, blue, white);
 `
 
-export default globalStyle
+export default GlobalStyled

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Container } from "../../globals/globalStyled"
+import { Container } from "../../globals/GlobalStyled"
 
 const CustomerSignupStyled = styled(Container)`
   display: grid;

@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux"
 import { decrement, increment, incrementByAmount, incrementAsync, selectCount } from "../../redux/features/counter/counterSlice"
 
 import CounterStyled from "./CounterStyled"
-import { Container } from "../../globals/globalStyled"
+import { Container } from "../../globals/GlobalStyled"
 
 const Counter = () => {
   const count = useSelector(selectCount)
