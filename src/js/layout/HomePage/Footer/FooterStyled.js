@@ -48,11 +48,9 @@ const FooterStyled = styled.footer`
     grid-template-columns: 50vw 50vw;
     align-items: center;
     justify-content: center;
-    ${(props) =>
-      props.color &&
-      css`
-        background-color: ${(props) => props.theme[props.color]};
-      `}
+    ${(props) => css`
+      background: linear-gradient(to right, ${props.theme.colors.teal}, ${props.theme.colors.yellow});
+    `}
   }
 `
 

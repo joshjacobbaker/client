@@ -1,16 +1,15 @@
 import styled from "styled-components"
-import screenSize from "../../../globals/screenSize"
 
 const RightStyled = styled.div`
   /* width: 100vw; */
   grid-area: right;
   overflow: hidden;
 
-  @media ${screenSize.desktop} {
+  @media ${(props) => props.theme.screenSize.desktop} {
   }
-  @media ${screenSize.laptop} {
+  @media ${(props) => props.theme.screenSize.laptop} {
   }
-  @media ${screenSize.mobileL} {
+  @media ${(props) => props.theme.screenSize.mobileL} {
   }
 `
 

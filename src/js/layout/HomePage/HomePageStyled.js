@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import screenSize from "../../globals/screenSize"
 
 const HomePageStyled = styled.main`
-  @media ${screenSize.desktop} {
+  @media ${(props) => props.theme.screenSize.desktop} {
     display: grid;
     grid-template-rows: 10vh repeat(2, 500px) 10vh;
     grid-template-columns: 1fr 132px;
@@ -16,7 +15,7 @@ const HomePageStyled = styled.main`
       "footer footer footer footer right";
   }
 
-  @media ${screenSize.laptop} {
+  @media ${(props) => props.theme.screenSize.laptop} {
     display: grid;
     grid-template-rows: 20vh repeat(2, 500px) 20vh;
     grid-template-columns: 1fr 132px;
@@ -27,7 +26,7 @@ const HomePageStyled = styled.main`
       "footer footer footer footer right";
   }
 
-  @media ${screenSize.mobileL} {
+  @media ${(props) => props.theme.screenSize.mobileL} {
     height: 100vh;
     width: 100vw;
     display: grid;
