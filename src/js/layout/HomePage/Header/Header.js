@@ -3,7 +3,7 @@ import { useState } from "react"
 
 import { useLocation } from "react-router-dom"
 // Styled Components
-import HeaderStyled, { NavLinkStyled, Menu } from "./HeaderStyled"
+import HeaderStyled, { NavLinkStyled, MenuContainer, MenuIcon, MenuDisplay } from "./HeaderStyled"
 // Components
 
 const Header = (props) => {
@@ -20,32 +20,36 @@ const Header = (props) => {
       <div>
         <p>You</p>
       </div>
-      <Menu onClick={onClickDisplayMenuHandler}>
+      <MenuContainer>
+        <div>Theme Toggle</div>
+        {!displayMenu && <MenuIcon onClick={onClickDisplayMenuHandler}>Icon</MenuIcon>}
         {displayMenu && (
-          <ul>
-            <li>
-              <NavLinkStyled to="/" isActive={pathname === "/"}>
-                Home
-              </NavLinkStyled>
-            </li>
-            <li>
-              <NavLinkStyled to="/signup" isActive={pathname === "/signup"}>
-                Signup
-              </NavLinkStyled>
-            </li>
-            <li>
-              <NavLinkStyled to="/counter" isActive={pathname === "/counter"}>
-                Counter
-              </NavLinkStyled>
-            </li>
-            <li>
-              <NavLinkStyled to="/addpostform" isActive={pathname === "/addpostform"}>
-                Add Post
-              </NavLinkStyled>
-            </li>
-          </ul>
+          <MenuDisplay>
+            <ul>
+              <li>
+                <NavLinkStyled to="/" isActive={pathname === "/"}>
+                  Home
+                </NavLinkStyled>
+              </li>
+              <li>
+                <NavLinkStyled to="/signup" isActive={pathname === "/signup"}>
+                  Signup
+                </NavLinkStyled>
+              </li>
+              <li>
+                <NavLinkStyled to="/counter" isActive={pathname === "/counter"}>
+                  Counter
+                </NavLinkStyled>
+              </li>
+              <li>
+                <NavLinkStyled to="/addpostform" isActive={pathname === "/addpostform"}>
+                  Add Post
+                </NavLinkStyled>
+              </li>
+            </ul>
+          </MenuDisplay>
         )}
-      </Menu>
+      </MenuContainer>
     </HeaderStyled>
   )
 }
