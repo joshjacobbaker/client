@@ -21,6 +21,9 @@ import UserPage from "../../components/users/UserPage"
 import Card from "../../components/card/Card"
 import CustomerSignup from "../../components/customerSignup/CustomerSignup"
 
+// Theme
+import theme from "../../hooks/UseTheme"
+
 const HomePage = (props) => {
   const [number, setNumber] = useState(0)
 
