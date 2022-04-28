@@ -1,5 +1,6 @@
 import screenSize from "./screenSize"
 import colors from "./colors"
+import sectionSizes from "./sectionSizes"
 
 // Define our `fg` and `bg` on the theme
 const theme = {
@@ -10,6 +11,7 @@ const theme = {
     backgroundColor: "orange",
     screenSize,
     colors,
+    sectionSizes,
   },
 
   darkTheme: {
@@ -19,6 +21,7 @@ const theme = {
     backgroundColor: "green",
     screenSize,
     colors,
+    sectionSizes,
   },
 }
 

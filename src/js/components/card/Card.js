@@ -1,3 +1,3 @@
-import CardStyles from "./CardStyles"
+import CardStyled from "./CardStyled"
 
-export default CardStyles
+export default CardStyled

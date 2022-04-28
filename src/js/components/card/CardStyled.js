@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import device from "../../globals/screenSize"
+
 const Button = styled.button`
   width: 120px;
   height: 40px;
@@ -7,15 +7,15 @@ const Button = styled.button`
   color: black;
   background-color: pink;
 
-  @media ${device.desktop} {
+  @media ${(props) => props.theme.screenSize.desktop} {
     background-color: blue;
   }
 
-  @media ${device.laptop} {
+  @media ${(props) => props.theme.screenSize.laptop} {
     background-color: black;
   }
 
-  @media ${device.mobileL} {
+  @media ${(props) => props.theme.screenSize.mobileL} {
     background-color: red;
   }
 `

@@ -7,6 +7,7 @@ const size = {
   // laptopL: "1440px",
   desktop: "2560px",
 }
+
 // https://jsramblings.com/how-to-use-media-queries-with-styled-components/
 const device = {
   // mobileS: `(max-width: ${size.mobileS})`,

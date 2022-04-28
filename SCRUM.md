@@ -26,6 +26,8 @@
 - ID selector smooth scroll animation
 - Id % 2 ? row : row-reverse
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
+- Add a staging branch and/or production branch before
+- Google analytics in website
 
 ### WIP
 

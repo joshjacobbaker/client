@@ -1,14 +1,21 @@
 import React from "react"
 import { useState } from "react"
-import NavLink from "../../../globals/ReactRouterDomLink"
 
+import { useLocation } from "react-router-dom"
 // Styled Components
-import HeaderStyled from "./HeaderStyled"
+import HeaderStyled, { NavLinkStyled, Menu } from "./HeaderStyled"
 // Components
 import You from "../../../components/you/You"
-import LinksEffect from "../../../components/linksEffect/LinksEffect"
 
 const Header = (props) => {
+  const { pathname } = useLocation()
+  const [displayMenu, setDisplayMenu] = useState(false)
+  const onClickDisplayMenuHandler = (e) => {
+    e.preventDefault()
+    console.log(`Clicked Display Menu ${displayMenu}`)
+    setDisplayMenu((d) => !d)
+  }
+
   return (
     <HeaderStyled>
       <div className="header__item">
@@ -17,19 +24,31 @@ const Header = (props) => {
       <div className="header__item">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLinkStyled to="/" isActive={pathname === "/"}>
+              Home
+            </NavLinkStyled>
           </li>
           <li>
-            <NavLink to="/signup">Signup</NavLink>
+            <NavLinkStyled to="/signup" isActive={pathname === "/signup"}>
+              Signup
+            </NavLinkStyled>
           </li>
           <li>
-            <NavLink to="/counter">Counter</NavLink>
+            <NavLinkStyled to="/counter" isActive={pathname === "/counter"}>
+              Counter
+            </NavLinkStyled>
           </li>
           <li>
-            <NavLink to="/addpostform">Add Post</NavLink>
+            <NavLinkStyled to="/addpostform" isActive={pathname === "/addpostform"}>
+              Add Post
+            </NavLinkStyled>
           </li>
         </ul>
       </div>
+      <div>
+        <Menu onClick={onClickDisplayMenuHandler} />
+      </div>
+      {displayMenu && <div>Yooooooo</div>}
     </HeaderStyled>
   )
 }
