@@ -4,10 +4,10 @@ const colors = {
   beige: "#FFF1CE",
   yellow: "#D29D2B",
   greens: {
-    darkgreen: "#4E944F",
-    mediumgreen: "#83BD75",
+    darkGreen: "#4E944F",
+    mediumGreen: "#83BD75",
     green: "#B4E197",
-    lightgreen: "#E9EFC0",
+    lightGreen: "#E9EFC0",
   },
 }
 

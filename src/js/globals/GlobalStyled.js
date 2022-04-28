@@ -80,10 +80,28 @@ select {
 }
 `
 
-export const Container = styled.div`
+export const MainContainer = styled.div`
   display: block;
   @media ${(props) => props.theme.screenSize.mobileL} {
     height: 80vh;
+  }
+  width: 100%;
+  background: linear-gradient(to bottom, blue, white);
+`
+
+export const HeaderContainer = styled.header`
+  display: block;
+  @media ${(props) => props.theme.screenSize.mobileL} {
+    height: 20vh;
+  }
+  width: 100%;
+  background: linear-gradient(to bottom, blue, white);
+`
+
+export const FooterContainer = styled.footer`
+  display: block;
+  @media ${(props) => props.theme.screenSize.mobileL} {
+    height: 20vh;
   }
   width: 100%;
   background: linear-gradient(to bottom, blue, white);

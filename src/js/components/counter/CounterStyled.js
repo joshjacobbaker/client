@@ -1,6 +1,7 @@
 import styled from "styled-components"
+import { MainContainer } from "../../globals/GlobalStyled"
 
-const CounterStyled = styled.div`
+const CounterStyled = styled(MainContainer)`
   background-color: gold;
 `
 

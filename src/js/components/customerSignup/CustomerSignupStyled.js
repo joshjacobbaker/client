@@ -1,7 +1,7 @@
 import styled from "styled-components"
-import { Container } from "../../globals/GlobalStyled"
+import { MainContainer } from "../../globals/GlobalStyled"
 
-const CustomerSignupStyled = styled(Container)`
+const CustomerSignupStyled = styled(MainContainer)`
   display: grid;
   justify-content: center;
   align-items: center;

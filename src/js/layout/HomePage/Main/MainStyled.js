@@ -6,8 +6,9 @@ const MainStyled = styled.main`
   grid-area: main;
   overflow: scroll;
   display: grid;
+  background: linear-gradient(0.25turn, green, #ebf8e1, #f69d3c);
+
   @media ${(props) => props.theme.screenSize.mobileL} {
-    background: linear-gradient(0.25turn, green, #ebf8e1, #f69d3c);
     /* grid-auto-flow: column; */
     grid-template-rows: 80vh;
     grid-auto-rows: 80vh;
@@ -15,7 +16,7 @@ const MainStyled = styled.main`
   justify-items: center;
   align-items: center;
   ${(props) => css`
-    background: linear-gradient(to right, ${props.theme.colors.teal}, ${props.theme.colors.yellow});
+    background: linear-gradient(to right, ${props.theme.colors.beige}, ${props.theme.colors.yellow});
   `}
 `
 

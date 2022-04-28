@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components"
-
 import Typing from "../../../components/typing/Typing"
 import SocialMediaIcons from "../../../components/socialMediaIcons/SocialMediaIcons"
 import screenSize from "../../../globals/screenSize"
@@ -20,10 +19,10 @@ const FooterStyled = styled.footer`
   align-items: center;
   justify-content: center;
 
-  @media ${screenSize.desktop} {
+  @media ${(props) => props.theme.screenSize.desktop} {
   }
 
-  @media ${screenSize.laptop} {
+  @media ${(props) => props.theme.screenSize.laptop} {
     /* border: 1px solid white; */
     grid-area: footer;
     height: 100%;
@@ -40,7 +39,7 @@ const FooterStyled = styled.footer`
       `}
   }
 
-  @media ${screenSize.mobileL} {
+  @media ${(props) => props.theme.screenSize.mobileL} {
     grid-area: footer;
     height: 100%;
     display: grid;
