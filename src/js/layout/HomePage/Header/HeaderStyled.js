@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components"
-import NavLink from "../../../components/ReactRouterDomLink/ReactRouterDomLink"
 import You from "../../../components/you/You"
 
 const HeaderStyled = styled.header`
@@ -50,28 +49,15 @@ export const MobileMenuIcon = styled.div`
   }
 `
 
-export const MenuDisplay = styled.div`
-  /* display:  */
-  position: fixed;
-  top: 10vh;
-  right: 0;
-  height: 10vh;
-  width: 25vw;
-  ${(props) => css`
-    background: linear-gradient(to right, ${props.theme.colors.yellow}, ${props.theme.colors.yellow});
-  `}
-`
-
-export const NavLinkStyled = styled(NavLink)`
-  /* padding: 4px 8px; */
-  text-align: center;
-  margin: auto 0;
-  font-weight: ${(p) => (p.isActive ? "bold" : "normal")};
-  color: ${(p) => (p.isActive ? "yellow" : "")};
-
-  /* @media ${(props) => props.theme.screenSize.mobileL} {
-    display: grid;
-  } */
-`
+// export const MenuDisplay = styled.div`
+//   position: fixed;
+//   top: 10vh;
+//   right: 0;
+//   height: 10vh;
+//   width: 25vw;
+//   ${(props) => css`
+//     background: linear-gradient(to right, ${props.theme.colors.yellow}, ${props.theme.colors.yellow});
+//   `}
+// `
 
 export default HeaderStyled

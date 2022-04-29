@@ -46,7 +46,6 @@ const HomePage = (props) => {
       <Header />
 
       <Main>
-        <button onClick={() => setDisplayMenu((d) => !d)}> Click to show modal</button>
         {/* <Hero></Hero> */}
         <Routes>
           <Route

@@ -1,14 +1,13 @@
 import React from "react"
 import { useState } from "react"
 
-import { useLocation } from "react-router-dom"
+// import { useLocation } from "react-router-dom"
 // Styled Components
 import HeaderStyled, { NavLinkStyled, MenuContainer, MobileMenuIcon, MenuDisplay } from "./HeaderStyled"
 // Components
-import Modal from "../Modal/Modal"
+import Modal from "../Modal/ModalOverlay"
 
 const Header = (props) => {
-  const { pathname } = useLocation()
   const [showMenu, setShowMenu] = useState(false)
 
   return (
@@ -17,8 +16,7 @@ const Header = (props) => {
         <Modal
           setShowMenu={() => {
             setShowMenu((d) => !d)
-          }}
-        />
+          }}></Modal>
       )}
       <div>
         <p>You</p>
@@ -31,32 +29,6 @@ const Header = (props) => {
           <div></div>
         </MobileMenuIcon>
       </MenuContainer>
-      {showMenu && (
-        <MenuDisplay>
-          <ul>
-            <li>
-              <NavLinkStyled to="/" isActive={pathname === "/"}>
-                Home
-              </NavLinkStyled>
-            </li>
-            <li>
-              <NavLinkStyled to="/signup" isActive={pathname === "/signup"}>
-                Signup
-              </NavLinkStyled>
-            </li>
-            <li>
-              <NavLinkStyled to="/counter" isActive={pathname === "/counter"}>
-                Counter
-              </NavLinkStyled>
-            </li>
-            <li>
-              <NavLinkStyled to="/addpostform" isActive={pathname === "/addpostform"}>
-                Add Post
-              </NavLinkStyled>
-            </li>
-          </ul>
-        </MenuDisplay>
-      )}
     </HeaderStyled>
   )
 }

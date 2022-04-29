@@ -6,6 +6,7 @@ react intersection observer
 react icons
 framer-motion
 react scroll
+styled-components
 
 #CSS
 ##current setup
