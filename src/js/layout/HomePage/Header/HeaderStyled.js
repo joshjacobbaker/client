@@ -21,9 +21,6 @@ const HeaderStyled = styled.header`
 export const YouStyled = styled(You)``
 
 export const MenuContainer = styled.div`
-  /* position: fixed; */
-  /* right: 0;
-  margin-right: 30px; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -33,14 +30,24 @@ export const MenuContainer = styled.div`
   height: 100%;
   max-height: 100%;
   width: 100%;
-  background: white;
+  background: none;
   right: 0;
 `
 
-export const MenuIcon = styled.i`
+export const MobileMenuIcon = styled.div`
+  margin: auto 0 auto auto;
+  width: 25px;
+  min-width: 25px;
+  padding: 10px;
   height: 5rem;
-  width: 5rem;
-  background: blue;
+  width: 100%;
+  background: none;
+  > div {
+    height: 3px;
+    background: black;
+    margin: 10px 0;
+    width: 100%;
+  }
 `
 
 export const MenuDisplay = styled.div`
@@ -48,9 +55,11 @@ export const MenuDisplay = styled.div`
   position: fixed;
   top: 10vh;
   right: 0;
-  height: 200px;
-  width: 50vw;
-  background: brown;
+  height: 10vh;
+  width: 25vw;
+  ${(props) => css`
+    background: linear-gradient(to right, ${props.theme.colors.yellow}, ${props.theme.colors.yellow});
+  `}
 `
 
 export const NavLinkStyled = styled(NavLink)`

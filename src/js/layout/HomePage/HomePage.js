@@ -9,6 +9,7 @@ import Footer from "./Footer/Footer"
 import Hero from "./Hero/Hero"
 import Right from "./Right/Right"
 import Main from "./Main/Main"
+// import Modal from "./Modal/Modal"
 
 // Route Components
 import Counter from "../../components/counter/Counter"
@@ -25,7 +26,17 @@ import CustomerSignup from "../../components/customerSignup/CustomerSignup"
 import theme from "../../hooks/UseTheme"
 
 const HomePage = (props) => {
-  const [number, setNumber] = useState(0)
+  const [displayMenu, setDisplayMenu] = useState(false)
+  const onClickDisplayMenuHandler = (e) => {
+    e.preventDefault()
+
+    if (e.target.id === "mobileMenuIcon") {
+      console.log("menu icon")
+    }
+
+    console.log(`Clicked Display Menu ${displayMenu}`)
+    setDisplayMenu((d) => !d)
+  }
 
   const onClickHandler = (e) => {
     props.setSwitchTheme((p) => !p)
@@ -33,7 +44,7 @@ const HomePage = (props) => {
   }
   return (
     <HomePageStyled>
-      <Header number={number} />
+      <Header />
 
       <Main>
         {/* <Hero></Hero> */}
@@ -71,6 +82,7 @@ const HomePage = (props) => {
       </Main>
 
       <Footer />
+      {/* <Modal /> */}
     </HomePageStyled>
   )
 }

@@ -26,17 +26,19 @@
 - ID selector smooth scroll animation
 - Id % 2 ? row : row-reverse
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
-- Add a staging branch and/or production branch before
 - Google analytics in website
 
 ### WIP
 
+- [ReactDOM/client]("https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25598560#overview")
+- Control Page state from Page Component via modals, menus, etc.
 - [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
 
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 ### Finished
 
+- Add a staging branch and/or production branch before... Dev branch
 - Remove ReactDOM and use createRoot
 - Linear-gradient Background
 - Scope all scss files to component with [name].module.scss
