@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom"
 // Styled Components
 import HeaderStyled, { NavLinkStyled, MenuContainer, MobileMenuIcon, MenuDisplay } from "./HeaderStyled"
 // Components
+import Modal from "../Modal/Modal"
 
 const Header = (props) => {
   const { pathname } = useLocation()
@@ -12,6 +13,13 @@ const Header = (props) => {
 
   return (
     <HeaderStyled>
+      {showMenu && (
+        <Modal
+          setShowMenu={() => {
+            setShowMenu((d) => !d)
+          }}
+        />
+      )}
       <div>
         <p>You</p>
       </div>

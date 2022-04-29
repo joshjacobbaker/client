@@ -1,9 +1,16 @@
-import * as ReactDOMClient from "react-dom/client"
+import react from "react"
+import ReactDOM from "react-dom"
 
 import ModalStyled from "./ModalStyled"
 
-const ModalOverlayStyled = () => {
-  return ReactDOMClient.createPortal(<ModalStyled />, document.getElementById("modal"))
+const ModalOverlayStyled = (props) => {
+  // return ReactDOM.createPortal(<ModalStyled />, document.getElementById("modal"))
+  return ReactDOM.createPortal(
+    <ModalStyled onClick={props.setShowMenu}>
+      <p>Modal</p>
+    </ModalStyled>,
+    document.getElementById("modal")
+  )
 }
 
 export default ModalOverlayStyled

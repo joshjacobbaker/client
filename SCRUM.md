@@ -30,7 +30,7 @@
 
 ### WIP
 
-- [ReactDOM/client]("https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25598560#overview")
+- [Modal styled components]("https://www.youtube.com/watch?v=d3aI1Dt0Z50")
 - Control Page state from Page Component via modals, menus, etc.
 - [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
 

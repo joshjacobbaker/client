@@ -9,7 +9,6 @@ import Footer from "./Footer/Footer"
 import Hero from "./Hero/Hero"
 import Right from "./Right/Right"
 import Main from "./Main/Main"
-// import Modal from "./Modal/Modal"
 
 // Route Components
 import Counter from "../../components/counter/Counter"
@@ -47,6 +46,7 @@ const HomePage = (props) => {
       <Header />
 
       <Main>
+        <button onClick={() => setDisplayMenu((d) => !d)}> Click to show modal</button>
         {/* <Hero></Hero> */}
         <Routes>
           <Route
@@ -80,9 +80,7 @@ const HomePage = (props) => {
         {/* <button onClick={onClickHandler}>Switch Theme? CLick me!</button> */}
         {/* <Right></Right> */}
       </Main>
-
       <Footer />
-      {/* <Modal /> */}
     </HomePageStyled>
   )
 }
