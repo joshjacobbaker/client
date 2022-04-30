@@ -5,7 +5,8 @@ import { useState } from "react"
 // Styled Components
 import HeaderStyled, { NavLinkStyled, MenuContainer, MobileMenuIcon, MenuDisplay } from "./HeaderStyled"
 // Components
-import Modal from "../Modal/ModalOverlay"
+import ModalBackdrop from "../Modal/ModalBackdrop"
+import ModalOverlay from "../Modal/ModalOverlay"
 
 const Header = (props) => {
   const [showMenu, setShowMenu] = useState(false)
@@ -13,10 +14,13 @@ const Header = (props) => {
   return (
     <HeaderStyled>
       {showMenu && (
-        <Modal
-          setShowMenu={() => {
-            setShowMenu((d) => !d)
-          }}></Modal>
+        <>
+          <ModalBackdrop
+            setShowMenu={() => {
+              setShowMenu((d) => !d)
+            }}></ModalBackdrop>
+          <ModalOverlay></ModalOverlay>
+        </>
       )}
       <div>
         <p>You</p>

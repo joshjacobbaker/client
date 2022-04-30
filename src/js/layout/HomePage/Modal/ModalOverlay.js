@@ -1,13 +1,13 @@
 import react from "react"
 import ReactDOM from "react-dom"
 import { useLocation } from "react-router-dom"
-import ModalStyled from "./ModalStyled"
-import NavLinkStyled from "../../../components/navLink/NavLinkStyled"
+import ModalOverlayStyled from "./ModalOverlayStyled"
+// import NavLinkStyled from "../../../components/navLink/NavLinkStyled"
 
 const ModalOverlay = (props) => {
   const { pathname } = useLocation()
-  // return ReactDOM.createPortal(<ModalStyled />, document.getElementById("modal"))
-  return ReactDOM.createPortal(<ModalStyled onClick={props.setShowMenu}></ModalStyled>, document.getElementById("modal"))
+  // return ReactDOM.createPortal(<ModalOverlayStyled />, document.getElementById("modal"))
+  return ReactDOM.createPortal(<ModalOverlayStyled></ModalOverlayStyled>, document.getElementById("modalOverlay"))
 }
 
 export default ModalOverlay
