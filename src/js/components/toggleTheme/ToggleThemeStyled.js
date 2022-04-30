@@ -1,3 +1,5 @@
+import styled from "styled-components"
+
 export const ToggleWrapper = styled.div`
   width: 50px;
   min-width: 50px;

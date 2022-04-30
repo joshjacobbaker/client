@@ -1,10 +1,11 @@
 import React from "react"
+import YouStyled from "./YouStyled"
 
 const You = () => {
   return (
-    <div className="you">
-      <i className="fa">Y.O.U. Salon</i>
-    </div>
+    <YouStyled>
+      <i className="fa">Y.O.U.</i>
+    </YouStyled>
   )
 }
 

@@ -27,6 +27,7 @@
 - Id % 2 ? row : row-reverse
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
 - Google analytics in website
+- Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
 
 ### WIP
 
