@@ -45,7 +45,13 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto
+}
+
+/* Anchor Tag Default Styling */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Make images easier to work with */

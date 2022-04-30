@@ -10,18 +10,25 @@ const ModalStyled = styled.div`
   transform: translateX(-50%) translateY(-50%);
   height: 65vh;
   width: 70vw;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   z-index: 2;
-  color: white;
+  /* color: white; */
 
   > ul {
-    height: 50vh;
-    width: 50vw;
     display: grid;
-    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
+    height: 65vh;
+    width: 70vw;
 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color: white;
+    > li {
+      display: grid;
+      justify-content: center;
+      border: 10px solid black;
+      background-color: white;
+      justify-items: center;
+      font-size: 2rem;
+    }
   }
 `
 
