@@ -44,7 +44,7 @@ const FooterStyled = styled.footer`
     height: 100%;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
     ${(props) => css`

@@ -7,6 +7,8 @@ const ModalStyled = styled.div`
   position: fixed;
   top: 50%;
   left: 50%;
+  /* right: 0;
+  bottom: 0; */
   transform: translateX(-50%) translateY(-50%);
   height: 65vh;
   width: 70vw;

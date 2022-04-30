@@ -1,16 +1,18 @@
-// @media (max-width: 960px) @media (max-width: 550px)
+import styled, { css, keyframes } from "styled-components"
 
-.typing-body {
+const TypingBodyStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-}
+`
+
+const TypingTextStyled = styled.div``
 
 .typing.animate {
   width: 21ch;
   border-right: 0.1em solid black;
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 2rem;
   animation: type 2.5s steps(21) forwards, writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
   overflow: hidden;
   white-space: nowrap;
@@ -22,16 +24,15 @@
   animation: type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
 }
 
-@keyframes type {
-  from {
+const type = keyframes`
+    from {
     width: 0;
   }
   to {
     width: 21ch;
   }
-}
-
-@keyframes type2 {
+`
+const type2 = keyframes`
   from {
     width: 16ch;
     content: "Hello, Welcome to YOU.";
@@ -40,9 +41,8 @@
     width: 22ch;
     content: "Hello, Welcome to YOU.";
   }
-}
-
-@keyframes type3 {
+`
+const type3 = keyframes`
   from {
     width: 22ch;
     content: "Hello, Welcome to YOU. Where YOU matter.";
@@ -51,19 +51,19 @@
     width: 40ch;
     content: "Hello, Welcome to YOU. Where YOU matter.";
   }
-}
+`
 
-@keyframes writer {
+const writer = keyframes`
   50% {
     border-color: transparent;
   }
-}
+`
 
-@keyframes delete {
+const delete = keyframes`
   from {
     width: 21ch;
   }
   to {
     width: 16ch;
   }
-}
+`

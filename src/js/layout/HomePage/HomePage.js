@@ -20,6 +20,7 @@ import UsersList from "../../components/users/UsersList"
 import UserPage from "../../components/users/UserPage"
 import Card from "../../components/card/Card"
 import CustomerSignup from "../../components/customerSignup/CustomerSignup"
+import Typing from "../../components/typing/Typing"
 
 // Theme
 import theme from "../../hooks/UseTheme"
@@ -57,6 +58,7 @@ const HomePage = (props) => {
               </>
             }
           />
+          <Route path="/" element={<Typing />} />
           <Route path="counter" element={<Counter />} />
           <Route path="postslist" element={<PostsList />} />
           <Route path="addpostform" element={<AddPostForm />} />
