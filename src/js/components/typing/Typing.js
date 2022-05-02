@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useRef } from "react"
+import { motion } from "framer-motion"
+
+// import TypingStyled from "./TypingStyled"
 
 const Typing = () => {
   const typingElement = useRef(null)
@@ -10,9 +13,10 @@ const Typing = () => {
   }
 
   return (
-    <div className="typing-body">
+    // <TypingStyled />
+    <motion.div drag className="typing-body">
       <div onClick={onClickHandler} ref={typingElement} className="typing animate"></div>
-    </div>
+    </motion.div>
   )
 }
 

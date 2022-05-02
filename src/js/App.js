@@ -7,16 +7,17 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 // Global Styles
 import GlobalStyled from "./globals/GlobalStyled"
 import themeStyled from "./globals/themeStyled"
-import theme from "./hooks/UseTheme"
+// import theme from "./hooks/UseTheme"
 // Pages Components
 import HomePage from "./layout/HomePage/HomePage"
 import AdminPage from "./layout/AdminPage/AdminPage"
 
-const currentTheme = theme === "light" ? themeStyled.baseTheme : themeStyled.darkTheme
+// const currentTheme = theme === "light" ? themeStyled.baseTheme : themeStyled.darkTheme
 
 const App = () => {
+  const [theme, setTheme] = useState(themeStyled.baseTheme)
   return (
-    <ThemeProvider theme={currentTheme}>
+    <ThemeProvider theme={theme}>
       <GlobalStyled />
       <HashRouter>
         <Routes>

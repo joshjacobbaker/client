@@ -17,6 +17,7 @@
 - Modal
 - Header Sticky at top of page
 - Sidedrawer
+- React Router in each component?
 
 # Admin Features:
 

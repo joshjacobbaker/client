@@ -5,6 +5,7 @@ import sectionSizes from "./sectionSizes"
 // Define our `fg` and `bg` on the theme
 const theme = {
   baseTheme: {
+    id: "baseTheme",
     fg: "palevioletred",
     bg: "white",
     color: "orange",
@@ -15,6 +16,7 @@ const theme = {
   },
 
   darkTheme: {
+    id: "darkTheme",
     fg: "white",
     bg: "palevioletred",
     color: "purple",

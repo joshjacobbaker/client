@@ -23,25 +23,9 @@ import CustomerSignup from "../../components/customerSignup/CustomerSignup"
 import Typing from "../../components/typing/Typing"
 
 // Theme
-import theme from "../../hooks/UseTheme"
+// import theme from "../../hooks/UseTheme"
 
 const HomePage = (props) => {
-  const [displayMenu, setDisplayMenu] = useState(false)
-  const onClickDisplayMenuHandler = (e) => {
-    e.preventDefault()
-
-    if (e.target.id === "mobileMenuIcon") {
-      console.log("menu icon")
-    }
-
-    console.log(`Clicked Display Menu ${displayMenu}`)
-    setDisplayMenu((d) => !d)
-  }
-
-  const onClickHandler = (e) => {
-    props.setSwitchTheme((p) => !p)
-    console.log("theme button clicked")
-  }
   return (
     <HomePageStyled>
       <Header />

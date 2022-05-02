@@ -6,14 +6,13 @@ const TypingBodyStyled = styled.div`
   align-items: center;
 `
 
-const TypingTextStyled = styled.div``
-
+const TypingTextStyled = styled.div`
 .typing.animate {
   width: 21ch;
   border-right: 0.1em solid black;
   font-family: monospace;
   font-size: 2rem;
-  animation: type 2.5s steps(21) forwards, writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
+  animation: ${type} 2.5s steps(21) forwards, ${writer} 1s infinite alternate, ${delete} 0.5s steps(5) 2.5s, ${type2} 1s steps(6) 3s forwards, ${type3} 3s steps(18, end) 6s forwards;
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
@@ -23,6 +22,9 @@ const TypingTextStyled = styled.div``
   content: "Hello, welcome to YOU.";
   animation: type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
 }
+`
+
+export default TypingTextStyled
 
 const type = keyframes`
     from {

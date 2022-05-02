@@ -11,6 +11,7 @@
 - Autoprefixer
 - VH & VW for screen proportionality
 - Typing CSS feature... React Component, Styling, Media Queries for small, medium, large screens
+- Typing animation on multiple lines
 - Stylists Carousel... Need to integrate it into react, Clickable, selectable, and media queried
 - Photo Shoot Slider... Add images, update dimensions in media queries
 - Admin Page
@@ -20,7 +21,7 @@
 - Swap Fontawesome with more performant SVG replacement from iconify.design
 - react context
 - jsconfig.json for relative routes
-- [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
+
 - react-spring animations
 - Global Next.js Header Component
 - ID selector smooth scroll animation
@@ -28,17 +29,20 @@
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
 - Google analytics in website
 - Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
+- CSS pointer over clickable Modal's, buttons, etc.
+- const inputRef = useRef() inputRef.current.focus()
 
 ### WIP
 
-- [Modal styled components]("https://www.youtube.com/watch?v=d3aI1Dt0Z50")
-- Control Page state from Page Component via modals, menus, etc.
+- [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
 - [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
 
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 ### Finished
 
+- [Modal styled components]("https://www.youtube.com/watch?v=d3aI1Dt0Z50")
+- Control Page state from Page Component via modals, menus, etc.
 - Add a staging branch and/or production branch before... Dev branch
 - Remove ReactDOM and use createRoot
 - Linear-gradient Background
