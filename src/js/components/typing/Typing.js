@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react"
-import { motion } from "framer-motion"
-
 // import TypingStyled from "./TypingStyled"
+import { motion } from "framer-motion"
 
 const Typing = () => {
   const typingElement = useRef(null)

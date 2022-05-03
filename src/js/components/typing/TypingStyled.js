@@ -1,12 +1,13 @@
 import styled, { css, keyframes } from "styled-components"
+import { motion } from "framer-motion"
 
-const TypingBodyStyled = styled.div`
+const TypingBodyStyled = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
 `
 
-const TypingTextStyled = styled.div`
+const TypingTextStyled = styled(motion.div)`
 .typing.animate {
   width: 21ch;
   border-right: 0.1em solid black;
@@ -20,8 +21,9 @@ const TypingTextStyled = styled.div`
 
 .typing.animate::before {
   content: "Hello, welcome to YOU.";
-  animation: type2 1s steps(6) 3s forwards, type3 3s steps(18, end) 6s forwards;
+  animation: ${type2} 1s steps(6) 3s forwards, ${type3} 3s steps(18, end) 6s forwards;
 }
+
 `
 
 export default TypingTextStyled

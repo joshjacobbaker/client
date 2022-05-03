@@ -21,7 +21,7 @@
 - Swap Fontawesome with more performant SVG replacement from iconify.design
 - react context
 - jsconfig.json for relative routes
-
+- Hamburger Menu Animation
 - react-spring animations
 - Global Next.js Header Component
 - ID selector smooth scroll animation
@@ -31,6 +31,11 @@
 - Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
 - CSS pointer over clickable Modal's, buttons, etc.
 - const inputRef = useRef() inputRef.current.focus()
+- Toggle Theme animation
+- Animations from page to page transition
+- Restructure Project folders: pages -> Chapters and Pages
+- Add more menu modal items in the list
+- Work on Media Queries--different screensizes
 
 ### WIP
 
