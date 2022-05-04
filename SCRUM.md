@@ -4,6 +4,16 @@
 
 ### Backlog
 
+- [UseRef Scroll to window]("https://www.youtube.com/watch?v=oszUqCqTGHo")
+- [Framer Motion Slider Animation]("https://youtu.be/W0bEL93tt4k")
+- AnimatePresence around application for page transitions--exitbeforeenter, initial={false}
+- Resize Observer
+- Lazy load intersection observer API
+- on scroll animation IntersectionObserver API... Root Option parameter for scrolling component
+- Cool grid abstract section to showcase graphics, etc.
+- Iterate over data to display multiple components within a section
+- <a href="#blog">Blog</a> To smooth scroll to sections
+- React Icons
 - React Router Transitions
 - React-Spring
 - Grid Layout
