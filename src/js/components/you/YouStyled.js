@@ -30,6 +30,7 @@ const YouStyled = styled.div`
   padding: 11px 19px;
   animation: ${youAnimate} 3s linear infinite;
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+  overflow-x: hidden;
 `
 
 export default YouStyled

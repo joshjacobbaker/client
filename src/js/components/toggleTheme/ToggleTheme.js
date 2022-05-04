@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useContext } from "react"
 import { ToggleWrapper, Notch } from "./ToggleThemeStyled"
+import ToggleThemeContext from "../../context/ToggleThemeContext"
 
-const Toggle = ({ isActive, onToggle }) => {
+const Toggle = () => {
+  const { toggleThemeHandler, toggleActive } = useContext(ToggleThemeContext)
   return (
-    <ToggleWrapper onClick={onToggle}>
-      <Notch isActive={isActive} />
+    <ToggleWrapper onClick={toggleThemeHandler}>
+      <Notch isActive={toggleActive} />
     </ToggleWrapper>
   )
 }

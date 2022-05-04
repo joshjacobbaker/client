@@ -3,7 +3,11 @@
 [Youtube Tutorial]("https://www.youtube.com/watch?v=JsX_iCZPyOM")
 
 ### Backlog
-
+- Background image of Stylists
+- Replace all non Nav HTML Element for Navigation sections
+- [Framer Motion Hooks & MicroInteractions]("https://www.youtube.com/watch?v=WQv5sDRJaqY")
+- [AnimateSharedLayout layoutId Framer Motion Matt Perry]("https://www.youtube.com/watch?v=L_pmBi3m5X0")
+- [useInView, useAnimation, useEffect]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [UseRef Scroll to window]("https://www.youtube.com/watch?v=oszUqCqTGHo")
 - [Framer Motion Slider Animation]("https://youtu.be/W0bEL93tt4k")
 - AnimatePresence around application for page transitions--exitbeforeenter, initial={false}

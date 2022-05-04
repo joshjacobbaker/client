@@ -11,8 +11,12 @@ import ModalOverlay from "../Modal/ModalOverlay"
 import You from "../../../components/you/You"
 import ThemeToggle from "../../../components/toggleTheme/ToggleTheme"
 
+// Context
+// import ToggleThemeContext from "../../../context/ToggleThemeContext"
+
 const Header = (props) => {
   const [showMenu, setShowMenu] = useState(false)
+
   // const [theme, setTheme] = useContext(ThemeContext)
 
   return (
