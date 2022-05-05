@@ -11,13 +11,15 @@ const HeaderStyled = styled.header`
     grid-template-columns: 1fr 1fr;
     justify-items: space-between;
     align-items: center;
-    ${(props) => css`
-      background: linear-gradient(to right, ${props.theme.colors.teal}, ${props.theme.colors.yellow});
+    ${({ theme }) => css`
+      background: ${theme.backgroundColor};
     `}
   }
 `
 
-export const YouStyled = styled(You)``
+export const YouStyled = styled(You)`
+  background: green;
+`
 
 export const MenuContainer = styled.div`
   display: grid;

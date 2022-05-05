@@ -1,4 +1,5 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
+import { motion } from "framer-motion"
 
 export const ToggleWrapper = styled.div`
   width: 50px;
@@ -8,7 +9,9 @@ export const ToggleWrapper = styled.div`
   border: 1px solid #666;
   margin: auto;
   display: flex;
-  background-image: linear-gradient(to bottom, blue, red);
+  ${({ theme }) => css`
+    background: ${theme.backgroundColor};
+  `}
 `
 
 export const Notch = styled.div`
@@ -19,5 +22,5 @@ export const Notch = styled.div`
   background: white;
   border-radius: 50%;
   transition: transform 0.1s linear;
-  transform: translate(${(p) => (p.isActive ? "26px" : "1px")});
+  transform: translate(${(p) => (p.toggleTheme === "light" ? "26px" : "1px")});
 `

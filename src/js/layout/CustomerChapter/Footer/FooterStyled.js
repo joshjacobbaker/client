@@ -6,10 +6,9 @@ import screenSize from "../../../globals/screenSize"
 const FooterStyled = styled.footer`
   width: 100vw;
   /* border: 1px solid white; */
-  /* background: ${(props) => props.theme.primary} */
-  ${(props) =>
+  ${({ theme }) =>
     css`
-      background: linear-gradient(red, ${props.theme.color});
+      background: ${theme.backgroundColor};
     `}
   grid-area: footer;
   height: 100%;
@@ -32,11 +31,6 @@ const FooterStyled = styled.footer`
     /* background: black; */
     align-items: center;
     justify-items: center;
-    ${(props) =>
-      props.color &&
-      css`
-        background-color: ${(props) => props.theme[props.color]};
-      `}
   }
 
   @media ${(props) => props.theme.screenSize.mobileL} {
@@ -47,9 +41,6 @@ const FooterStyled = styled.footer`
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
-    ${(props) => css`
-      background: linear-gradient(to right, ${props.theme.colors.teal}, ${props.theme.colors.yellow});
-    `}
   }
 `
 

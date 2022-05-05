@@ -1,22 +1,34 @@
-import { createContext, useState } from "react"
+import { createContext, useState, useEffect } from "react"
 import { ThemeProvider } from "styled-components"
-import theme from "../globals/themeContextStyled"
+import theme from "../globals/themeStyled"
 import GlobalStyled from "../../js/globals/GlobalStyled"
 
 const ToggleThemeContext = createContext()
 
 export function ToggleThemeProvider({ children }) {
-  const [toggleActive, setToggleActive] = useState(false)
+  useEffect(() => {
+    const localStorageTheme = window.localStorage.getItem("theme")
+    setToggleTheme(localStorageTheme || "light")
+  }, [])
+
+  const [toggleTheme, setToggleTheme] = useState("light")
 
   const toggleThemeHandler = () => {
-    setToggleActive((prevState) => !prevState)
-    console.log("clicked")
+    if (toggleTheme === "light") {
+      setToggleTheme("dark")
+      window.localStorage.setItem("theme", "dark")
+      console.log(toggleTheme)
+    } else {
+      setToggleTheme("light")
+      window.localStorage.setItem("theme", "light")
+      console.log(toggleTheme)
+    }
   }
 
   return (
-    <ToggleThemeContext.Provider value={{ item: 1, toggleThemeHandler, toggleActive }}>
+    <ToggleThemeContext.Provider value={{ item: 1, toggleThemeHandler, toggleTheme }}>
       <GlobalStyled />
-      <ThemeProvider theme={toggleActive ? theme.baseTheme : theme.darkTheme}>{children}</ThemeProvider>
+      <ThemeProvider theme={toggleTheme === "light" ? theme.baseTheme : theme.darkTheme}>{children}</ThemeProvider>
     </ToggleThemeContext.Provider>
   )
 }

@@ -3,10 +3,10 @@ import { ToggleWrapper, Notch } from "./ToggleThemeStyled"
 import ToggleThemeContext from "../../context/ToggleThemeContext"
 
 const Toggle = () => {
-  const { toggleThemeHandler, toggleActive } = useContext(ToggleThemeContext)
+  const { toggleThemeHandler, toggleTheme } = useContext(ToggleThemeContext)
   return (
     <ToggleWrapper onClick={toggleThemeHandler}>
-      <Notch isActive={toggleActive} />
+      <Notch toggleTheme={toggleTheme} />
     </ToggleWrapper>
   )
 }

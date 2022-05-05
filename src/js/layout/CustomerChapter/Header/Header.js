@@ -1,14 +1,15 @@
 import React from "react"
 import { useState, useContext } from "react"
 import { ThemeContext } from "styled-components"
+import { AnimatePresence } from "framer-motion"
 // import { useLocation } from "react-router-dom"
 // Styled Components
-import HeaderStyled, { NavLinkStyled, MenuContainer, MobileMenuIcon, MenuDisplay } from "./HeaderStyled"
+import HeaderStyled, { NavLinkStyled, MenuContainer, MobileMenuIcon, MenuDisplay, YouStyled } from "./HeaderStyled"
 // Modal Components
-import ModalBackdrop from "../Modal/ModalBackdrop"
-import ModalOverlay from "../Modal/ModalOverlay"
+import ModalBackdrop from "../Modal/ModalMenu/ModalBackdrop"
+import ModalOverlay from "../Modal/ModalMenu/ModalOverlay"
 // Components
-import You from "../../../components/you/You"
+// import You from "../../../components/you/You"
 import ThemeToggle from "../../../components/toggleTheme/ToggleTheme"
 
 // Context
@@ -21,17 +22,21 @@ const Header = (props) => {
 
   return (
     <HeaderStyled>
-      {showMenu && (
-        <>
-          <ModalBackdrop
-            setShowMenu={() => {
-              setShowMenu((d) => !d)
-            }}></ModalBackdrop>
-          <ModalOverlay></ModalOverlay>
-        </>
-      )}
+      <AnimatePresence>
+        {showMenu && (
+          <>
+            <ModalBackdrop
+              key="modalbackdrop"
+              setShowMenu={() => {
+                setShowMenu((d) => !d)
+              }}></ModalBackdrop>
+
+            <ModalOverlay key="modaloverlay"></ModalOverlay>
+          </>
+        )}
+      </AnimatePresence>
       <div>
-        <You />
+        <YouStyled />
       </div>
       {/* isActive={theme.id === "darkTheme"} onToggle={setTheme} */}
       <MenuContainer>

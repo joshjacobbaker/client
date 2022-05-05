@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- Framer Motion Variants
 - Background image of Stylists
 - Replace all non Nav HTML Element for Navigation sections
 - [Framer Motion Hooks & MicroInteractions]("https://www.youtube.com/watch?v=WQv5sDRJaqY")
@@ -46,9 +47,7 @@
 - Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
 - CSS pointer over clickable Modal's, buttons, etc.
 - const inputRef = useRef() inputRef.current.focus()
-- Toggle Theme animation
-- Animations from page to page transition
-- Restructure Project folders: pages -> Chapters and Pages
+
 - Add more menu modal items in the list
 - Work on Media Queries--different screensizes
 
@@ -61,6 +60,9 @@
 
 ### Finished
 
+- Animations from page to page transition
+- Restructure Project folders: pages -> Chapters and Pages
+- Toggle Theme animation
 - [Modal styled components]("https://www.youtube.com/watch?v=d3aI1Dt0Z50")
 - Control Page state from Page Component via modals, menus, etc.
 - Add a staging branch and/or production branch before... Dev branch

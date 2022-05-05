@@ -2,7 +2,7 @@ import react from "react"
 import ReactDOM from "react-dom"
 import { useLocation } from "react-router-dom"
 import ModalOverlayStyled from "./ModalOverlayStyled"
-import NavLinkStyled from "../../../components/navLink/NavLinkStyled"
+import NavLinkStyled from "../../../../components/navLink/NavLinkStyled"
 import { AnimatePresence } from "framer-motion"
 
 const ModalOverlay = (props) => {

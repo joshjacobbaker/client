@@ -17,7 +17,7 @@ const App = () => {
   // const location = useLocation()
   return (
     <ToggleThemeProvider>
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence initial={false} exitBeforeEnter>
         <BrowserRouter>
           <Routes>
             <Route path="/*" element={<CustomerChapter />} />

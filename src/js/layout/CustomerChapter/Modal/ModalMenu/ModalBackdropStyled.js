@@ -1,6 +1,7 @@
 import styled from "styled-components"
+import { motion } from "framer-motion"
 
-const ModalStyled = styled.div`
+const ModalStyled = styled(motion.div)`
   display: grid;
   justify-items: center;
   align-items: center;
