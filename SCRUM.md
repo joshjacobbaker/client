@@ -3,6 +3,7 @@
 [Youtube Tutorial]("https://www.youtube.com/watch?v=JsX_iCZPyOM")
 
 ### Backlog
+
 - Background image of Stylists
 - Replace all non Nav HTML Element for Navigation sections
 - [Framer Motion Hooks & MicroInteractions]("https://www.youtube.com/watch?v=WQv5sDRJaqY")

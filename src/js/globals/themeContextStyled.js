@@ -6,10 +6,10 @@ import sectionSizes from "./sectionSizes"
 const theme = {
   baseTheme: {
     id: "baseTheme",
-    fg: "palevioletred",
-    bg: "white",
-    color: "orange",
-    backgroundColor: "orange",
+    fg: "#16A34A",
+    bg: "#15803D",
+    color: "#166534",
+    backgroundColor: "linear-gradient(to right, green, yellow)",
     screenSize,
     colors,
     sectionSizes,
@@ -17,10 +17,10 @@ const theme = {
 
   darkTheme: {
     id: "darkTheme",
-    fg: "white",
-    bg: "palevioletred",
-    color: "purple",
-    backgroundColor: "green",
+    fg: "#8E8268",
+    bg: "#474853",
+    color: "#AAA0A0",
+    backgroundColor: "linear-gradient(to right, #86B3D1, #844D36)",
     screenSize,
     colors,
     sectionSizes,

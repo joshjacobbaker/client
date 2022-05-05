@@ -93,7 +93,7 @@ export const MainContainer = styled.div`
     height: 80vh;
   }
   width: 100%;
-  background: linear-gradient(to bottom, blue, white);
+  background: ${(props) => props.theme.backgroundColor};
 `
 
 export const HeaderContainer = styled.header`

@@ -1,27 +1,22 @@
 import React, { useState } from "react"
-// Context
-import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
-// import { ThemeProvider } from "styled-components"
+
 // Router
 import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 
 // Global Styles
-import GlobalStyled from "./globals/GlobalStyled"
-// import themeStyled from "./globals/themeContextStyled"
-// import theme from "./hooks/UseTheme"
+import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
 
 // Pages Components
-import HomePage from "./layout/HomePage/HomePage"
-import AdminPage from "./layout/AdminPage/AdminPage"
+import CustomerChapter from "./layout/CustomerChapter/CustomerChapter"
+import EmployeeChapter from "./layout/EmployeeChapter/EmployeeChapter"
 
 const App = () => {
   return (
     <ToggleThemeProvider>
-      <GlobalStyled />
       <HashRouter>
         <Routes>
-          <Route path="/*" element={<HomePage />} />
-          <Route exact path="/admin" element={<AdminPage />} />
+          <Route path="/*" element={<CustomerChapter />} />
+          <Route exact path="/admin" element={<EmployeeChapter />} />
         </Routes>
       </HashRouter>
     </ToggleThemeProvider>

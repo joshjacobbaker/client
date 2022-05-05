@@ -1,6 +1,8 @@
 import { createContext, useState } from "react"
 import { ThemeProvider } from "styled-components"
 import theme from "../globals/themeContextStyled"
+import GlobalStyled from "../../js/globals/GlobalStyled"
+
 const ToggleThemeContext = createContext()
 
 export function ToggleThemeProvider({ children }) {
@@ -13,6 +15,7 @@ export function ToggleThemeProvider({ children }) {
 
   return (
     <ToggleThemeContext.Provider value={{ item: 1, toggleThemeHandler, toggleActive }}>
+      <GlobalStyled />
       <ThemeProvider theme={toggleActive ? theme.baseTheme : theme.darkTheme}>{children}</ThemeProvider>
     </ToggleThemeContext.Provider>
   )
