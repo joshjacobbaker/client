@@ -1,7 +1,10 @@
 import React, { useState } from "react"
 
+// Framer Motion
+import { motion, AnimatePresence } from "framer-motion"
+
 // Router
-import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
+import { BrowserRouter, Routes, Route, Redirect, Outlet, useLocation, Switch } from "react-router-dom"
 
 // Global Styles
 import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
@@ -9,16 +12,19 @@ import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
 // Pages Components
 import CustomerChapter from "./layout/CustomerChapter/CustomerChapter"
 import EmployeeChapter from "./layout/EmployeeChapter/EmployeeChapter"
-
+// initial={false} exitBeforeEnter
 const App = () => {
+  // const location = useLocation()
   return (
     <ToggleThemeProvider>
-      <HashRouter>
-        <Routes>
-          <Route path="/*" element={<CustomerChapter />} />
-          <Route exact path="/admin" element={<EmployeeChapter />} />
-        </Routes>
-      </HashRouter>
+      <AnimatePresence exitBeforeEnter>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/*" element={<CustomerChapter />} />
+            <Route exact path="/admin" element={<EmployeeChapter />} />
+          </Routes>
+        </BrowserRouter>
+      </AnimatePresence>
     </ToggleThemeProvider>
   )
 }

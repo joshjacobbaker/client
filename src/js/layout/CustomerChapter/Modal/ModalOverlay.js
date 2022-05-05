@@ -3,12 +3,13 @@ import ReactDOM from "react-dom"
 import { useLocation } from "react-router-dom"
 import ModalOverlayStyled from "./ModalOverlayStyled"
 import NavLinkStyled from "../../../components/navLink/NavLinkStyled"
+import { AnimatePresence } from "framer-motion"
 
 const ModalOverlay = (props) => {
   const { pathname } = useLocation()
   // return ReactDOM.createPortal(<ModalOverlayStyled />, document.getElementById("modal"))
   return ReactDOM.createPortal(
-    <ModalOverlayStyled>
+    <ModalOverlayStyled key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 2 }}>
       <ul>
         <li>
           <NavLinkStyled to="/">Route /</NavLinkStyled>

@@ -12,6 +12,7 @@ import Main from "./Main/Main"
 
 // Pages
 import HomePage from "../CustomerChapter/pages/HomePage"
+import SecondPage from "../CustomerChapter/pages/SecondPage"
 
 // Theme
 // import theme from "../../hooks/UseTheme"
@@ -24,6 +25,8 @@ const CustomerChapter = (props) => {
       <Main>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/counter" element={<SecondPage />} />
+          <Route path="/addpostform" element={<SecondPage />} />
         </Routes>
 
         <Outlet />
