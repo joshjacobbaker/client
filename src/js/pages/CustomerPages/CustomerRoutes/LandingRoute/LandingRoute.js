@@ -13,7 +13,12 @@ const LandingRoute = () => {
   return (
     <LandingRouteStyled>
       <Header></Header>
-      <Main></Main>
+      <Main>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+      </Main>
       <Footer></Footer>
     </LandingRouteStyled>
   )

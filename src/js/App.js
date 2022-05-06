@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route, Redirect, Outlet, useLocation, Switch } f
 import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
 
 // Pages Components
-import CustomerPages from "./pages/CustomerPages/CustomerPages"
+import CustomerPages from "./pages/CustomerPages/CustomerPage/CustomerPage"
 import EmployeePages from "./pages/EmployeePages/EmployeePages"
 // initial={false} exitBeforeEnter
 const App = () => {
