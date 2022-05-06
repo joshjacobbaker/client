@@ -47,6 +47,7 @@
 - Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
 - CSS pointer over clickable Modal's, buttons, etc.
 - const inputRef = useRef() inputRef.current.focus()
+- Update CICD pipeline, expired key?
 
 - Add more menu modal items in the list
 - Work on Media Queries--different screensizes

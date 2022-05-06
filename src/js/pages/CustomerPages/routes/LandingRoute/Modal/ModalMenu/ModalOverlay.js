@@ -2,7 +2,7 @@ import react from "react"
 import ReactDOM from "react-dom"
 import { useLocation } from "react-router-dom"
 import ModalOverlayStyled from "./ModalOverlayStyled"
-import NavLinkStyled from "../../../../components/navLink/NavLinkStyled"
+import NavLinkStyled from "../../../../../../components/navLink/NavLink"
 import { AnimatePresence } from "framer-motion"
 
 const ModalOverlay = (props) => {
@@ -15,7 +15,7 @@ const ModalOverlay = (props) => {
           <NavLinkStyled to="/">Route /</NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="/counter">Route /counter</NavLinkStyled>
+          <NavLinkStyled to="/yo">Route /counter</NavLinkStyled>
         </li>
         <li>
           <NavLinkStyled to="/addpostform">Route /addpostform</NavLinkStyled>

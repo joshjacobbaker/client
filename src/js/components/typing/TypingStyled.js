@@ -2,7 +2,7 @@ import styled, { css, keyframes } from "styled-components"
 import { motion } from "framer-motion"
 
 const TypingBodyStyled = styled(motion.div)`
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 `

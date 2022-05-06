@@ -12,7 +12,6 @@ const Typing = () => {
   }
 
   return (
-    // <TypingStyled />
     <motion.div drag className="typing-body">
       <div onClick={onClickHandler} ref={typingElement} className="typing animate"></div>
     </motion.div>

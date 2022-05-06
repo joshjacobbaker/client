@@ -9,16 +9,13 @@ import HeaderStyled, { NavLinkStyled, MenuContainer, MobileMenuIcon, MenuDisplay
 import ModalBackdrop from "../Modal/ModalMenu/ModalBackdrop"
 import ModalOverlay from "../Modal/ModalMenu/ModalOverlay"
 // Components
-// import You from "../../../components/you/You"
-import ThemeToggle from "../../../components/toggleTheme/ToggleTheme"
+import ThemeToggle from "../../../../../components/toggleTheme/ToggleTheme"
+import You from "../../../../../../js/components/you/You"
 
 // Context
-// import ToggleThemeContext from "../../../context/ToggleThemeContext"
 
 const Header = (props) => {
   const [showMenu, setShowMenu] = useState(false)
-
-  // const [theme, setTheme] = useContext(ThemeContext)
 
   return (
     <HeaderStyled>
@@ -36,7 +33,7 @@ const Header = (props) => {
         )}
       </AnimatePresence>
       <div>
-        <YouStyled />
+        <You />
       </div>
       {/* isActive={theme.id === "darkTheme"} onToggle={setTheme} */}
       <MenuContainer>

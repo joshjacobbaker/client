@@ -10,8 +10,8 @@ import { BrowserRouter, Routes, Route, Redirect, Outlet, useLocation, Switch } f
 import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
 
 // Pages Components
-import CustomerChapter from "./layout/CustomerChapter/CustomerChapter"
-import EmployeeChapter from "./layout/EmployeeChapter/EmployeeChapter"
+import CustomerPages from "./pages/CustomerPages/CustomerPages"
+import EmployeePages from "./pages/EmployeePages/EmployeePages"
 // initial={false} exitBeforeEnter
 const App = () => {
   // const location = useLocation()
@@ -20,9 +20,10 @@ const App = () => {
       <AnimatePresence initial={false} exitBeforeEnter>
         <BrowserRouter>
           <Routes>
-            <Route path="/*" element={<CustomerChapter />} />
-            <Route exact path="/admin" element={<EmployeeChapter />} />
+            <Route path="/*" element={<CustomerPages />} />
+            <Route exact path="/admin" element={<EmployeePages />} />
           </Routes>
+          <Outlet></Outlet>
         </BrowserRouter>
       </AnimatePresence>
     </ToggleThemeProvider>

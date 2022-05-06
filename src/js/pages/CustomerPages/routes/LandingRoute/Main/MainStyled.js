@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components"
+import { motion } from "framer-motion"
 
-const MainStyled = styled.main`
+const MainStyled = styled(motion.main)`
   width: 100vw;
   /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
   grid-area: main;

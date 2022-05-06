@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
-import Typing from "../../../components/typing/Typing"
-import SocialMediaIcons from "../../../components/socialMediaIcons/SocialMediaIcons"
-import screenSize from "../../../globals/screenSize"
+import Typing from "../../../../../components/typing/Typing"
+import SocialMediaIcons from "../../../../../components/socialMediaIcons/SocialMediaIcons"
+import screenSize from "../../../../../globals/screenSize"
 
 const FooterStyled = styled.footer`
   width: 100vw;

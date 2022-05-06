@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import You from "../../../components/you/You"
+// import You from "../../../components/you/You"
 
 const HeaderStyled = styled.header`
   display: grid;
@@ -17,9 +17,9 @@ const HeaderStyled = styled.header`
   }
 `
 
-export const YouStyled = styled(You)`
+/* export const YouStyled = styled(You)`
   background: green;
-`
+` */
 
 export const MenuContainer = styled.div`
   display: grid;
