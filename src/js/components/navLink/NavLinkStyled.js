@@ -2,9 +2,9 @@ import styled from "styled-components"
 import NavLink from "./NavLink"
 
 const NavLinkStyled = styled(NavLink)`
-  /* padding: 4px 8px; */
+  margin: 0;
+  padding: 0;
   text-align: center;
-  margin: auto 0;
   font-weight: ${(p) => (p.isActive ? "bold" : "normal")};
   color: ${(p) => (p.isActive ? "yellow" : "")};
 

@@ -15,10 +15,13 @@ const CustomerPageModalOverlay = (props) => {
           <NavLinkStyled to="/">Landing</NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="/employee">employee</NavLinkStyled>
+          <NavLinkStyled to="/contact">Contact</NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="">noRoute</NavLinkStyled>
+          <NavLinkStyled to="/signup">Signup</NavLinkStyled>
+        </li>
+        <li>
+          <NavLinkStyled to="/employee">employee</NavLinkStyled>
         </li>
       </ul>
     </CustomerPageModalOverlayStyled>,

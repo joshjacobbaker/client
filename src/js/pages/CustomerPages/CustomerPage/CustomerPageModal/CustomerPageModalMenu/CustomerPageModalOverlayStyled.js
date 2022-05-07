@@ -13,27 +13,45 @@ const ModalStyled = styled(motion.div)`
   transform: translateX(-50%) translateY(-50%);
   height: 65vh;
   width: 70vw;
-  background-color: rgba(38, 28, 28, 0.397);
+  background-color: rgba(38, 28, 28, 0.919);
   z-index: 2;
-  /* color: white; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 
   > ul {
     display: grid;
-    grid-template-rows: repeat(3, 1fr)
+    grid-template-rows: repeat(4, 1fr)
+    grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    border: 10px solid black;
+    margin: 0 auto;
+    list-style: none;
+
+    /* border: 1px solid white; */
     border-radius: 10px;
     overflow-wrap: normal;
     text-transform: capitalize;
-    text-align: center;
 
     > li {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
       font-size: 2rem;
-      
+      margin: 0 auto;
+      transform: translate(-10%, 0%);
+      height: 100%;
+      width: 100%;
+      border-bottom: 1px black solid;
+      &:hover {
+        transform: scale(1.2);
+        font-size: bold;
+        color: white;
+      }
     }
   }
 `

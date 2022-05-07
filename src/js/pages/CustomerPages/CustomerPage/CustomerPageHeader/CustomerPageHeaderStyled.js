@@ -31,7 +31,6 @@ export const MenuContainer = styled.div`
   height: 100%;
   max-height: 100%;
   width: 100%;
-  background: none;
   right: 0;
 `
 
@@ -42,7 +41,7 @@ export const MobileMenuIcon = styled.div`
   padding: 10px;
   height: 5rem;
   width: 100%;
-  background: none;
+
   > div {
     height: 3px;
     background: black;

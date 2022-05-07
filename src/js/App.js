@@ -20,7 +20,7 @@ const App = () => {
       <AnimatePresence initial={false} exitBeforeEnter>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<CustomerPages />} />
+            <Route path="/*" element={<CustomerPages />} />
             <Route path="/employee" element={<EmployeePages />} />
           </Routes>
           <Outlet></Outlet>
