@@ -9,16 +9,16 @@ const CustomerPageModalOverlay = (props) => {
   const { pathname } = useLocation()
   // return ReactDOM.createPortal(<CustomerPageModalOverlayStyled />, document.getElementById("modal"))
   return ReactDOM.createPortal(
-    <CustomerPageModalOverlayStyled key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 2 }}>
+    <CustomerPageModalOverlayStyled key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
       <ul>
         <li>
-          <NavLinkStyled to="/">Route /</NavLinkStyled>
+          <NavLinkStyled to="/">Landing</NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="/employee">Route /employee</NavLinkStyled>
+          <NavLinkStyled to="/employee">employee</NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="">Route /noRoute</NavLinkStyled>
+          <NavLinkStyled to="">noRoute</NavLinkStyled>
         </li>
       </ul>
     </CustomerPageModalOverlayStyled>,

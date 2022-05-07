@@ -17,8 +17,7 @@ const LandingRouteStyled = styled(motion.div)`
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    overflow-x: none;
-    background: white;
+    /* overflow-x: hidden; */
   }
 `
 export default LandingRouteStyled
