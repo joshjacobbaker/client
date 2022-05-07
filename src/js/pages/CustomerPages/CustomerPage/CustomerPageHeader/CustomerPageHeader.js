@@ -22,13 +22,12 @@ const CustomerPageHeader = (props) => {
       <AnimatePresence>
         {showMenu && (
           <>
+            <CustomerPageModalOverlay key="modaloverlay"></CustomerPageModalOverlay>
             <CustomerPageModalBackdrop
               key="modalbackdrop"
               setShowMenu={() => {
                 setShowMenu((d) => !d)
               }}></CustomerPageModalBackdrop>
-
-            <CustomerPageModalOverlay key="modaloverlay"></CustomerPageModalOverlay>
           </>
         )}
       </AnimatePresence>

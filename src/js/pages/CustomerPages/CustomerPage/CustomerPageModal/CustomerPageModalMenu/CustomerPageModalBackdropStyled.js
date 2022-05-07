@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
 const ModalStyled = styled(motion.div)`
@@ -12,9 +12,11 @@ const ModalStyled = styled(motion.div)`
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(15, 47, 59, 0.5);
+  /* opacity: 0.9; */
   z-index: 1;
-  color: white;
+  ${({ theme }) => css`
+    background: ${theme.modalBackgroundColor};
+  `};
 `
 
 export default ModalStyled

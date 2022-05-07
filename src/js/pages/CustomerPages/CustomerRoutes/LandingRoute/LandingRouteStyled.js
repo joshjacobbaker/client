@@ -1,42 +1,40 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const LandingRouteStyled = styled(motion.main)`
+const LandingRouteStyled = styled(motion.div)`
   @media ${(props) => props.theme.screenSize.desktop} {
-    display: grid;
-    grid-template-rows: 10vh repeat(2, 500px) 10vh;
-    grid-template-columns: 1fr 132px;
-    /* grid-gap: 1rem; */
-    height: 100vh;
-    width: 100vw;
-    grid-template-areas:
-      "header header header header right"
-      "hero hero hero hero right"
-      "main main main main right"
-      "footer footer footer footer right";
   }
 
   @media ${(props) => props.theme.screenSize.laptop} {
-    display: grid;
-    grid-template-rows: 20vh repeat(2, 500px) 20vh;
-    grid-template-columns: 1fr 132px;
-    grid-template-areas:
-      "header header header header right"
-      "hero hero hero hero right"
-      "main main main main right"
-      "footer footer footer footer right";
   }
 
   @media ${(props) => props.theme.screenSize.mobileL} {
-    height: 80vh;
+    height: 100%;
     width: 100vw;
     display: grid;
-    grid-template-rows: 10vh 70vh 10vh;
-    grid-template-columns: 100vw;
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
+    grid-template-rows: 300px;
+    grid-auto-rows: 300px;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    overflow-x: none;
+    background: white;
   }
 `
 export default LandingRouteStyled
+
+export const LandingRouteDivStyled = styled(motion.div)`
+  display: grid;
+  justify-content: center;
+  /* align-content: center; */
+  /* justify-items: center; */
+  grid-auto-rows: 100px;
+  align-items: center;
+  ${({ theme }) => css`
+    background: ${theme.backgroundColor};
+  `}
+  height: 80%;
+  width: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+`

@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const MainStyled = styled(motion.main)`
+const CustomerPageMainStyled = styled(motion.main)`
+  height: 100%;
   width: 100vw;
   /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
   grid-area: main;
@@ -11,8 +12,7 @@ const MainStyled = styled(motion.main)`
 
   @media ${(props) => props.theme.screenSize.mobileL} {
     /* grid-auto-flow: column; */
-    grid-template-rows: 80vh;
-    grid-auto-rows: 80vh;
+    grid-template-rows: 1fr;
   }
   justify-items: center;
   align-items: center;
@@ -21,7 +21,7 @@ const MainStyled = styled(motion.main)`
   `}
 `
 
-export default MainStyled
+export default CustomerPageMainStyled
 /* @media ${screenSize.desktop} {
   }
 
