@@ -31,7 +31,7 @@ const LandingRouteStyled = styled(motion.main)`
     height: 80vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 10vh 70vh 10vh;
+    grid-template-rows: 10vh 60vh 10vh;
     grid-template-columns: 100vw;
     grid-template-areas:
       "header"

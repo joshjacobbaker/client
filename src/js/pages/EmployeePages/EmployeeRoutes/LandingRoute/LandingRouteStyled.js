@@ -28,10 +28,10 @@ const LandingRouteStyled = styled(motion.main)`
   }
 
   @media ${(props) => props.theme.screenSize.mobileL} {
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 10vh 70vh 10vh;
+    grid-template-rows: 10vh 80vh 10vh;
     grid-template-columns: 100vw;
     grid-template-areas:
       "header"

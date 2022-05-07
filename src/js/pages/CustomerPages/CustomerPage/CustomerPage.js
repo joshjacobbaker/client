@@ -4,24 +4,25 @@ import { motion } from "framer-motion"
 
 // Layout
 import CustomerPageStyled from "./CustomerPageStyled"
-// Route Components
-import Header from "./Header/Header"
-import Main from "./Main/Main"
-import Footer from "./Footer/Footer"
+import CustomerPageHeader from "./CustomerPageHeader/CustomerPageHeader"
+import CustomerPageMain from "./CustomerPageMain/CustomerPageMain"
+import Footer from "./CustomerPageFooter/CustomerPageFooter"
 
-const LandingRoute = () => {
+// Route Components
+import LandingRoute from "../CustomerRoutes/LandingRoute/LandingRoute"
+
+const CustomerPage = () => {
   return (
     <CustomerPageStyled>
-      <Header></Header>
-      <Main>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
-        <p>Hello</p>
-      </Main>
-      <Footer></Footer>
+      <CustomerPageHeader></CustomerPageHeader>
+      <CustomerPageMain>
+        <Routes>
+          <Route path="/" element={<LandingRoute />} />
+          <Route path="/yo" element={<p>yo</p>} />
+        </Routes>
+      </CustomerPageMain>
     </CustomerPageStyled>
   )
 }
 
-export default LandingRoute
+export default CustomerPage

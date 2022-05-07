@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- Favicon in Browser Tab
 - Framer Motion Variants
 - Background image of Stylists
 - Replace all non Nav HTML Element for Navigation sections

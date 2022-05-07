@@ -5,10 +5,20 @@ import { motion } from "framer-motion"
 // Layout
 import LandingRouteStyled from "./LandingRouteStyled"
 // Route Components
+import Header from "./Header/Header"
 import Main from "./Main/Main"
+import Footer from "./Footer/Footer"
 
 const LandingRoute = () => {
-  return <LandingRouteStyled></LandingRouteStyled>
+  return (
+    <LandingRouteStyled>
+      <Header></Header>
+      <Main>
+        <p>Hello</p>
+      </Main>
+      <Footer></Footer>
+    </LandingRouteStyled>
+  )
 }
 
 export default LandingRoute

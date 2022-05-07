@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
 
-const LandingRouteStyled = styled(motion.main)`
+const CustomerPageStyled = styled(motion.main)`
   @media ${(props) => props.theme.screenSize.desktop} {
     display: grid;
     grid-template-rows: 10vh repeat(2, 500px) 10vh;
@@ -31,12 +31,11 @@ const LandingRouteStyled = styled(motion.main)`
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 10vh 90vh;
     grid-template-columns: 100vw;
     grid-template-areas:
       "header"
-      "main"
-      "footer";
+      "main";
   }
 `
-export default LandingRouteStyled
+export default CustomerPageStyled
