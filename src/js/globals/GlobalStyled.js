@@ -27,7 +27,8 @@ dd {
 ul,
 ol {
   list-style: none;
-  margin: 0;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 /* Set core root defaults */

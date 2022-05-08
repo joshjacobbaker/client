@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route, Redirect, Outlet, useLocation, Switch } f
 
 // Global Styles
 import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
+import IconContextProvider from "../js/context/IconContext"
 
 // Pages Components
 import CustomerPages from "./pages/CustomerPages/CustomerPage/CustomerPage"
@@ -16,17 +17,19 @@ import EmployeePages from "./pages/EmployeePages/EmployeePage/EmployeePage"
 const App = () => {
   // const location = useLocation()
   return (
-    <ToggleThemeProvider>
-      <AnimatePresence initial={false} exitBeforeEnter>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/*" element={<CustomerPages />} />
-            <Route path="/employee" element={<EmployeePages />} />
-          </Routes>
-          <Outlet></Outlet>
-        </BrowserRouter>
-      </AnimatePresence>
-    </ToggleThemeProvider>
+    <IconContextProvider>
+      <ToggleThemeProvider>
+        <AnimatePresence initial={false} exitBeforeEnter>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/*" element={<CustomerPages />} />
+              <Route path="/employee" element={<EmployeePages />} />
+            </Routes>
+            <Outlet></Outlet>
+          </BrowserRouter>
+        </AnimatePresence>
+      </ToggleThemeProvider>
+    </IconContextProvider>
   )
 }
 

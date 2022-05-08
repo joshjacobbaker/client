@@ -4,6 +4,8 @@
 
 ### Backlog
 
+- Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
+- Clipboard: Copy Phone Number, Email, Address, etc.
 - scroll to top <a href="#top"> tag
 - Favicon in Browser Tab
 - Framer Motion Variants
