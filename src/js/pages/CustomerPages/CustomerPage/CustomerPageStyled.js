@@ -28,6 +28,7 @@ const CustomerPageStyled = styled(motion.main)`
   }
 
   @media ${(props) => props.theme.screenSize.mobileL} {
+    position: relative;
     height: 100vh;
     width: 100vw;
     display: grid;

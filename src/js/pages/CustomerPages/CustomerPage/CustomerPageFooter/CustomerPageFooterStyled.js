@@ -10,32 +10,32 @@ const FooterStyled = styled.footer`
     css`
       background: ${theme.backgroundColor};
     `}
-  grid-area: footer;
-  height: 100%;
+  /* height: 100%;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
   @media ${(props) => props.theme.screenSize.desktop} {
   }
 
   @media ${(props) => props.theme.screenSize.laptop} {
     /* border: 1px solid white; */
-    grid-area: footer;
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
-    /* background: black; */
     align-items: center;
     justify-items: center;
   }
 
   @media ${(props) => props.theme.screenSize.mobileL} {
-    grid-area: footer;
-    height: 100%;
+    position: fixed;
+    ${({ show }) => css`
+      height: ${show ? "10%" : "3%"}};
+    `}
+    bottom: 0;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;

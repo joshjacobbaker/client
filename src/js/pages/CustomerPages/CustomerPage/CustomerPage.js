@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import CustomerPageStyled from "./CustomerPageStyled"
 import CustomerPageHeader from "./CustomerPageHeader/CustomerPageHeader"
 import CustomerPageMain from "./CustomerPageMain/CustomerPageMain"
-import Footer from "./CustomerPageFooter/CustomerPageFooter"
+import CustomPageFooter from "./CustomerPageFooter/CustomerPageFooter"
 
 // Route Components
 import LandingRoute from "../CustomerRoutes/LandingRoute/LandingRoute"
@@ -23,6 +23,7 @@ const CustomerPage = () => {
           <Route path="/contact" element={<p>contact</p>} />
         </Routes>
       </CustomerPageMain>
+      <CustomPageFooter />
     </CustomerPageStyled>
   )
 }
