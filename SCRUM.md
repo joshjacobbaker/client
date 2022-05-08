@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- scroll to top <a href="#top"> tag
 - Favicon in Browser Tab
 - Framer Motion Variants
 - Background image of Stylists

@@ -5,7 +5,7 @@ import SocialMediaIcons from "../../../../components/socialMediaIcons/SocialMedi
 import CustomerPageFooterStyled from "./CustomerPageFooterStyled"
 
 const CustomerPageFooter = () => {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(true)
   const onClickShowHandler = () => {
     setShow((p) => !p)
     console.log(show)

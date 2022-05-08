@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const LandingRouteStyled = styled(motion.div)`
+const ContactRouteStyled = styled(motion.div)`
   @media ${(props) => props.theme.screenSize.desktop} {
   }
 
@@ -20,9 +20,9 @@ const LandingRouteStyled = styled(motion.div)`
     /* overflow-x: hidden; */
   }
 `
-export default LandingRouteStyled
+export default ContactRouteStyled
 
-export const LandingRouteDivStyled = styled(motion.div)`
+export const ContactRouteDivStyled = styled(motion.div)`
   display: grid;
   justify-content: center;
   /* align-content: center; */

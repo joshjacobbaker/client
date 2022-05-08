@@ -10,17 +10,19 @@ import CustomPageFooter from "./CustomerPageFooter/CustomerPageFooter"
 
 // Route Components
 import LandingRoute from "../CustomerRoutes/LandingRoute/LandingRoute"
+import ContactRoute from "../CustomerRoutes/ContactRoute/ContactRoute"
+import SignupRoute from "../CustomerRoutes/SignupRoute/SignupRoute"
 
 const CustomerPage = () => {
   return (
     <CustomerPageStyled>
-      <CustomerPageHeader></CustomerPageHeader>
+      <CustomerPageHeader />
       <CustomerPageMain>
         <Routes>
           <Route path="/" element={<LandingRoute />} />
           <Route path="/yo" element={<p>yo</p>} />
-          <Route path="/signup" element={<p>signup</p>} />
-          <Route path="/contact" element={<p>contact</p>} />
+          <Route path="/signup" element={<SignupRoute />} />
+          <Route path="/contact" element={<ContactRoute />} />
         </Routes>
       </CustomerPageMain>
       <CustomPageFooter />

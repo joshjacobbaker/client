@@ -28,7 +28,7 @@ const ModalStyled = styled(motion.div)`
     align-items: center;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 0;
     list-style: none;
 
     /* border: 1px solid white; */
@@ -42,15 +42,15 @@ const ModalStyled = styled(motion.div)`
       align-items: center;
       text-align: center;
       font-size: 2rem;
-      margin: 0 auto;
+      margin: 0 0;
       transform: translate(-10%, 0%);
       height: 100%;
       width: 100%;
       border-bottom: 1px black solid;
+      overflow-x: hidden;
+      color: white;
       &:hover {
-        transform: scale(1.2);
-        font-size: bold;
-        color: white;
+        font-size: 2.5rem;
       }
     }
   }
