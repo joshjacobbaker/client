@@ -33,14 +33,18 @@ const FooterStyled = styled.footer`
   @media ${(props) => props.theme.screenSize.mobileL} {
     position: fixed;
     ${({ show }) => css`
-      height: ${show ? "10%" : "3%"}};
+      height: ${show ? "10vh" : "3vh"}};
     `}
     bottom: 0;
+    left: 0;
+    right: 0;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
+    margin: 0 0;
+    padding: 0 0;
   }
 `
 
