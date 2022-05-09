@@ -48,7 +48,7 @@
 - Id % 2 ? row : row-reverse
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
 - Google analytics in website
-- Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
+
 - CSS pointer over clickable Modal's, buttons, etc.
 - const inputRef = useRef() inputRef.current.focus()
 
@@ -57,9 +57,7 @@
 
 ### WIP
 
-- Update CICD pipeline, expired key? ..... https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-- Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
-- Added Font Awesome Icons to SignupForm Component: email, etc.
+- Update CustomerPageMain to see if it'll render on github "/" route
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
 - [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
 - [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
@@ -68,6 +66,9 @@
 
 ### Finished
 
+- Added Font Awesome Icons to SignupForm Component: email, etc.
+- Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
+- Update CICD pipeline, expired key? ..... https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 - Animations from page to page transition
 - Restructure Project folders: pages -> Chapters and Pages
 - Toggle Theme animation
@@ -90,6 +91,7 @@
 - - HMR for scss [see link]("https://stackoverflow.com/questions/52043727/webpack-live-hot-reload-for-sass")
   - Problem: scss styles aren't being HMR, solution: styles-loader in dev (see link above) or perhaps a <link type="text/css" rel="stylesheet"> update in minicssextractplugin...?
 - Swashbuckling Youtube video Webpack Setup [Youtube Link]("https://www.youtube.com/watch?v=TOb1c39m64A")
+- Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
 
 ## Github
 
