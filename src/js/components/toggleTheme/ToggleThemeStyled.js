@@ -10,7 +10,7 @@ export const ToggleWrapper = styled.div`
   margin: auto;
   display: flex;
   ${({ theme }) => css`
-    background: ${theme.backgroundColor};
+    background: ${theme.fg};
   `}
 `
 

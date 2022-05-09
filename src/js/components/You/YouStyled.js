@@ -1,10 +1,6 @@
 import styled, { keyframes, css } from "styled-components"
 
-// const YouStyled = styled.div`
-//   <div className="you">
-//       <i className="fa">Y.O.U. Salon</i>
-//     </div>
-// `
+import Strobe from "../Strobe/Strobe"
 
 const youAnimate = keyframes`
     from {
@@ -15,8 +11,8 @@ const youAnimate = keyframes`
   }
 `
 
-const YouStyled = styled.div`
-  display: grid;
+const YouStyled = styled(Strobe)`
+  /* display: grid;
   align-items: center;
   justify-items: center;
   height: 3.5rem;
@@ -30,7 +26,7 @@ const YouStyled = styled.div`
   padding: 11px 19px;
   animation: ${youAnimate} 3s linear infinite;
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
-  overflow-x: hidden;
+  overflow-x: hidden; */
 `
 
 export default YouStyled

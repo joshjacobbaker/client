@@ -4,7 +4,6 @@
 
 ### Backlog
 
-- Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
 - Clipboard: Copy Phone Number, Email, Address, etc.
 - scroll to top <a href="#top"> tag
 - Favicon in Browser Tab
@@ -58,6 +57,9 @@
 
 ### WIP
 
+- Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
+- Added Font Awesome Icons to SignupForm Component: email, etc.
+- Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
 - [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
 - [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
 

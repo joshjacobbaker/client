@@ -1,10 +1,16 @@
 import React from "react"
 import YouStyled from "./YouStyled"
+// import Strobe from "../Strobe/Strobe"
 
 const You = () => {
   return (
     <YouStyled>
-      <i className="fa">Y.O.U.</i>
+      <li>Y</li>
+      <li>.</li>
+      <li>O</li>
+      <li>.</li>
+      <li>U</li>
+      <li>.</li>
     </YouStyled>
   )
 }

@@ -42,16 +42,23 @@ const ModalStyled = styled(motion.div)`
       align-items: center;
       text-align: center;
       font-size: 2rem;
-      margin: 0 0;
-      transform: translate(-10%, 0%);
-      height: 100%;
-      width: 100%;
-      border-bottom: 1px black solid;
+      /* height: 100%;
+      width: 100%; */
       overflow-x: hidden;
       color: white;
+      /* background: blue; */
       &:hover {
         font-size: 2.5rem;
       }
+    }
+
+    > li:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 80%; /* Change this to whatever width you want. */
+    padding-top: 40px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
     }
   }
 `

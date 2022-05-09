@@ -5,7 +5,7 @@ import useElementOnScreen from "../../../../hooks/useElementOnScreen"
 
 // Layout
 import LandingRouteStyled, { LandingRouteDivStyled } from "./LandingRouteStyled"
-// Route Components
+// Components
 
 const LandingRoute = () => {
   const targetRef = useRef(null)
@@ -23,15 +23,13 @@ const LandingRoute = () => {
       <LandingRouteDivStyled>
         {!isVisible ? <p>not in viewport</p> : <p>in viewport</p>}
         <p>adsjfkjkdajfljdsfjdskalj</p>
-        <p>adsjfkjkdajfljdsfjdskalj</p>
       </LandingRouteDivStyled>
       <LandingRouteDivStyled>
         <p>adsjfkjkdajfljdsfjdskalj</p>
         <p ref={targetRef}>>adsjfkjkdajfljdsfjdskalj</p>
       </LandingRouteDivStyled>
       <LandingRouteDivStyled>
-        <p>adsjfkjkdajfljdsfjdskalj</p>
-        <p>adsjfkjkdajfljdsfjdskalj</p>
+        <p>Landing Route</p>
       </LandingRouteDivStyled>
       <LandingRouteDivStyled>
         <p>adsjfkjkdajfljdsfjdskalj</p>
