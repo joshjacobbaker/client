@@ -50,13 +50,13 @@
 - Switch the Github SocialMediaIcon symbol for a Phone <i> symbol
 - CSS pointer over clickable Modal's, buttons, etc.
 - const inputRef = useRef() inputRef.current.focus()
-- Update CICD pipeline, expired key?
 
 - Add more menu modal items in the list
 - Work on Media Queries--different screensizes
 
 ### WIP
 
+- Update CICD pipeline, expired key? ..... https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 - Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
 - Added Font Awesome Icons to SignupForm Component: email, etc.
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
