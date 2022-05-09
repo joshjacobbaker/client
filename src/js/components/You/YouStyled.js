@@ -12,14 +12,14 @@ const lighting = keyframes`
   }
   100% {
     color: ${(props) => props.theme.fg};
-    text-shadow: 10px 10px 17px white, 10px 10px 50px white;
+    text-shadow: 10px 10px 17px white, 10px 10px 30px white;
   }
 `
 
 const YouStyled = styled(motion.ul)`
   /* background-color: #272727; */
   display: flex;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: ${(props) => props.theme.fg};
   margin-left: 20px;
