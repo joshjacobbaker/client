@@ -18,12 +18,6 @@ const CustomerPage = () => {
     <CustomerPageStyled>
       <CustomerPageHeader />
       <CustomerPageMain>
-        <div>
-          <h1>HI</h1>
-          <p>text</p>
-          <p>text</p>
-          <p>text</p>
-        </div>
         <Routes>
           <Route index element={<LandingRoute />} />
           <Route path="/landing" element={<LandingRoute />} />
