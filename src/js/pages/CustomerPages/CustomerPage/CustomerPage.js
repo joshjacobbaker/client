@@ -29,6 +29,7 @@ const CustomerPage = () => {
           <Route path="/signup" element={<SignupRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
         </Routes>
+        <Outlet />
       </CustomerPageMain>
       <CustomPageFooter />
     </CustomerPageStyled>
