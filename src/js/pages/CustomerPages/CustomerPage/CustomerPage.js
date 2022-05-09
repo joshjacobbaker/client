@@ -25,7 +25,8 @@ const CustomerPage = () => {
           <p>text</p>
         </div>
         <Routes>
-          <Route index path="/" element={<LandingRoute />} />
+          <Route index element={<LandingRoute />} />
+          <Route path="/landing" element={<LandingRoute />} />
           <Route path="/signup" element={<SignupRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
         </Routes>

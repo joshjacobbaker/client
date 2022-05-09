@@ -12,7 +12,7 @@ const CustomerPageModalOverlay = (props) => {
     <CustomerPageModalOverlayStyled key="modal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
       <ul>
         <li>
-          <NavLinkStyled to="/">Landing</NavLinkStyled>
+          <NavLinkStyled to="/landing">Landing</NavLinkStyled>
         </li>
         <li>
           <NavLinkStyled to="/contact">Contact</NavLinkStyled>
