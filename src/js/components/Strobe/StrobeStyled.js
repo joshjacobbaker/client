@@ -20,10 +20,9 @@ const StrobeStyled = styled(motion.ul)`
   /* background-color: #272727; */
   display: flex;
   font-size: 80px;
+  color: #484848;
 
   li {
-    color: #484848;
-
     /* letter-spacing: 10px; */
     animation: ${lighting} 3s linear infinite;
   }

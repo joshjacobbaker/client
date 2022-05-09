@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- [Style Variants Framer Motion]("https://www.youtube.com/watch?v=1vKiPwEYbyk&t=765s")
 - Clipboard: Copy Phone Number, Email, Address, etc.
 - scroll to top <a href="#top"> tag
 - Favicon in Browser Tab

@@ -1,44 +1,55 @@
 import styled, { keyframes, css } from "styled-components"
+import { motion } from "framer-motion"
 
-import Strobe from "../Strobe/Strobe"
-
-const youAnimate = keyframes`
-    from {
-    filter: hue-rotate(0deg);
+const lighting = keyframes`
+  0% {
+    color: ${(props) => props.theme.fg};
+    text-shadow: none;
   }
-  to {
-    filter: hue-rotate(360deg);
+  90% {
+    color: ${(props) => props.theme.fg};
+    text-shadow: 5px 5px 7px white, 5px 5px 15px white;
+  }
+  100% {
+    color: ${(props) => props.theme.fg};
+    text-shadow: 10px 10px 17px white, 10px 10px 50px white;
   }
 `
 
-const YouStyled = styled(Strobe)`
-  margin-left: 10px;
-  /* display: grid;
-  align-items: center;
-  justify-items: center;
-  height: 3.5rem;
-  width: 9rem;
-  margin: 0 auto;
-  font-size: 2rem;
-  background-color: black;
-  color: #fff;
-  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080, 2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080;
-  border-radius: 29px;
-  padding: 11px 19px;
-  animation: ${youAnimate} 3s linear infinite;
-  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
-  overflow-x: hidden; */
+const YouStyled = styled(motion.ul)`
+  /* background-color: #272727; */
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  color: ${(props) => props.theme.fg};
+  margin-left: 20px;
+
+  li {
+    /* letter-spacing: 10px; */
+    animation: ${lighting} 2s linear infinite;
+    border-bottom: 5px solid ${(props) => props.theme.fg};
+  }
+
+  li:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  li:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  li:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  li:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+
+  li:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  li:nth-child(6) {
+    animation-delay: 0.5s;
+  }
 `
 
 export default YouStyled
-
-// @media (max-width: $screen-medium) {
-// }
-
-// @media (max-width: $screen-small) {
-//   .you {
-//     height: 5rem;
-//     width: 20rem;
-//     font-size: 2rem;
-//   }
-// }
