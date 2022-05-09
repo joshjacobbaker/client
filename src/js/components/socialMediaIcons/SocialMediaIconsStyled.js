@@ -2,10 +2,14 @@ import styled, { keyframes, css } from "styled-components"
 import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
 
 const animate = keyframes`
-    from {
+  from {
+    scale: 1;
+    fill: #000000;
     filter: hue-rotate(0deg);
   }
   to {
+    scale: 1.2;
+    fill: #000000bc;
     filter: hue-rotate(360deg);
   }
 `
@@ -30,11 +34,65 @@ export default SocialMediaIconsStyled
 // }
 
 export const FaEnvelopeStyled = styled(FaEnvelope)`
-  fill: yellow;
   size: 4rem;
+  transition: all 0.1s;
+  animation: none;
   &:hover {
-    fill: pink;
     cursor: pointer;
+    animation: ${animate} 3s linear 0.1s infinite both alternate;
+  }
+  &:active {
+    animation: none;
+    scale: 1.2;
+  }
+`
+
+export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
+  size: 4rem;
+  transition: all 0.1s;
+  animation: none;
+  &:hover {
+    cursor: pointer;
+    animation: ${animate} 3s linear 0.1s infinite both alternate;
+  }
+  &:active {
+    scale: 2;
+  }
+`
+
+export const FaFacebookStyled = styled(FaFacebook)`
+  size: 4rem;
+  transition: all 0.1s;
+  animation: none;
+  &:hover {
+    cursor: pointer;
+    animation: ${animate} 3s linear 0.1s infinite both alternate;
+  }
+  &:active {
+    scale: 2;
+  }
+`
+
+export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
+  size: 4rem;
+  transition: all 0.1s;
+  animation: none;
+  &:hover {
+    cursor: pointer;
+    animation: ${animate} 3s linear 0.1s infinite both alternate;
+  }
+  &:active {
+    scale: 2;
+  }
+`
+
+export const FaBuildingStyled = styled(FaBuilding)`
+  size: 4rem;
+  transition: all 0.1s;
+  animation: none;
+  &:hover {
+    cursor: pointer;
+    animation: ${animate} 3s linear 0.1s infinite both alternate;
   }
   &:active {
     scale: 2;

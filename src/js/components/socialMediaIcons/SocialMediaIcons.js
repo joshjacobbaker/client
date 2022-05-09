@@ -1,15 +1,14 @@
 import React from "react"
-import SocialMediaIconsStyled, { FaEnvelopeStyled } from "./SocialMediaIconsStyled"
-import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
+import SocialMediaIconsStyled, { FaEnvelopeStyled, FaBuildingStyled, FaPhoneSquareAltStyled, FaFacebookStyled, FaInstagramSquareStyled } from "./SocialMediaIconsStyled"
 
 const SocialMediaIcons = () => {
   return (
     <SocialMediaIconsStyled>
       <FaEnvelopeStyled />
-      <FaPhoneSquareAlt />
-      <FaFacebook />
-      <FaInstagramSquare />
-      <FaBuilding />
+      <FaPhoneSquareAltStyled />
+      <FaFacebookStyled />
+      <FaInstagramSquareStyled />
+      <FaBuildingStyled />
     </SocialMediaIconsStyled>
   )
 }
