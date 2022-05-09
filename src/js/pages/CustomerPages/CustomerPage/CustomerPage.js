@@ -19,8 +19,7 @@ const CustomerPage = () => {
       <CustomerPageHeader />
       <CustomerPageMain>
         <Routes>
-          <Route path="/" element={<LandingRoute />} />
-          <Route path="/yo" element={<p>yo</p>} />
+          <Route index element={<LandingRoute />} />
           <Route path="/signup" element={<SignupRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
         </Routes>
