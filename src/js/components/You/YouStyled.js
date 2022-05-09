@@ -12,6 +12,7 @@ const youAnimate = keyframes`
 `
 
 const YouStyled = styled(Strobe)`
+  margin-left: 10px;
   /* display: grid;
   align-items: center;
   justify-items: center;
