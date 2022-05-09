@@ -21,6 +21,7 @@ export default ContactRouteStyled
 
 export const ContactRouteDivStyled = styled(motion.div)`
   display: grid;
+  grid-template-rows: 70px 1fr;
   justify-items: center;
   align-items: center;
   &:hover {
@@ -38,10 +39,36 @@ export const ContactRouteDivStyled = styled(motion.div)`
   ul {
     display: grid;
     align-items: center;
-    justify-items: center;
+    /* justify-items: center; */
     height: 100%;
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    justify-items: left;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+
+  > li:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 80%; /* Change this to whatever width you want. */
+    padding-top: 40px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+  }
+
+  p {
+    text-wrap: break-word;
   }
 
   margin-top: -20%;
