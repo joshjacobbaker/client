@@ -22,7 +22,7 @@ export const MobileMenuIcon = styled.div`
   width: 100%;
 
   > div {
-    height: 6px;
+    height: 5px;
     background: ${(props) => props.theme.color};
     margin: 10px 0;
     width: 100%;
