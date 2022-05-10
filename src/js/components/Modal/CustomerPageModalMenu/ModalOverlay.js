@@ -1,8 +1,8 @@
 import react from "react"
 import ReactDOM from "react-dom"
 import { useLocation } from "react-router-dom"
-import CustomerPageModalOverlayStyled from "./CustomerPageModalOverlayStyled"
-import NavLinkStyled from "../../../../../components/navLink/NavLink"
+import CustomerPageModalOverlayStyled from "./ModalOverlayStyled"
+import NavLinkStyled from "../../navLink/NavLink"
 import { AnimatePresence } from "framer-motion"
 
 const CustomerPageModalOverlay = (props) => {

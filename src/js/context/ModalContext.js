@@ -1,10 +1,20 @@
 import React, { useContext, useState } from "react"
 
-const ModalContext = React.createContext(false)
+export const ModalContext = React.createContext({
+  showModal: false,
+  onClickShowModal: () => null,
+})
 const useModal = () => useContext(ModalContext)
 
-const ModalProvider = ({ children }) => {
-  const [modal, SetModal] = useState((s) => !s)
+const ModalContextProvider = ({ children }) => {
+  const [showModal, setShowModal] = useState(false)
 
-  return <ModalContext.Provider value={[modal, SetModal]}>{children}</ModalContext.Provider>
+  const onClickShowModal = () => {
+    setShowModal((s) => !s)
+    console.log(`Show Modal: ${showModal}`)
+  }
+
+  return <ModalContext.Provider value={{ showModal, onClickShowModal }}>{children}</ModalContext.Provider>
 }
+
+export default ModalContextProvider

@@ -33,12 +33,4 @@ export function ToggleThemeProvider({ children }) {
   )
 }
 
-// const [theme, setTheme] = useState(themeStyled.darkTheme)
-// const [isDarkMode, setDarkMode] = useState(false)
-
-// const handleToggle = () => {
-//   setDarkMode(!isDarkMode)
-//   console.log(isDarkMode.tostring())
-// }
-
 export default ToggleThemeContext
