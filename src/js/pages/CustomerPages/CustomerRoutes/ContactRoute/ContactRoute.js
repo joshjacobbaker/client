@@ -1,7 +1,8 @@
 import React from "react"
 import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 // import { motion } from "framer-motion"
-import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
+// import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
+import { FaEnvelopeStyled, FaBuildingStyled, FaPhoneSquareAltStyled, FaFacebookStyled, FaInstagramSquareStyled } from "../../../../components/socialMediaIcons/SocialMediaIconsStyled"
 
 // Layout
 import ContactRouteStyled, { ContactRouteDivStyled } from "./ContactRouteStyled"
@@ -14,20 +15,20 @@ const LandingRoute = () => {
         <h1>We Love You!</h1>
         <ul>
           <li>
-            <FaPhoneSquareAlt /> (360)-123-4567
+            <FaPhoneSquareAltStyled /> (360)-123-4567
           </li>
           <li>
-            <FaEnvelope /> You@gmail.com
+            <FaEnvelopeStyled /> You@gmail.com
           </li>
           <li>
-            <FaInstagramSquare />
+            <FaInstagramSquareStyled />
             @You.Handle.Instagram
           </li>
           <li>
-            <FaFacebook /> @You.Handle.Facebook
+            <FaFacebookStyled /> @You.Handle.Facebook
           </li>
           <li>
-            <FaBuilding />
+            <FaBuildingStyled />
             Address: 123 Fake St. Mount Vernon, Wa 98273
           </li>
         </ul>

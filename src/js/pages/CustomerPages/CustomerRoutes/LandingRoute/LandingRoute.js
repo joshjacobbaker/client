@@ -26,7 +26,7 @@ const LandingRoute = () => {
       </LandingRouteDivStyled>
       <LandingRouteDivStyled>
         <p>adsjfkjkdajfljdsfjdskalj</p>
-        <p ref={targetRef}>>adsjfkjkdajfljdsfjdskalj</p>
+        <p ref={targetRef}>adsjfkjkdajfljdsfjdskalj</p>
       </LandingRouteDivStyled>
       <LandingRouteDivStyled>
         <p>Landing Route</p>

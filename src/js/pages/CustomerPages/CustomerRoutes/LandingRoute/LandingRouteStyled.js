@@ -27,6 +27,8 @@ export const LandingRouteDivStyled = styled(motion.div)`
   justify-content: center;
   /* align-content: center; */
   /* justify-items: center; */
+  color: ${(props) => props.theme.color};
+  font-size: 1.5rem;
   grid-auto-rows: 100px;
   align-items: center;
   &:hover {

@@ -19,7 +19,8 @@ const lighting = keyframes`
 const YouStyled = styled(motion.ul)`
   /* background-color: #272727; */
   display: flex;
-  font-size: 40px;
+  font-size: 6vh;
+  letter-spacing: 5px;
   font-weight: bold;
   color: ${(props) => props.theme.fg};
   margin-left: 20px;

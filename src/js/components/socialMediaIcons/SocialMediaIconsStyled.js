@@ -4,17 +4,15 @@ import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare
 const animate = keyframes`
   from {
     scale: 1;
-    fill: #000000;
     filter: hue-rotate(0deg);
   }
   to {
     scale: 1.2;
-    fill: #000000bc;
     filter: hue-rotate(360deg);
   }
 `
 
-const SocialMediaIconsStyled = styled.div`
+const SocialMediaIconsFooterStyled = styled.div`
   height: 10vh;
   width: 100%;
   margin: 0 0;
@@ -27,13 +25,14 @@ const SocialMediaIconsStyled = styled.div`
   /* background: white; */
 `
 
-export default SocialMediaIconsStyled
+export default SocialMediaIconsFooterStyled
 
 // const FaEnvelopeFunction = ({ children, ...props }) => {
 //   return <FaEnvelope {...props}>{children}</FaEnvelope>
 // }
 
 export const FaEnvelopeStyled = styled(FaEnvelope)`
+  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -48,6 +47,7 @@ export const FaEnvelopeStyled = styled(FaEnvelope)`
 `
 
 export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
+  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -61,6 +61,7 @@ export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
 `
 
 export const FaFacebookStyled = styled(FaFacebook)`
+  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -74,6 +75,7 @@ export const FaFacebookStyled = styled(FaFacebook)`
 `
 
 export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
+  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -87,6 +89,7 @@ export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
 `
 
 export const FaBuildingStyled = styled(FaBuilding)`
+  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
