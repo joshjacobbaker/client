@@ -22,7 +22,8 @@ const App = () => {
         <AnimatePresence initial={false} exitBeforeEnter>
           <BrowserRouter>
             <Routes>
-              <Route index path="/*" element={<CustomerPages />} />
+              <Route index element={<CustomerPages />} />
+              <Route path="/*" element={<CustomerPages />} />
               <Route exact path="/employee" element={<EmployeePages />} />
             </Routes>
             <Outlet></Outlet>

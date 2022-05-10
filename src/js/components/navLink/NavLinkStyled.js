@@ -2,6 +2,9 @@ import styled from "styled-components"
 import NavLink from "./NavLink"
 
 const NavLinkStyled = styled(NavLink)`
+  display: grid;
+  justify-items: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   text-align: center;

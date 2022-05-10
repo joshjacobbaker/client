@@ -20,9 +20,9 @@ const CustomerPage = () => {
       <CustomerPageMain>
         <Routes>
           <Route index element={<LandingRoute />} />
-          <Route path="/landing" element={<LandingRoute />} />
-          <Route path="/signup" element={<SignupRoute />} />
-          <Route path="/contact" element={<ContactRoute />} />
+          <Route path="landing" element={<LandingRoute />} />
+          <Route path="signup" element={<SignupRoute />} />
+          <Route path="contact" element={<ContactRoute />} />
         </Routes>
         <Outlet />
       </CustomerPageMain>
