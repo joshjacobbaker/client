@@ -12,6 +12,7 @@ import CustomPageFooter from "./CustomerPageFooter/CustomerPageFooter"
 import LandingRoute from "../CustomerRoutes/LandingRoute/LandingRoute"
 import ContactRoute from "../CustomerRoutes/ContactRoute/ContactRoute"
 import SignupRoute from "../CustomerRoutes/SignupRoute/SignupRoute"
+import SigninRoute from "../CustomerRoutes/SigninRoute/SigninRoute"
 
 const CustomerPage = () => {
   return (
@@ -23,6 +24,7 @@ const CustomerPage = () => {
           <Route path="landing" element={<LandingRoute />} />
           <Route path="signup" element={<SignupRoute />} />
           <Route path="contact" element={<ContactRoute />} />
+          <Route path="signin" element={<SigninRoute />} />
         </Routes>
         <Outlet />
       </CustomerPageMain>

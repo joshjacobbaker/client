@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const SignupStyled = styled.form`
+const SigninStyled = styled.form`
   display: grid;
   justify-items: center;
   align-items: center;
@@ -31,4 +31,4 @@ const SignupStyled = styled.form`
   }
 `
 
-export default SignupStyled
+export default SigninStyled

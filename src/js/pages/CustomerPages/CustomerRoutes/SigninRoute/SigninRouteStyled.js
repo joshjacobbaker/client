@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const SignupRouteStyled = styled(motion.div)`
+const SigninRouteStyled = styled(motion.div)`
   @media ${(props) => props.theme.screenSize.desktop} {
   }
 
@@ -20,9 +20,9 @@ const SignupRouteStyled = styled(motion.div)`
     /* overflow-x: hidden; */
   }
 `
-export default SignupRouteStyled
+export default SigninRouteStyled
 
-export const SignupRouteDivStyled = styled(motion.div)`
+export const SigninRouteDivStyled = styled(motion.div)`
   display: grid;
   justify-items: center;
   /* align-content: center; */
