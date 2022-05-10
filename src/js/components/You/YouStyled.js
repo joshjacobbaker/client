@@ -11,8 +11,8 @@ const lighting = keyframes`
     text-shadow: 5px 5px 7px white, 5px 5px 15px white;
   }
   100% {
-    color: ${(props) => props.theme.fg};
-    text-shadow: 10px 10px 17px white, 10px 10px 30px white;
+    color: white;
+    text-shadow: 10px 10px 17px ${(props) => props.theme.fg}, 10px 10px 30px ${(props) => props.theme.fg};
   }
 `
 
@@ -26,8 +26,8 @@ const YouStyled = styled(motion.ul)`
 
   li {
     /* letter-spacing: 10px; */
-    animation: ${lighting} 2s linear infinite;
-    border-bottom: 5px solid ${(props) => props.theme.fg};
+    animation: ${lighting} 4s linear infinite;
+    border-bottom: white;
   }
 
   li:nth-child(1) {

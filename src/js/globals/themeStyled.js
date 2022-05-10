@@ -11,7 +11,7 @@ const theme = {
     color: "#4A5D23",
     secondaryColor: "#8fC1E3",
     tirtiaryColor: "#F7F9FB",
-    backgroundColor: "linear-gradient(to right, #ffe13a, #8f4a00)",
+    backgroundColor: "linear-gradient(to right, #8f4a00, #ffe13a)",
     modalBackgroundColor: "linear-gradient(to right, #52740d9c, #ad9300)",
     screenSize,
     // colors,
