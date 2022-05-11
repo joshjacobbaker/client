@@ -32,6 +32,7 @@ export default SocialMediaIconsFooterStyled
 // }
 
 export const FaEnvelopeStyled = styled(FaEnvelope)`
+  cursor: pointer;
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -47,6 +48,7 @@ export const FaEnvelopeStyled = styled(FaEnvelope)`
 `
 
 export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
+  cursor: pointer;
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -61,6 +63,7 @@ export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
 `
 
 export const FaFacebookStyled = styled(FaFacebook)`
+  cursor: pointer;
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -75,6 +78,7 @@ export const FaFacebookStyled = styled(FaFacebook)`
 `
 
 export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
+  cursor: pointer;
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -89,6 +93,7 @@ export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
 `
 
 export const FaBuildingStyled = styled(FaBuilding)`
+  cursor: pointer;
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;

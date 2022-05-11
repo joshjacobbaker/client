@@ -12,7 +12,7 @@ import IconContextProvider from "../js/context/IconContext"
 import ModalContextProvider from "../js/context/ModalContext"
 
 // Components
-import CustomerPageBodyStyled from "./components/CustomerPageBody/CustomerPageBodyStyled"
+import CustomerPageLayoutStyled from "./components/CustomerPageLayout/CustomerPageLayoutStyled"
 import CustomerPageHeader from "./components/CustomerPageHeader/CustomerPageHeader"
 import CustomerPageMain from "./components/CustomerPageMain/CustomerPageMain"
 import CustomerPageFooter from "./components/CustomerPageFooter/CustomerPageFooter"
@@ -32,7 +32,7 @@ const App = () => {
         <ToggleThemeProvider>
           <AnimatePresence initial={false} exitBeforeEnter>
             <BrowserRouter>
-              <CustomerPageBodyStyled>
+              <CustomerPageLayoutStyled>
                 <CustomerPageHeader />
                 <CustomerPageMain>
                   <Routes>
@@ -47,7 +47,7 @@ const App = () => {
                   <Outlet />
                 </CustomerPageMain>
                 <CustomerPageFooter />
-              </CustomerPageBodyStyled>
+              </CustomerPageLayoutStyled>
             </BrowserRouter>
           </AnimatePresence>
         </ToggleThemeProvider>

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
 
-const CustomerPageStyled = styled(motion.main)`
+const CustomerPageLayoutStyled = styled(motion.main)`
   @media ${(props) => props.theme.screenSize.desktop} {
     display: grid;
     grid-template-rows: 10vh repeat(2, 500px) 10vh;
@@ -39,4 +39,4 @@ const CustomerPageStyled = styled(motion.main)`
       "main";
   }
 `
-export default CustomerPageStyled
+export default CustomerPageLayoutStyled

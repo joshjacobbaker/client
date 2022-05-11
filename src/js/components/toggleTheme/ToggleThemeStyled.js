@@ -2,6 +2,7 @@ import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
 export const ToggleWrapper = styled.div`
+  cursor: pointer;
   width: 50px;
   min-width: 50px;
   height: 25px;

@@ -3,7 +3,7 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 import { motion } from "framer-motion"
 
 // Layout
-import CustomerPageStyled from "./CustomerPageBodyStyled"
+import CustomerPageLayoutStyled from "./CustomerPageLayoutStyled"
 import CustomerPageHeader from "./CustomerPageHeader/CustomerPageHeader"
 import CustomerPageMain from "../CustomerPageMain/CustomerPageMain"
 import CustomPageFooter from "../CustomerPageFooter/CustomerPageFooter"
@@ -18,7 +18,7 @@ import SalonRoute from "./CustomerRoutes/SalonRoute/SalonRoute"
 
 const CustomerPage = () => {
   return (
-    <CustomerPageStyled>
+    <CustomerPageLayoutStyled>
       <CustomerPageHeader />
       <CustomerPageMain>
         <Routes>
@@ -33,7 +33,7 @@ const CustomerPage = () => {
         <Outlet />
       </CustomerPageMain>
       <CustomPageFooter />
-    </CustomerPageStyled>
+    </CustomerPageLayoutStyled>
   )
 }
 

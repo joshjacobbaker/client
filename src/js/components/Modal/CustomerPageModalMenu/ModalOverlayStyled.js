@@ -40,6 +40,7 @@ const ModalStyled = styled(motion.div)`
       justify-items: center;
       align-items: center;
       /* text-align: center; */
+      cursor: pointer;
       font-size: 2rem;
       height: 100%;
       width: 100%;

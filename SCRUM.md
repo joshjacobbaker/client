@@ -4,11 +4,13 @@
 
 ### Backlog
 
+- Sprites..?
+- Optimize Images with NextJs Image Component
 - Active NavLink css Styles
 - useMemo on data structures
 - useCallback for handler functions and objects
 - React.memo Optimization on Complex Branch Components
-- Clipboard for SocialMediaIcons
+- Clipboard for SocialMediaIcons or navigate to social media accounts?
 - Customer Hot Hair
 - Carousel Component for Stylists and Salon
 - [Style Variants Framer Motion]("https://www.youtube.com/watch?v=1vKiPwEYbyk&t=765s")
@@ -56,7 +58,6 @@
 - [Scroll to the top of page react button]("https://www.youtube.com/watch?v=Xz2Z8xKH-R0")
 - Google analytics in website
 
-- CSS pointer over clickable Modal's, buttons, etc.
 - const inputRef = useRef() inputRef.current.focus()
 
 - Add more menu modal items in the list
@@ -74,6 +75,9 @@
 
 ### Finished
 
+- Made YOU component clickable and Navigatable to "/" route
+- Call modal close function onClick NavLink in Modal
+- CSS pointer over clickable Modal's, buttons, etc.
 - Added Font Awesome Icons to SignupForm Component: email, etc.
 - Remove Font Awesome <link> tag within index.html and replace all icons links found in SocialMediaIcons, etc.
 - Update CICD pipeline, expired key? ..... https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
