@@ -11,10 +11,19 @@ import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
 import IconContextProvider from "../js/context/IconContext"
 import ModalContextProvider from "../js/context/ModalContext"
 
-// Pages Components
-import CustomerPages from "./pages/CustomerPages/CustomerPage/CustomerPage"
-import EmployeePages from "./pages/EmployeePages/EmployeePage/EmployeePage"
-// initial={false} exitBeforeEnter
+// Components
+import CustomerPageBodyStyled from "./components/CustomerPageBody/CustomerPageBodyStyled"
+import CustomerPageHeader from "./components/CustomerPageHeader/CustomerPageHeader"
+import CustomerPageMain from "./components/CustomerPageMain/CustomerPageMain"
+import CustomerPageFooter from "./components/CustomerPageFooter/CustomerPageFooter"
+// Routes
+import ContactRoute from "./pages/ContactRoute/ContactRoute"
+import LandingRoute from "./pages/LandingRoute/LandingRoute"
+import SalonRoute from "./pages/SalonRoute/SalonRoute"
+import StylistsRoute from "./pages/StylistsRoute/StylistsRoute"
+import SigninRoute from "./pages/SigninRoute/SigninRoute"
+import SignupRoute from "./pages/SignupRoute/SignupRoute"
+
 const App = () => {
   // const location = useLocation()
   return (
@@ -23,12 +32,22 @@ const App = () => {
         <ToggleThemeProvider>
           <AnimatePresence initial={false} exitBeforeEnter>
             <BrowserRouter>
-              <Routes>
-                <Route index element={<CustomerPages />} />
-                <Route path="/*" element={<CustomerPages />} />
-                <Route exact path="/employee" element={<EmployeePages />} />
-              </Routes>
-              <Outlet></Outlet>
+              <CustomerPageBodyStyled>
+                <CustomerPageHeader />
+                <CustomerPageMain>
+                  <Routes>
+                    <Route index element={<LandingRoute />} />
+                    <Route path="landing" element={<LandingRoute />} />
+                    <Route path="signup" element={<SignupRoute />} />
+                    <Route path="contact" element={<ContactRoute />} />
+                    <Route path="signin" element={<SigninRoute />} />
+                    <Route path="stylists" element={<StylistsRoute />} />
+                    <Route path="salon" element={<SalonRoute />} />
+                  </Routes>
+                  <Outlet />
+                </CustomerPageMain>
+                <CustomerPageFooter />
+              </CustomerPageBodyStyled>
             </BrowserRouter>
           </AnimatePresence>
         </ToggleThemeProvider>

@@ -4,6 +4,10 @@
 
 ### Backlog
 
+- Active NavLink css Styles
+- useMemo on data structures
+- useCallback for handler functions and objects
+- React.memo Optimization on Complex Branch Components
 - Clipboard for SocialMediaIcons
 - Customer Hot Hair
 - Carousel Component for Stylists and Salon
@@ -60,6 +64,7 @@
 
 ### WIP
 
+- Code Refactor: Routes -> Pages & Page Footer, Header, etc. -> Components
 - Update CustomerPageMain to see if it'll render on github "/" route
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
 - [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
