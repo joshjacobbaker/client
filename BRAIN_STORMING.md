@@ -11,6 +11,8 @@
 - Contact Salon?
 - Find salon on a map? Address?
 - Catalog of different haircuts from former customers
+- Customer Hot Hair
+- Carousel Component for Stylists and Salon
 
 # Page Layout
 

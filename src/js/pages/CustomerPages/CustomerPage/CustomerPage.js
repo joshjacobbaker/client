@@ -13,6 +13,8 @@ import LandingRoute from "../CustomerRoutes/LandingRoute/LandingRoute"
 import ContactRoute from "../CustomerRoutes/ContactRoute/ContactRoute"
 import SignupRoute from "../CustomerRoutes/SignupRoute/SignupRoute"
 import SigninRoute from "../CustomerRoutes/SigninRoute/SigninRoute"
+import StylistsRoute from "../CustomerRoutes/StylistsRoute/StylistsRoute"
+import SalonRoute from "../CustomerRoutes/SalonRoute/SalonRoute"
 
 const CustomerPage = () => {
   return (
@@ -25,6 +27,8 @@ const CustomerPage = () => {
           <Route path="signup" element={<SignupRoute />} />
           <Route path="contact" element={<ContactRoute />} />
           <Route path="signin" element={<SigninRoute />} />
+          <Route path="stylists" element={<StylistsRoute />} />
+          <Route path="salon" element={<SalonRoute />} />
         </Routes>
         <Outlet />
       </CustomerPageMain>

@@ -23,6 +23,12 @@ const CustomerPageModalOverlay = (props) => {
         <li>
           <NavLinkStyled to="signin">Signin</NavLinkStyled>
         </li>
+        <li>
+          <NavLinkStyled to="stylists">Stylists</NavLinkStyled>
+        </li>
+        <li>
+          <NavLinkStyled to="salon">Salon</NavLinkStyled>
+        </li>
       </ul>
     </CustomerPageModalOverlayStyled>,
     document.getElementById("modalOverlay")

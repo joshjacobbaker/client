@@ -4,6 +4,9 @@
 
 ### Backlog
 
+- Clipboard for SocialMediaIcons
+- Customer Hot Hair
+- Carousel Component for Stylists and Salon
 - [Style Variants Framer Motion]("https://www.youtube.com/watch?v=1vKiPwEYbyk&t=765s")
 - Clipboard: Copy Phone Number, Email, Address, etc.
 - scroll to top <a href="#top"> tag
