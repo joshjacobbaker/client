@@ -20,7 +20,7 @@
 - Carousel Component for Stylists and Salon
 - [Style Variants Framer Motion]("https://www.youtube.com/watch?v=1vKiPwEYbyk&t=765s")
 - Clipboard: Copy Phone Number, Email, Address, etc.
-- Favicon in Browser Tab
+- Favicon in Browser Tab -- replace React-Helmet with React-Helmet-Async
 - Framer Motion Variants
 - Background image of Stylists
 - Replace all non Nav HTML Element for Navigation sections
@@ -80,6 +80,7 @@
 
 ### Finished
 
+- Favicon in Browser Tab -- React-Helmet, React-Helmet-Async
 - Code Refactor: Routes -> Pages & Page Footer, Header, etc. -> Components
 - Made YOU component clickable and Navigatable to "/" route
 - Call modal close function onClick NavLink in Modal

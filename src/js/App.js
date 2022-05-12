@@ -16,6 +16,7 @@ import CustomerPageLayoutStyled from "./components/CustomerPageLayout/CustomerPa
 import CustomerPageHeader from "./components/CustomerPageHeader/CustomerPageHeader"
 import CustomerPageMain from "./components/CustomerPageMain/CustomerPageMain"
 import CustomerPageFooter from "./components/CustomerPageFooter/CustomerPageFooter"
+import HelmetHead from "./components/HelmetHead/HelmetHead"
 // Routes
 import ContactPage from "./pages/ContactPage/ContactPage"
 import LandingPage from "./pages/LandingPage/LandingPage"
@@ -32,6 +33,7 @@ const App = () => {
         <ToggleThemeProvider>
           <AnimatePresence initial={false} exitBeforeEnter>
             <BrowserRouter>
+              <HelmetHead />
               <CustomerPageLayoutStyled>
                 <CustomerPageHeader />
                 <CustomerPageMain>
