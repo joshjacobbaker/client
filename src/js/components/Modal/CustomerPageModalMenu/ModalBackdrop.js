@@ -17,7 +17,7 @@ const PageModalOverlay = (props) => {
   // return ReactDOM.createPortal(<ModalBackdropStyled />, document.getElementById("modal"))
   return ReactDOM.createPortal(
     <ModalBackdropStyled onClick={ctxModal.onClickShowModal}>
-      <ModalOverlay></ModalOverlay>
+      <ModalOverlay />
     </ModalBackdropStyled>,
     document.getElementById("modalBackdrop")
   )

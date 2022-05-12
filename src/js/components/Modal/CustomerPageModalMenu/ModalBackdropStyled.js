@@ -12,7 +12,7 @@ const ModalStyled = styled(motion.div)`
   left: 0;
   height: 100vh;
   width: 100vw;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 1;
   ${({ theme }) => css`
     background: ${theme.modalBackgroundColor};

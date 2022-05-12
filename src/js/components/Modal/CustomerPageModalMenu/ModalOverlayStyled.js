@@ -5,18 +5,10 @@ const ModalStyled = styled(motion.div)`
   display: grid;
   justify-items: center;
   align-items: center;
-  /* position: fixed;
-  top: 17.5vh;
-  left: 15vw; */
-  /* top: 50%;
-  left: 50%;
-  right: 0;
-  bottom: 0;
-  transform: translateX(-50%) translateY(-50%); */
-  /* height: 65vh;
-  width: 70vw; */
-  /* background-color: rgba(38, 28, 28, 0.919); */
-  background-color: ${(props) => props.theme.fg};
+  height: 100%;
+  width: 100%;
+  background-color: rgb(38, 28, 28);
+  /* background-color: ${(props) => props.theme.fg}; */
   z-index: 2;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
