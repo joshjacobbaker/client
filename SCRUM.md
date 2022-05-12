@@ -4,6 +4,8 @@
 
 ### Backlog
 
+- Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares...
+- Put hyphen between Sign-in and Sign-up on Modal
 - Is Visible Context
 - Sprites..?
 - Optimize Images with NextJs Image Component

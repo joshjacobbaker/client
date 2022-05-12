@@ -2,7 +2,35 @@ import screenSize from "./screenSize"
 import colors from "./colors"
 import sectionSizes from "./sectionSizes"
 
-// Define our `fg` and `bg` on the theme
+// Darken green and lighten pink
+const themeNanah = {
+  baseTheme: {
+    id: "baseTheme",
+    fg: "#545f3d",
+    bg: "#384126d0",
+    color: "#ffffffe2",
+    secondaryColor: "#8fC1E3",
+    tirtiaryColor: "#F7F9FB",
+    backgroundColor: "linear-gradient(to right, #894545c5, #fe9c9ce0)",
+    modalBackgroundColor: "linear-gradient(to right, #ad930095,#52740d80)",
+    screenSize,
+    // colors,
+    sectionSizes,
+  },
+
+  darkTheme: {
+    id: "darkTheme",
+    fg: "#fe9c9ce0",
+    bg: "#894545c5",
+    color: "#ffffffe1",
+    backgroundColor: "linear-gradient(to right, #343e1fd0, #35431a)",
+    modalBackgroundColor: "linear-gradient(to right, #ad930091, #f0929285)",
+    screenSize,
+    // colors,
+    sectionSizes,
+  },
+}
+
 const themeDark = {
   baseTheme: {
     id: "baseTheme",
@@ -65,7 +93,7 @@ const invertTheme = ({ fg, bg }) => ({
   bg: fg,
 })
 
-export default themeLight
+export default themeNanah
 
 // Blue
 
