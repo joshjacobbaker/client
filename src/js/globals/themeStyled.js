@@ -40,6 +40,51 @@ import sectionSizes from "./sectionSizes"
 // Pale Pink
 // Champagne Gold
 
+const themeNanah3 = {
+  baseTheme: {
+    id: "baseTheme",
+    headerBackgroundColor: "#fff",
+    headerFontColor: "#000",
+    mainBackgroundColor: "#fff",
+    mainFontColor: "#000",
+    footerBackgroundColor: "#0e390e",
+    footerFontColor: "#000",
+    modalBackgroundColor: "#fff",
+    modalFontColor: "#000",
+    accentBackgroundColor: "#000",
+    accentFontColor: "#fff",
+    bg: "#faeec8c9",
+    color: "#91a681b8",
+    secondaryColor: "#8fC1E3",
+    tirtiaryColor: "#F7F9FB",
+    backgroundColor: "linear-gradient(to right, #fadaddc4,#91a681)",
+    modalBackgroundColor: "linear-gradient(to right, #894545c5,#384126d0)",
+    screenSize,
+    sectionSizes,
+  },
+
+  darkTheme: {
+    id: "darkTheme",
+    headerBackgroundColor: "#fff",
+    headerFontColor: "#000",
+    mainBackgroundColor: "#fff",
+    mainFontColor: "#000",
+    footerBackgroundColor: "#0e390e",
+    footerFontColor: "#000",
+    modalBackgroundColor: "#fff",
+    modalFontColor: "#000",
+    accentBackgroundColor: "#000",
+    accentFontColor: "#fff",
+    fg: "#91a681b8",
+    bg: "#faeec8cb",
+    color: "#ffffffc2",
+    backgroundColor: "linear-gradient(to right, #0e390e, #91a681c0)",
+    modalBackgroundColor: "linear-gradient(to right, #894545c5, #384126d0)",
+    screenSize,
+    sectionSizes,
+  },
+}
+
 const themeNanah2 = {
   baseTheme: {
     id: "baseTheme",
@@ -158,7 +203,7 @@ const invertTheme = ({ fg, bg }) => ({
   bg: fg,
 })
 
-export default themeNanah2
+export default themeNanah3
 
 // Blue
 
