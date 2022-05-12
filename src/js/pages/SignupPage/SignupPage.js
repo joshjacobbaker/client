@@ -3,18 +3,18 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 // import { motion } from "framer-motion"
 
 // Layout
-import SignupRouteStyled, { SignupRouteDivStyled } from "./SignupRouteStyled"
+import SignupPageStyled, { SignupPageDivStyled } from "./SignupPageStyled"
 // Components
 import SignupForm from "../../components/SignupForm/SignupForm"
 
-const SignupRoute = () => {
+const SignupPage = () => {
   return (
-    <SignupRouteStyled>
-      <SignupRouteDivStyled>
+    <SignupPageStyled>
+      <SignupPageDivStyled>
         <SignupForm />
-      </SignupRouteDivStyled>
-    </SignupRouteStyled>
+      </SignupPageDivStyled>
+    </SignupPageStyled>
   )
 }
 
-export default SignupRoute
+export default SignupPage

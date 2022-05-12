@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- Is Visible Context
 - Sprites..?
 - Optimize Images with NextJs Image Component
 - Active NavLink css Styles
@@ -15,7 +16,6 @@
 - Carousel Component for Stylists and Salon
 - [Style Variants Framer Motion]("https://www.youtube.com/watch?v=1vKiPwEYbyk&t=765s")
 - Clipboard: Copy Phone Number, Email, Address, etc.
-- scroll to top <a href="#top"> tag
 - Favicon in Browser Tab
 - Framer Motion Variants
 - Background image of Stylists
@@ -65,7 +65,8 @@
 
 ### WIP
 
-- Code Refactor: Routes -> Pages & Page Footer, Header, etc. -> Components
+- scroll to top <a href="#top"> tag
+
 - Update CustomerPageMain to see if it'll render on github "/" route
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
 - [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
@@ -75,6 +76,7 @@
 
 ### Finished
 
+- Code Refactor: Routes -> Pages & Page Footer, Header, etc. -> Components
 - Made YOU component clickable and Navigatable to "/" route
 - Call modal close function onClick NavLink in Modal
 - CSS pointer over clickable Modal's, buttons, etc.

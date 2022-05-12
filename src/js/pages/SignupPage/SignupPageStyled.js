@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const LandingRouteStyled = styled(motion.div)`
+const SignupPageStyled = styled(motion.div)`
   @media ${(props) => props.theme.screenSize.desktop} {
   }
 
@@ -12,24 +12,22 @@ const LandingRouteStyled = styled(motion.div)`
     height: 100%;
     width: 100vw;
     display: grid;
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
+    grid-template-rows: 600px;
+    grid-auto-rows: 600px;
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
     /* overflow-x: hidden; */
   }
 `
-export default LandingRouteStyled
+export default SignupPageStyled
 
-export const LandingRouteDivStyled = styled(motion.div)`
+export const SignupPageDivStyled = styled(motion.div)`
   display: grid;
-  justify-content: center;
+  justify-items: center;
   /* align-content: center; */
   /* justify-items: center; */
   color: ${(props) => props.theme.color};
-  font-size: 1.5rem;
-  grid-auto-rows: 100px;
   align-items: center;
   &:hover {
     background-color: #105b72c2;

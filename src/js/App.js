@@ -17,12 +17,12 @@ import CustomerPageHeader from "./components/CustomerPageHeader/CustomerPageHead
 import CustomerPageMain from "./components/CustomerPageMain/CustomerPageMain"
 import CustomerPageFooter from "./components/CustomerPageFooter/CustomerPageFooter"
 // Routes
-import ContactRoute from "./pages/ContactRoute/ContactRoute"
-import LandingRoute from "./pages/LandingRoute/LandingRoute"
-import SalonRoute from "./pages/SalonRoute/SalonRoute"
-import StylistsRoute from "./pages/StylistsRoute/StylistsRoute"
-import SigninRoute from "./pages/SigninRoute/SigninRoute"
-import SignupRoute from "./pages/SignupRoute/SignupRoute"
+import ContactPage from "./pages/ContactPage/ContactPage"
+import LandingPage from "./pages/LandingPage/LandingPage"
+import SalonPage from "./pages/SalonPage/SalonPage"
+import StylistsPage from "./pages/StylistsPage/StylistsPage"
+import SigninPage from "./pages/SigninPage/SigninPage"
+import SignupPage from "./pages/SignupPage/SignupPage"
 
 const App = () => {
   // const location = useLocation()
@@ -36,13 +36,13 @@ const App = () => {
                 <CustomerPageHeader />
                 <CustomerPageMain>
                   <Routes>
-                    <Route index element={<LandingRoute />} />
-                    <Route path="landing" element={<LandingRoute />} />
-                    <Route path="signup" element={<SignupRoute />} />
-                    <Route path="contact" element={<ContactRoute />} />
-                    <Route path="signin" element={<SigninRoute />} />
-                    <Route path="stylists" element={<StylistsRoute />} />
-                    <Route path="salon" element={<SalonRoute />} />
+                    <Route index element={<LandingPage />} />
+                    <Route path="landing" element={<LandingPage />} />
+                    <Route path="signup" element={<SignupPage />} />
+                    <Route path="contact" element={<ContactPage />} />
+                    <Route path="signin" element={<SigninPage />} />
+                    <Route path="stylists" element={<StylistsPage />} />
+                    <Route path="salon" element={<SalonPage />} />
                   </Routes>
                   <Outlet />
                 </CustomerPageMain>

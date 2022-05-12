@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const SalonRouteStyled = styled(motion.div)`
+const StylistsPageStyled = styled(motion.div)`
   @media ${(props) => props.theme.screenSize.desktop} {
   }
 
@@ -18,9 +18,9 @@ const SalonRouteStyled = styled(motion.div)`
     /* overflow-x: hidden; */
   }
 `
-export default SalonRouteStyled
+export default StylistsPageStyled
 
-// export const SalonRouteDivStyled = styled(motion.div)`
+// export const StylistsRouteDivStyled = styled(motion.div)`
 //   display: grid;
 //   grid-template-rows: 60px 1fr;
 //   justify-items: center;

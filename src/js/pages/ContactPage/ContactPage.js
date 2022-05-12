@@ -5,13 +5,13 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 import { FaEnvelopeStyled, FaBuildingStyled, FaPhoneSquareAltStyled, FaFacebookStyled, FaInstagramSquareStyled } from "../../components/socialMediaIcons/SocialMediaIconsStyled"
 
 // Layout
-import ContactRouteStyled, { ContactRouteDivStyled } from "./ContactRouteStyled"
+import ContactPageStyled, { ContactPageDivStyled } from "./ContactPageStyled"
 // Route Components
 
-const LandingRoute = () => {
+const ContactPage = () => {
   return (
-    <ContactRouteStyled>
-      <ContactRouteDivStyled>
+    <ContactPageStyled>
+      <ContactPageDivStyled>
         <h1>We Love You!</h1>
         <ul>
           <li>
@@ -32,9 +32,9 @@ const LandingRoute = () => {
             Address: 123 Fake St. Mount Vernon, Wa 98273
           </li>
         </ul>
-      </ContactRouteDivStyled>
-    </ContactRouteStyled>
+      </ContactPageDivStyled>
+    </ContactPageStyled>
   )
 }
 
-export default LandingRoute
+export default ContactPage

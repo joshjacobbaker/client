@@ -21,6 +21,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -32,6 +33,9 @@ ol {
 }
 
 /* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
 html:focus-within {
   scroll-behavior: smooth;
 }

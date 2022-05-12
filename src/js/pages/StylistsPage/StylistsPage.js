@@ -4,15 +4,15 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 // import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
 
 // Layout
-import SalonRouteStyled from "./SalonStyled"
-// Route Components
-import Carousel from "../../components/CarouselSalon/CarouselSalon"
-const SalonRoute = () => {
+import StylistsPageStyled from "./StylistsPageStyled"
+// Page Components
+import Carousel from "../../components/CarouselStylists/CarouselStylists"
+const StylistsPage = () => {
   return (
-    <SalonRouteStyled>
+    <StylistsPageStyled>
       <Carousel></Carousel>
-    </SalonRouteStyled>
+    </StylistsPageStyled>
   )
 }
 
-export default SalonRoute
+export default StylistsPage
