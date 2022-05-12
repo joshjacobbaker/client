@@ -6,32 +6,22 @@ import { ModalContext } from "../../context/ModalContext"
 import { MenuContainer, MobileMenuIcon } from "./MenuStyled"
 // Modal Components
 import CustomerPageModalBackdrop from "../Modal/CustomerPageModalMenu/ModalBackdrop"
-import CustomerPageModalOverlay from "../Modal/CustomerPageModalMenu/ModalOverlay"
 import ThemeToggle from "../../components/toggleTheme/ToggleTheme"
 
 const Menu = () => {
   const ctxModal = useContext(ModalContext)
   return (
-    <MenuContainer>
-      <AnimatePresence>
-        {ctxModal.showModal && (
-          <>
-            <CustomerPageModalOverlay key="modaloverlay"></CustomerPageModalOverlay>
-            <CustomerPageModalBackdrop
-              key="modalbackdrop"
-              setShowMenu={() => {
-                setShowMenu((d) => !d)
-              }}></CustomerPageModalBackdrop>
-          </>
-        )}
-      </AnimatePresence>
-      <ThemeToggle />
-      <MobileMenuIcon id="mobileMenuIcon" onClick={ctxModal.onClickShowModal}>
-        <div></div>
-        <div></div>
-        <div></div>
-      </MobileMenuIcon>
-    </MenuContainer>
+    <>
+      <AnimatePresence>{ctxModal.showModal && <CustomerPageModalBackdrop key="modal" />}</AnimatePresence>
+      <MenuContainer>
+        <ThemeToggle />
+        <MobileMenuIcon id="mobileMenuIcon" onClick={ctxModal.onClickShowModal}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </MobileMenuIcon>
+      </MenuContainer>
+    </>
   )
 }
 

@@ -21,3 +21,5 @@ const HelmetHead = () => {
 }
 
 export default HelmetHead
+
+// https://favicon.io/emoji-favicons/smiling-face-with-hearts

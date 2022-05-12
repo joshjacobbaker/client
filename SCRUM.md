@@ -6,7 +6,7 @@
 
 - Custom useHttp quote
 - Loading Spinner
-- Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares...
+- Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares... Favicon for Apple and Google Stores
 - Put hyphen between Sign-in and Sign-up on Modal
 - Is Visible Context
 - Sprites..?
@@ -69,8 +69,7 @@
 
 ### WIP
 
-- scroll to top <a href="#top"> tag
-
+- Swipe Modal to close
 - Update CustomerPageMain to see if it'll render on github "/" route
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
 - [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
@@ -80,6 +79,7 @@
 
 ### Finished
 
+- scroll to top <a href="#top"> tag
 - Favicon in Browser Tab -- React-Helmet, React-Helmet-Async
 - Code Refactor: Routes -> Pages & Page Footer, Header, etc. -> Components
 - Made YOU component clickable and Navigatable to "/" route
