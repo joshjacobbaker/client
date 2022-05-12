@@ -3,6 +3,71 @@ import colors from "./colors"
 import sectionSizes from "./sectionSizes"
 
 // Darken green and lighten pink
+
+// Golden top: #d8ab4e
+
+// Golden bottom: #b48c36
+
+// Charcoal Black: #040404
+
+///
+
+// Dark Green: #164A41
+
+// Medium Green: #4D774E
+
+// Light Green: #9DC88D
+
+// Natural Yellow: #F1B24A
+
+// White: #FFFFFF
+
+///
+
+// Olive: #A3BCB6
+
+// Green Leaf: #39603D
+
+// Brown Grey: #3C403D
+
+// Tanly: #DADED4
+
+// White: #FFFFFF
+
+///
+
+// Forest Green
+// Pale Pink
+// Champagne Gold
+
+const themeNanah2 = {
+  baseTheme: {
+    id: "baseTheme",
+    fg: "#454547",
+    bg: "#562424",
+    color: "#ffffffe2",
+    secondaryColor: "#8fC1E3",
+    tirtiaryColor: "#F7F9FB",
+    backgroundColor: "linear-gradient(to right, #24562B,#F3ADB8)",
+    modalBackgroundColor: "linear-gradient(to right, #894545c5,#384126d0)",
+    screenSize,
+    // colors,
+    sectionSizes,
+  },
+
+  darkTheme: {
+    id: "darkTheme",
+    fg: "#385E3C",
+    bg: "#F3ADB8",
+    color: "#ffffffe1",
+    backgroundColor: "linear-gradient(to right, #24562B,#F3ADB8)",
+    modalBackgroundColor: "linear-gradient(to right, #894545c5, #384126d0)",
+    screenSize,
+    // colors,
+    sectionSizes,
+  },
+}
+
 const themeNanah = {
   baseTheme: {
     id: "baseTheme",
@@ -12,7 +77,7 @@ const themeNanah = {
     secondaryColor: "#8fC1E3",
     tirtiaryColor: "#F7F9FB",
     backgroundColor: "linear-gradient(to right, #894545c5, #fe9c9ce0)",
-    modalBackgroundColor: "linear-gradient(to right, #ad930095,#52740d80)",
+    modalBackgroundColor: "linear-gradient(to right, #894545c5,#384126d0)",
     screenSize,
     // colors,
     sectionSizes,
@@ -24,7 +89,7 @@ const themeNanah = {
     bg: "#894545c5",
     color: "#ffffffe1",
     backgroundColor: "linear-gradient(to right, #343e1fd0, #35431a)",
-    modalBackgroundColor: "linear-gradient(to right, #ad930091, #f0929285)",
+    modalBackgroundColor: "linear-gradient(to right, #894545c5, #384126d0)",
     screenSize,
     // colors,
     sectionSizes,
@@ -93,7 +158,7 @@ const invertTheme = ({ fg, bg }) => ({
   bg: fg,
 })
 
-export default themeNanah
+export default themeNanah2
 
 // Blue
 

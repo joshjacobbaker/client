@@ -4,6 +4,8 @@
 
 ### Backlog
 
+- Custom useHttp quote
+- Loading Spinner
 - Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares...
 - Put hyphen between Sign-in and Sign-up on Modal
 - Is Visible Context
