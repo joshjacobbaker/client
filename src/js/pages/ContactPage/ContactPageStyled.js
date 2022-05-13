@@ -25,7 +25,7 @@ export const ContactPageDivStyled = styled(motion.div)`
   justify-items: center;
   align-items: center;
   &:hover {
-    background-color: #105b72c2;
+    /* background-color: #105b72c2; */
   }
   ${({ theme }) => css`
     background: ${theme.contactPageBackgroundColor};
@@ -36,7 +36,6 @@ export const ContactPageDivStyled = styled(motion.div)`
   h1 {
     font-size: 1.8rem;
     text-align: center;
-    color: ${(props) => props.theme.color};
   }
   ul {
     display: grid;

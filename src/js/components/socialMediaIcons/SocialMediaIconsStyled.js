@@ -24,6 +24,7 @@ const SocialMediaIconsFooterStyled = styled.div`
   ${({ theme }) => css`
     background: ${theme.socialMediaBackgroundColor};
     color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
   `}
 `
 
@@ -38,8 +39,8 @@ export const FaEnvelopeStyled = styled(FaEnvelope)`
   ${({ theme }) => css`
     background: ${theme.socialMediaBackgroundColor};
     color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
   `}
-  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -58,8 +59,8 @@ export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
   ${({ theme }) => css`
     background: ${theme.socialMediaBackgroundColor};
     color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
   `}
-  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -77,8 +78,8 @@ export const FaFacebookStyled = styled(FaFacebook)`
   ${({ theme }) => css`
     background: ${theme.socialMediaBackgroundColor};
     color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
   `}
-  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -96,8 +97,8 @@ export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
   ${({ theme }) => css`
     background: ${theme.socialMediaBackgroundColor};
     color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
   `}
-  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
@@ -115,8 +116,8 @@ export const FaBuildingStyled = styled(FaBuilding)`
   ${({ theme }) => css`
     background: ${theme.socialMediaBackgroundColor};
     color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
   `}
-  fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
   animation: none;
