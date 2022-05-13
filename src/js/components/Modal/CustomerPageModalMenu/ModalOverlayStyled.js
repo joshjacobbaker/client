@@ -43,8 +43,9 @@ const ModalStyled = styled(motion.div)`
       margin: 0 0;
       padding: 0 0;
       overflow-x: hidden;
-      color: white;
-      border-bottom: 1px solid white;
+      ${({ theme }) => css`
+        border-bottom: 1px solid ${theme.modalOverlayFontColor};
+      `}
       border-bottom-width: 80%;
       /* background: blue; */
       &:hover {

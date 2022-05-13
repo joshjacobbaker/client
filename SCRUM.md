@@ -4,9 +4,10 @@
 
 ### Backlog
 
+- Breadcrumb page location feature
 - Custom useHttp quote
 - Loading Spinner
-- Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares... Favicon for Apple and Google Stores
+  .. Favicon for Apple and Google Stores
 - Put hyphen between Sign-in and Sign-up on Modal
 - Is Visible Context
 - Sprites..?
@@ -94,6 +95,7 @@
 
 ### Finished
 
+- Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares.
 - scroll to top <a href="#top"> tag
 - Favicon in Browser Tab -- React-Helmet, React-Helmet-Async
 - Code Refactor: Routes -> Pages & Page Footer, Header, etc. -> Components
