@@ -8,7 +8,8 @@ const FooterStyled = styled.footer`
   /* border: 1px solid white; */
   ${({ theme }) =>
     css`
-      background: ${theme.backgroundColor};
+      background: ${theme.footerBackgroundColor};
+      color: ${theme.footerFontColor};
     `}
   /* height: 100%;
   display: grid;

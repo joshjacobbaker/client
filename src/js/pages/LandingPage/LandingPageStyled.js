@@ -27,7 +27,6 @@ export const LandingPageDivStyled = styled(motion.div)`
   justify-content: center;
   /* align-content: center; */
   /* justify-items: center; */
-  color: ${(props) => props.theme.color};
   font-size: 1.5rem;
   grid-auto-rows: 100px;
   align-items: center;
@@ -35,7 +34,8 @@ export const LandingPageDivStyled = styled(motion.div)`
     background-color: #105b72c2;
   }
   ${({ theme }) => css`
-    background: ${theme.backgroundColor};
+    background: ${theme.landingPageBackgroundColor};
+    color: ${theme.landingPageFontColor};
   `}
   height: 80%;
   width: 80%;

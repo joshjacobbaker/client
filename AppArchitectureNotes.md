@@ -7,6 +7,7 @@ react icons
 framer-motion
 react scroll
 styled-components
+[React-Router-Dom]("https://www.youtube.com/watch?v=tIUuqZaq_8s&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG&index=4")
 
 #CSS
 ##current setup

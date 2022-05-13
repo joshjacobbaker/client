@@ -33,7 +33,8 @@ export const SigninPageDivStyled = styled(motion.div)`
     background-color: #105b72c2;
   }
   ${({ theme }) => css`
-    background: ${theme.backgroundColor};
+    background: ${theme.signinPageBackgroundColor};
+    color: ${theme.signinPageFontColor};
   `}
   height: 80%;
   width: 80%;

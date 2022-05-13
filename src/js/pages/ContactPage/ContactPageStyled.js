@@ -28,7 +28,8 @@ export const ContactPageDivStyled = styled(motion.div)`
     background-color: #105b72c2;
   }
   ${({ theme }) => css`
-    background: ${theme.backgroundColor};
+    background: ${theme.contactPageBackgroundColor};
+    color: ${theme.contactPageFontColor};
   `}
   height: 70%;
   width: 80%;
@@ -57,7 +58,6 @@ export const ContactPageDivStyled = styled(motion.div)`
     overflow: none;
     padding-bottom: 10px;
     border-bottom: 1px solid white;
-    color: ${(props) => props.theme.color};
   }
 
   margin-top: -20%;

@@ -21,8 +21,10 @@ const SocialMediaIconsFooterStyled = styled.div`
   justify-items: center;
   align-items: center;
   grid-auto-flow: column;
-  /* grid-column-gap: 5px; */
-  /* background: white; */
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+  `}
 `
 
 export default SocialMediaIconsFooterStyled
@@ -33,6 +35,10 @@ export default SocialMediaIconsFooterStyled
 
 export const FaEnvelopeStyled = styled(FaEnvelope)`
   cursor: pointer;
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+  `}
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -49,6 +55,10 @@ export const FaEnvelopeStyled = styled(FaEnvelope)`
 
 export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
   cursor: pointer;
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+  `}
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -64,6 +74,10 @@ export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
 
 export const FaFacebookStyled = styled(FaFacebook)`
   cursor: pointer;
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+  `}
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -79,6 +93,10 @@ export const FaFacebookStyled = styled(FaFacebook)`
 
 export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
   cursor: pointer;
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+  `}
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;
@@ -94,6 +112,10 @@ export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
 
 export const FaBuildingStyled = styled(FaBuilding)`
   cursor: pointer;
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+  `}
   fill: ${(props) => props.theme.color};
   size: 4rem;
   transition: all 0.1s;

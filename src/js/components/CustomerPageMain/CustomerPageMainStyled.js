@@ -9,8 +9,9 @@ const CustomerPageMainStyled = styled(motion.main)`
   display: grid;
   justify-items: center;
   align-items: center;
-  ${(props) => css`
-    background: linear-gradient(to right, ${props.theme.bg}, ${props.theme.fg});
+  ${({ theme }) => css`
+    background: ${theme.mainBackgroundColor};
+    color: ${theme.mainFontColor};
   `}
 
   @media ${(props) => props.theme.screenSize.mobileL} {

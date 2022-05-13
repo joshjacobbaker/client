@@ -4,14 +4,15 @@ const HeaderStyled = styled.header`
   display: grid;
   width: 100vw;
   height: 100%;
+  ${({ theme }) => css`
+    background: ${theme.headerBackgroundColor};
+    color: ${theme.headerFontColor};
+  `}
 
   @media ${(props) => props.theme.screenSize.mobileL} {
     grid-template-columns: 1fr 1fr;
     justify-items: space-between;
     align-items: center;
-    ${({ theme }) => css`
-      background: ${theme.backgroundColor};
-    `}
   }
 `
 

@@ -15,8 +15,9 @@ const ModalStyled = styled(motion.div)`
   opacity: 0.8;
   z-index: 1;
   ${({ theme }) => css`
-    background: ${theme.modalBackgroundColor};
-  `};
+    background: ${theme.modalBackdropBackgroundColor};
+    color: ${theme.modalBackdropFontColor};
+  `}
 `
 
 export default ModalStyled

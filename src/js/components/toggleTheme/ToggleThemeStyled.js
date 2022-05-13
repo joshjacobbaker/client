@@ -11,11 +11,16 @@ export const ToggleWrapper = styled.div`
   margin: auto;
   display: flex;
   ${({ theme }) => css`
-    background: ${theme.fg};
+    background: ${theme.toggleBackgroundColor};
+    color: ${theme.toggleFontColor};
   `}
 `
 
 export const Notch = styled.div`
+  ${({ theme }) => css`
+    background: ${theme.toggleBackgroundColor};
+    color: ${theme.toggleFontColor};
+  `}
   height: 21px;
   width: 21px;
   border: 1px solid #666;

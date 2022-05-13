@@ -4,6 +4,10 @@ const CustomerPageRightStyled = styled.div`
   /* width: 100vw; */
   grid-area: right;
   overflow: hidden;
+  ${({ theme }) => css`
+    background: ${theme.rightBackgroundColor};
+    color: ${theme.rightFontColor};
+  `}
 
   @media ${(props) => props.theme.screenSize.desktop} {
   }

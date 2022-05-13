@@ -1,6 +1,10 @@
 import styled, { css } from "styled-components"
 
 export const MenuContainer = styled.div`
+  ${({ theme }) => css`
+    background: ${theme.menuBackgroundColor};
+    color: ${theme.menuFontColor};
+  `}
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -20,6 +24,7 @@ export const MobileMenuIcon = styled.div`
   padding: 10px;
   height: 5rem;
   width: 100%;
+  cursor: pointer;
 
   > div {
     height: 5px;

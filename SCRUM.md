@@ -66,6 +66,21 @@
 
 - Add more menu modal items in the list
 - Work on Media Queries--different screensizes
+- Nav html tags for modal, header, nested navigation
+- Seperate the Header Component from the overall page layout.. Top: 0;
+- NavLink a class="active" styling, isActive prop
+- Programmatic Navigation; useNavigate
+- NoMatch Component
+- Shopping Cart Component
+- Products Page
+- useParams dynamic routes
+- useSearchParams
+- LazyLoad Routes with React Router
+- Capitalize all lowercase "react" to "React"
+- React.lazy & React.suspense
+- [Authentication Routes]("https://www.youtube.com/watch?v=X8eAbu1RWZ4&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG&index=15")
+- export const useAuth = useContext(authContext) ..... so we don't need to import useContext in each file
+- RequireAuth.js wrap protected Routes
 
 ### WIP
 
