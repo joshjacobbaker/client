@@ -3,7 +3,11 @@
 [Youtube Tutorial]("https://www.youtube.com/watch?v=JsX_iCZPyOM")
 
 ### Backlog
-
+- [Scroll Horizontal Snap Type X]("https://www.youtube.com/watch?v=JSfR4GOgCnk")
+- [Directional mount & unmount]("https://www.youtube.com/watch?v=tZs6sSoYxvM")
+- Framer Motion animations in animations folder
+- [Scroll up animation]("https://www.youtube.com/watch?v=cTYmwtY2EhQ")
+- [Page Route Transition]("https://www.youtube.com/watch?v=qJt-FtzJ5fo")
 - Breadcrumb page location feature
 - Custom useHttp quote
 - Loading Spinner
