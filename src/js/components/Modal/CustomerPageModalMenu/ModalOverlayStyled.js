@@ -5,8 +5,8 @@ const ModalStyled = styled(motion.div)`
   display: grid;
   justify-items: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 60%;
+  width: 60%;
   ${({ theme }) => css`
     background: ${theme.modalOverlayBackgroundColor};
     color: ${theme.modalOverlayFontColor};
@@ -14,7 +14,6 @@ const ModalStyled = styled(motion.div)`
   z-index: 2;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
   > ul {
     display: grid;
     grid-template-rows: repeat(3, 1fr);

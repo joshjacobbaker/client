@@ -37,7 +37,7 @@ const App = () => {
               <CustomerPageHeader />
               <CustomerPageMain>
                 <Routes>
-                  <Route index element={<LandingPage />} />
+                  <Route path="/" exact element={<LandingPage />} />
                   <Route path="landing" element={<LandingPage />} />
                   <Route path="signup" element={<SignupPage />} />
                   <Route path="contact" element={<ContactPage />} />
@@ -45,7 +45,6 @@ const App = () => {
                   <Route path="stylists" element={<StylistsPage />} />
                   <Route path="salon" element={<SalonPage />} />
                 </Routes>
-                <Outlet />
               </CustomerPageMain>
               <CustomerPageFooter />
             </CustomerPageLayoutStyled>
