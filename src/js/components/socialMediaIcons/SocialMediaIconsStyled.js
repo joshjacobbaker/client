@@ -1,6 +1,6 @@
 import styled, { keyframes, css } from "styled-components"
 import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
-
+import { motion } from "framer-motion"
 const animate = keyframes`
   from {
     scale: 1;
@@ -12,7 +12,7 @@ const animate = keyframes`
   }
 `
 
-const SocialMediaIconsFooterStyled = styled.div`
+const SocialMediaIconsContainerFooterStyled = styled(motion.div)`
   height: 10vh;
   width: 100%;
   margin: 0 0;
@@ -28,11 +28,32 @@ const SocialMediaIconsFooterStyled = styled.div`
   `}
 `
 
-export default SocialMediaIconsFooterStyled
+export default SocialMediaIconsContainerFooterStyled
 
-// const FaEnvelopeFunction = ({ children, ...props }) => {
-//   return <FaEnvelope {...props}>{children}</FaEnvelope>
-// }
+/* const IconsWrapperStyled = styled.div`
+  cursor: pointer;
+  ${({ theme }) => css`
+    background: ${theme.socialMediaBackgroundColor};
+    color: ${theme.socialMediaFontColor};
+    fill: ${theme.accentBackgroundColor};
+  `}
+  size: 4rem;
+  transition: all 1s;
+  &:hover {
+    cursor: pointer;
+    animation: ${animate} 3s linear 0.1s infinite both alternate;
+  }
+  &:active {
+    animation: none;
+    scale: 1.2;
+  }
+`
+
+const IconsWrapperFunction = ({ IconsComponent, children, ...props }) => {
+  return <IconsComponent {...props}>{children}</IconsComponent>
+} */
+
+/* export const FaEnvelopeStyled = IconsWrapperFunction(FaPhoneSquareAlt) */
 
 export const FaEnvelopeStyled = styled(FaEnvelope)`
   cursor: pointer;
@@ -42,8 +63,7 @@ export const FaEnvelopeStyled = styled(FaEnvelope)`
     fill: ${theme.accentBackgroundColor};
   `}
   size: 4rem;
-  transition: all 0.1s;
-  animation: none;
+  transition: all 1s;
   &:hover {
     cursor: pointer;
     animation: ${animate} 3s linear 0.1s infinite both alternate;
@@ -62,8 +82,7 @@ export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
     fill: ${theme.accentBackgroundColor};
   `}
   size: 4rem;
-  transition: all 0.1s;
-  animation: none;
+  transition: all 1s;
   &:hover {
     cursor: pointer;
     animation: ${animate} 3s linear 0.1s infinite both alternate;
@@ -81,8 +100,7 @@ export const FaFacebookStyled = styled(FaFacebook)`
     fill: ${theme.accentBackgroundColor};
   `}
   size: 4rem;
-  transition: all 0.1s;
-  animation: none;
+  transition: all 1s;
   &:hover {
     cursor: pointer;
     animation: ${animate} 3s linear 0.1s infinite both alternate;
@@ -100,8 +118,7 @@ export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
     fill: ${theme.accentBackgroundColor};
   `}
   size: 4rem;
-  transition: all 0.1s;
-  animation: none;
+  transition: all 1s;
   &:hover {
     cursor: pointer;
     animation: ${animate} 3s linear 0.1s infinite both alternate;
@@ -119,11 +136,10 @@ export const FaBuildingStyled = styled(FaBuilding)`
     fill: ${theme.accentBackgroundColor};
   `}
   size: 4rem;
-  transition: all 0.1s;
-  animation: none;
+  transition: all 1s;
   &:hover {
     cursor: pointer;
-    animation: ${animate} 3s linear 0.1s infinite both alternate;
+    animation: ${animate} 1s linear 0.1s infinite both alternate;
   }
   &:active {
     scale: 2;

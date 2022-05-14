@@ -1,15 +1,18 @@
 import React from "react"
-import SocialMediaIconsStyled, { FaEnvelopeStyled, FaBuildingStyled, FaPhoneSquareAltStyled, FaFacebookStyled, FaInstagramSquareStyled } from "./SocialMediaIconsStyled"
+import SocialMediaIconsContainerFooterStyled, { FaEnvelopeStyled, FaBuildingStyled, FaPhoneSquareAltStyled, FaFacebookStyled, FaInstagramSquareStyled } from "./SocialMediaIconsStyled"
+import { motion, AnimatePresence } from "framer-motion"
 
 const SocialMediaIcons = () => {
   return (
-    <SocialMediaIconsStyled>
-      <FaEnvelopeStyled />
-      <FaPhoneSquareAltStyled />
-      <FaFacebookStyled />
-      <FaInstagramSquareStyled />
-      <FaBuildingStyled />
-    </SocialMediaIconsStyled>
+    <AnimatePresence>
+      <SocialMediaIconsContainerFooterStyled>
+        <FaEnvelopeStyled />
+        <FaPhoneSquareAltStyled />
+        <FaFacebookStyled />
+        <FaInstagramSquareStyled />
+        <FaBuildingStyled />
+      </SocialMediaIconsContainerFooterStyled>
+    </AnimatePresence>
   )
 }
 
