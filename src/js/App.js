@@ -29,31 +29,29 @@ const App = () => {
   // const location = useLocation()
   return (
     <ModalContextProvider>
-      <IconContextProvider>
-        <ToggleThemeProvider>
-          <AnimatePresence initial={false} exitBeforeEnter>
-            <BrowserRouter>
-              <HelmetHead />
-              <CustomerPageLayoutStyled>
-                <CustomerPageHeader />
-                <CustomerPageMain>
-                  <Routes>
-                    <Route index element={<LandingPage />} />
-                    <Route path="landing" element={<LandingPage />} />
-                    <Route path="signup" element={<SignupPage />} />
-                    <Route path="contact" element={<ContactPage />} />
-                    <Route path="signin" element={<SigninPage />} />
-                    <Route path="stylists" element={<StylistsPage />} />
-                    <Route path="salon" element={<SalonPage />} />
-                  </Routes>
-                  <Outlet />
-                </CustomerPageMain>
-                <CustomerPageFooter />
-              </CustomerPageLayoutStyled>
-            </BrowserRouter>
-          </AnimatePresence>
-        </ToggleThemeProvider>
-      </IconContextProvider>
+      <ToggleThemeProvider>
+        <AnimatePresence initial={false} exitBeforeEnter>
+          <BrowserRouter>
+            <HelmetHead />
+            <CustomerPageLayoutStyled>
+              <CustomerPageHeader />
+              <CustomerPageMain>
+                <Routes>
+                  <Route index element={<LandingPage />} />
+                  <Route path="landing" element={<LandingPage />} />
+                  <Route path="signup" element={<SignupPage />} />
+                  <Route path="contact" element={<ContactPage />} />
+                  <Route path="signin" element={<SigninPage />} />
+                  <Route path="stylists" element={<StylistsPage />} />
+                  <Route path="salon" element={<SalonPage />} />
+                </Routes>
+                <Outlet />
+              </CustomerPageMain>
+              <CustomerPageFooter />
+            </CustomerPageLayoutStyled>
+          </BrowserRouter>
+        </AnimatePresence>
+      </ToggleThemeProvider>
     </ModalContextProvider>
   )
 }

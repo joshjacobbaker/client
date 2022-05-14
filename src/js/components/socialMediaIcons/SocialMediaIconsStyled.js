@@ -1,14 +1,27 @@
 import styled, { keyframes, css } from "styled-components"
 import { FaBuilding, FaEnvelope, FaPhoneSquareAlt, FaFacebook, FaInstagramSquare } from "react-icons/fa"
 import { motion } from "framer-motion"
-const animate = keyframes`
+
+const animateHover = keyframes`
   from {
     scale: 1;
-    filter: hue-rotate(0deg);
   }
   to {
-    scale: 1.2;
-    filter: hue-rotate(360deg);
+    scale: 1.05;
+  }
+`
+
+const animateClick = keyframes`
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 0.9
+  }
+
+  100% {
+    scale: 1;
   }
 `
 
@@ -21,132 +34,42 @@ const SocialMediaIconsContainerFooterStyled = styled(motion.div)`
   justify-items: center;
   align-items: center;
   grid-auto-flow: column;
-  ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
-    fill: ${theme.accentBackgroundColor};
-  `}
 `
-
 export default SocialMediaIconsContainerFooterStyled
 
-/* const IconsWrapperStyled = styled.div`
+const FontAwesomeSharedStyle = css`
   cursor: pointer;
   ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
     fill: ${theme.accentBackgroundColor};
   `}
-  size: 4rem;
+  font-size: 4rem;
   transition: all 1s;
   &:hover {
     cursor: pointer;
-    animation: ${animate} 3s linear 0.1s infinite both alternate;
+    animation: ${animateHover} 1s linear 0.1s infinite both alternate;
   }
   &:active {
-    animation: none;
+    animation: ${animateClick} 1s linear;
     scale: 1.2;
   }
 `
 
-const IconsWrapperFunction = ({ IconsComponent, children, ...props }) => {
-  return <IconsComponent {...props}>{children}</IconsComponent>
-} */
-
-/* export const FaEnvelopeStyled = IconsWrapperFunction(FaPhoneSquareAlt) */
-
 export const FaEnvelopeStyled = styled(FaEnvelope)`
-  cursor: pointer;
-  ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
-    fill: ${theme.accentBackgroundColor};
-  `}
-  size: 4rem;
-  transition: all 1s;
-  &:hover {
-    cursor: pointer;
-    animation: ${animate} 3s linear 0.1s infinite both alternate;
-  }
-  &:active {
-    animation: none;
-    scale: 1.2;
-  }
+  ${FontAwesomeSharedStyle};
 `
 
 export const FaPhoneSquareAltStyled = styled(FaPhoneSquareAlt)`
-  cursor: pointer;
-  ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
-    fill: ${theme.accentBackgroundColor};
-  `}
-  size: 4rem;
-  transition: all 1s;
-  &:hover {
-    cursor: pointer;
-    animation: ${animate} 3s linear 0.1s infinite both alternate;
-  }
-  &:active {
-    scale: 2;
-  }
+  ${FontAwesomeSharedStyle}
 `
 
 export const FaFacebookStyled = styled(FaFacebook)`
-  cursor: pointer;
-  ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
-    fill: ${theme.accentBackgroundColor};
-  `}
-  size: 4rem;
-  transition: all 1s;
-  &:hover {
-    cursor: pointer;
-    animation: ${animate} 3s linear 0.1s infinite both alternate;
-  }
-  &:active {
-    scale: 2;
-  }
+  ${FontAwesomeSharedStyle}
 `
 
 export const FaInstagramSquareStyled = styled(FaInstagramSquare)`
-  cursor: pointer;
-  ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
-    fill: ${theme.accentBackgroundColor};
-  `}
-  size: 4rem;
-  transition: all 1s;
-  &:hover {
-    cursor: pointer;
-    animation: ${animate} 3s linear 0.1s infinite both alternate;
-  }
-  &:active {
-    scale: 2;
-  }
+  ${FontAwesomeSharedStyle}
 `
 
 export const FaBuildingStyled = styled(FaBuilding)`
-  cursor: pointer;
-  ${({ theme }) => css`
-    background: ${theme.socialMediaBackgroundColor};
-    color: ${theme.socialMediaFontColor};
-    fill: ${theme.accentBackgroundColor};
-  `}
-  size: 4rem;
-  transition: all 1s;
-  &:hover {
-    cursor: pointer;
-    animation: ${animate} 1s linear 0.1s infinite both alternate;
-  }
-  &:active {
-    scale: 2;
-  }
+  ${FontAwesomeSharedStyle}
 `
-// FaEnvelope
-// FaPhoneSquareAlt
-// FaFacebook
-// FaInstagramSquare
-// FaBuilding

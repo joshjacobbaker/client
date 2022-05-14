@@ -3,6 +3,8 @@
 [Youtube Tutorial]("https://www.youtube.com/watch?v=JsX_iCZPyOM")
 
 ### Backlog
+
+- [Card with row-reverse]("https://www.youtube.com/watch?v=02zO0hZmwnw")
 - [Scroll Horizontal Snap Type X]("https://www.youtube.com/watch?v=JSfR4GOgCnk")
 - [Directional mount & unmount]("https://www.youtube.com/watch?v=tZs6sSoYxvM")
 - Framer Motion animations in animations folder
@@ -99,6 +101,7 @@
 
 ### Finished
 
+- [Shared Styled-Component CSS styling]("https://stackoverflow.com/questions/65272529/react-create-one-styled-components-for-two-different-icons")
 - Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares.
 - scroll to top <a href="#top"> tag
 - Favicon in Browser Tab -- React-Helmet, React-Helmet-Async
