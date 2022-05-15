@@ -1,4 +1,4 @@
-import react, { useContext } from "react"
+import React, { useContext } from "react"
 import { useLocation } from "react-router-dom"
 import ModalOverlayStyled from "./ModalOverlayStyled"
 import NavLinkStyled from "../../navLink/NavLink"
@@ -12,22 +12,34 @@ const ModalOverlay = (props) => {
     <ModalOverlayStyled>
       <ul>
         <li>
-          <NavLinkStyled to="landing">Landing</NavLinkStyled>
+          <NavLinkStyled onClick={ctxModal.onClickShowModal} to="landing">
+            Landing
+          </NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="contact">Contact</NavLinkStyled>
+          <NavLinkStyled onClick={ctxModal.onClickShowModal} to="contact">
+            Contact
+          </NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="signup">Signup</NavLinkStyled>
+          <NavLinkStyled onClick={ctxModal.onClickShowModal} to="signup">
+            Sign-up
+          </NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="signin">Signin</NavLinkStyled>
+          <NavLinkStyled onClick={ctxModal.onClickShowModal} to="login">
+            Login
+          </NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="stylists">Stylists</NavLinkStyled>
+          <NavLinkStyled onClick={ctxModal.onClickShowModal} to="stylists">
+            Stylists
+          </NavLinkStyled>
         </li>
         <li>
-          <NavLinkStyled to="salon">Salon</NavLinkStyled>
+          <NavLinkStyled onClick={ctxModal.onClickShowModal} to="salon">
+            Salon
+          </NavLinkStyled>
         </li>
       </ul>
     </ModalOverlayStyled>

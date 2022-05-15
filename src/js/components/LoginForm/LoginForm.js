@@ -1,15 +1,15 @@
 import React from "react"
-import SigninFormStyled from "./SigninFormStyled"
+import LoginFormStyled from "./LoginFormStyled"
 
 const onFormSubmitHandler = (e) => {
   e.preventDefault()
   console.log("On click")
 }
 
-const SigninForm = () => {
+const LoginForm = () => {
   return (
-    <SigninFormStyled onSubmit={onFormSubmitHandler} action="submit">
-      <h1>Signin with YOU</h1>
+    <LoginFormStyled onSubmit={onFormSubmitHandler} action="submit">
+      <h1>Login with YOU</h1>
       <fieldset>
         {/* <label htmlFor="email">Email</label> */}
         <input id="email" type="text" placeholder="Email" />
@@ -19,8 +19,8 @@ const SigninForm = () => {
         <input id="confirmpassword" type="text" placeholder="confirmpassword" />
       </fieldset>
       <button type="submit">Submit</button>
-    </SigninFormStyled>
+    </LoginFormStyled>
   )
 }
 
-export default SigninForm
+export default LoginForm

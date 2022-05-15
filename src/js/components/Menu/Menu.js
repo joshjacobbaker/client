@@ -1,4 +1,4 @@
-import react, { useContext } from "react"
+import React, { useContext } from "react"
 import { AnimatePresence } from "framer-motion"
 // Context
 import { ModalContext } from "../../context/ModalContext"

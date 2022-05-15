@@ -22,7 +22,7 @@ import ContactPage from "./pages/ContactPage/ContactPage"
 import LandingPage from "./pages/LandingPage/LandingPage"
 import SalonPage from "./pages/SalonPage/SalonPage"
 import StylistsPage from "./pages/StylistsPage/StylistsPage"
-import SigninPage from "./pages/SigninPage/SigninPage"
+import SigninPage from "./pages/LoginPage/LoginPage"
 import SignupPage from "./pages/SignupPage/SignupPage"
 
 const App = () => {
@@ -41,7 +41,7 @@ const App = () => {
                   <Route path="landing" element={<LandingPage />} />
                   <Route path="signup" element={<SignupPage />} />
                   <Route path="contact" element={<ContactPage />} />
-                  <Route path="signin" element={<SigninPage />} />
+                  <Route path="login" element={<SigninPage />} />
                   <Route path="stylists" element={<StylistsPage />} />
                   <Route path="salon" element={<SalonPage />} />
                 </Routes>

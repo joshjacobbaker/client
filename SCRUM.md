@@ -4,6 +4,11 @@
 
 ### Backlog
 
+- [Lazy Load images]("https://www.youtube.com/watch?v=0-Ze5dEgVFk")
+- [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
+- [Image Optimization... React?]("https://github.com/cyrilwanner/optimized-images-loader")
+- [Google Analytics]("https://tamalweb.com/google-analytics-with-reactjs")
+- https://tinypng.com/... favicon.ico helmet photo, salon & stylist photo optimizations
 - [Card with row-reverse]("https://www.youtube.com/watch?v=02zO0hZmwnw")
 - [Scroll Horizontal Snap Type X]("https://www.youtube.com/watch?v=JSfR4GOgCnk")
 - [Directional mount & unmount]("https://www.youtube.com/watch?v=tZs6sSoYxvM")
@@ -14,10 +19,8 @@
 - Custom useHttp quote
 - Loading Spinner
   .. Favicon for Apple and Google Stores
-- Put hyphen between Sign-in and Sign-up on Modal
 - Is Visible Context
 - Sprites..?
-- Optimize Images with NextJs Image Component
 - Active NavLink css Styles
 - useMemo on data structures
 - useCallback for handler functions and objects
@@ -91,6 +94,10 @@
 
 ### WIP
 
+- [Lazy Load images]("https://www.youtube.com/watch?v=0-Ze5dEgVFk")
+- [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
+
+- Optimize Images with NextJs Image Component
 - Swipe Modal to close
 - Update CustomerPageMain to see if it'll render on github "/" route
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
@@ -101,6 +108,7 @@
 
 ### Finished
 
+- Put hyphen between Sign-in and Sign-up on Modal
 - [Shared Styled-Component CSS styling]("https://stackoverflow.com/questions/65272529/react-create-one-styled-components-for-two-different-icons")
 - Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares.
 - scroll to top <a href="#top"> tag

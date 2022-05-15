@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 import { motion } from "framer-motion"
 
-const SigninPageStyled = styled(motion.div)`
+const LoginPageStyled = styled(motion.div)`
   @media ${(props) => props.theme.screenSize.desktop} {
   }
 
@@ -20,9 +20,9 @@ const SigninPageStyled = styled(motion.div)`
     /* overflow-x: hidden; */
   }
 `
-export default SigninPageStyled
+export default LoginPageStyled
 
-export const SigninPageDivStyled = styled(motion.div)`
+export const LoginPageDivStyled = styled(motion.div)`
   display: grid;
   justify-items: center;
   /* align-content: center; */
@@ -33,8 +33,8 @@ export const SigninPageDivStyled = styled(motion.div)`
     background-color: #105b72c2;
   }
   ${({ theme }) => css`
-    background: ${theme.signinPageBackgroundColor};
-    color: ${theme.signinPageFontColor};
+    background: ${theme.loginPageBackgroundColor};
+    color: ${theme.loginPageFontColor};
   `}
   height: 80%;
   width: 80%;
