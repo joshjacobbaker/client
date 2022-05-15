@@ -4,6 +4,8 @@
 
 ### Backlog
 
+- [Picture Tag]("https://www.youtube.com/watch?v=Rik3gHT24AM")
+- [Minimize Photo Size]("https://squoosh.app/")
 - [Lazy Load images]("https://www.youtube.com/watch?v=0-Ze5dEgVFk")
 - [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
 - [Image Optimization... React?]("https://github.com/cyrilwanner/optimized-images-loader")

@@ -7,6 +7,8 @@ import useElementOnScreen from "../../hooks/useElementOnScreen"
 import LandingPageStyled, { LandingPageDivStyled } from "./LandingPageStyled"
 // Components
 import SmoothScroll from "../../components/smoothScroll/SmoothScroll"
+// Animations
+import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const LandingPage = () => {
   const targetRef = useRef(null)
@@ -27,7 +29,7 @@ const LandingPage = () => {
   }
 
   return (
-    <LandingPageStyled>
+    <LandingPageStyled key="landingpage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <LandingPageDivStyled id="top">
         <p>ajfkadslfjadskfklsadfjda</p>
         <p>adsjfkjkdajfljdsfjdskalj</p>

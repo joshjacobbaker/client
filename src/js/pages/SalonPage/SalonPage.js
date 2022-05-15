@@ -7,9 +7,12 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 import SalonPageStyled from "./SalonPageStyled"
 // Page Components
 import Carousel from "../../components/CarouselSalon/CarouselSalon"
+// Animation
+import pageTransitionVariants from "../../animations/pageTransitionVariants"
+
 const SalonPage = () => {
   return (
-    <SalonPageStyled>
+    <SalonPageStyled key="loginpage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <Carousel></Carousel>
     </SalonPageStyled>
   )

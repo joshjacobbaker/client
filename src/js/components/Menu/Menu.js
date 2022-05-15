@@ -10,9 +10,10 @@ import ThemeToggle from "../../components/toggleTheme/ToggleTheme"
 
 const Menu = () => {
   const ctxModal = useContext(ModalContext)
+
   return (
     <>
-      <AnimatePresence>{ctxModal.showModal && <CustomerPageModalBackdrop key="modal" />}</AnimatePresence>
+      <AnimatePresence>{ctxModal.showModal && <CustomerPageModalBackdrop />}</AnimatePresence>
       <MenuContainer>
         <ThemeToggle />
         <MobileMenuIcon id="mobileMenuIcon" onClick={ctxModal.onClickShowModal}>

@@ -4,7 +4,7 @@ import React, { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
 // Router
-import { BrowserRouter, Routes, Route, Redirect, Outlet, useLocation, Switch } from "react-router-dom"
+import { Routes, Route, Redirect, Outlet, useLocation, Switch } from "react-router-dom"
 
 // Context
 import { ToggleThemeProvider } from "../js/context/ToggleThemeContext"
@@ -26,30 +26,29 @@ import SigninPage from "./pages/LoginPage/LoginPage"
 import SignupPage from "./pages/SignupPage/SignupPage"
 
 const App = () => {
-  // const location = useLocation()
+  const location = useLocation()
+  console.log(location)
   return (
     <ModalContextProvider>
       <ToggleThemeProvider>
-        <AnimatePresence initial={false} exitBeforeEnter>
-          <BrowserRouter>
-            <HelmetHead />
-            <CustomerPageLayoutStyled>
-              <CustomerPageHeader />
-              <CustomerPageMain>
-                <Routes>
-                  <Route path="/" exact element={<LandingPage />} />
-                  <Route path="landing" element={<LandingPage />} />
-                  <Route path="signup" element={<SignupPage />} />
-                  <Route path="contact" element={<ContactPage />} />
-                  <Route path="login" element={<SigninPage />} />
-                  <Route path="stylists" element={<StylistsPage />} />
-                  <Route path="salon" element={<SalonPage />} />
-                </Routes>
-              </CustomerPageMain>
-              <CustomerPageFooter />
-            </CustomerPageLayoutStyled>
-          </BrowserRouter>
-        </AnimatePresence>
+        <HelmetHead />
+        <CustomerPageLayoutStyled>
+          <CustomerPageHeader />
+          <CustomerPageMain>
+            <AnimatePresence initial={false} exitBeforeEnter>
+              <Routes location={location} key={location.pathname}>
+                <Route path="/" exact element={<LandingPage />} />
+                <Route path="landing" element={<LandingPage />} />
+                <Route path="signup" element={<SignupPage />} />
+                <Route path="contact" element={<ContactPage />} />
+                <Route path="login" element={<SigninPage />} />
+                <Route path="stylists" element={<StylistsPage />} />
+                <Route path="salon" element={<SalonPage />} />
+              </Routes>
+            </AnimatePresence>
+          </CustomerPageMain>
+          <CustomerPageFooter />
+        </CustomerPageLayoutStyled>
       </ToggleThemeProvider>
     </ModalContextProvider>
   )

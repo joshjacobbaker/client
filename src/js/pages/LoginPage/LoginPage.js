@@ -6,10 +6,12 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 import LoginPageStyled, { LoginPageDivStyled } from "./LoginPageStyled"
 // Components
 import LoginForm from "../../components/LoginForm/LoginForm"
+// Animations
+import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const LoginPage = () => {
   return (
-    <LoginPageStyled>
+    <LoginPageStyled key="loginpage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <LoginPageDivStyled>
         <LoginForm />
       </LoginPageDivStyled>
