@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- [Intersection Observer for Animations when in view]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Motion One Animation?]
 - [Drag and Drop]("https://www.youtube.com/watch?v=Q1PYQPK9TaM")
 - [Picture Tag]("https://www.youtube.com/watch?v=Rik3gHT24AM")
