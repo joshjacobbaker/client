@@ -12,7 +12,7 @@ import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const StylistsPage = () => {
   return (
-    <StylistsPageStyled key="stylistspage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+    <StylistsPageStyled key="stylistspage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <Carousel></Carousel>
     </StylistsPageStyled>
   )

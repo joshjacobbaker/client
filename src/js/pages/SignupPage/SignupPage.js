@@ -11,7 +11,7 @@ import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const SignupPage = () => {
   return (
-    <SignupPageStyled key="signuppage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+    <SignupPageStyled key="signuppage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <SignupPageDivStyled>
         <SignupForm />
       </SignupPageDivStyled>

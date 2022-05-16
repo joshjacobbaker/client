@@ -4,6 +4,8 @@
 
 ### Backlog
 
+- [Motion One Animation?]
+- [Drag and Drop]("https://www.youtube.com/watch?v=Q1PYQPK9TaM")
 - [Picture Tag]("https://www.youtube.com/watch?v=Rik3gHT24AM")
 - [Minimize Photo Size]("https://squoosh.app/")
 - [Lazy Load images]("https://www.youtube.com/watch?v=0-Ze5dEgVFk")

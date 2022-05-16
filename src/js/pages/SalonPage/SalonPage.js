@@ -12,7 +12,7 @@ import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const SalonPage = () => {
   return (
-    <SalonPageStyled key="loginpage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+    <SalonPageStyled key="loginpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <Carousel></Carousel>
     </SalonPageStyled>
   )

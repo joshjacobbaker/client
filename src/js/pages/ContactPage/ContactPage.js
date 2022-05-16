@@ -11,7 +11,7 @@ import { FaEnvelopeStyled, FaBuildingStyled, FaPhoneSquareAltStyled, FaFacebookS
 import pageTransitionVariants from "../../animations/pageTransitionVariants"
 const ContactPage = () => {
   return (
-    <ContactPageStyled key="contactpage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+    <ContactPageStyled key="contactpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <ContactPageDivStyled>
         <h1>We Love You!</h1>
         <ul>

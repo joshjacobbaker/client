@@ -29,7 +29,7 @@ const LandingPage = () => {
   }
 
   return (
-    <LandingPageStyled key="landingpage" variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+    <LandingPageStyled key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <LandingPageDivStyled id="top">
         <p>ajfkadslfjadskfklsadfjda</p>
         <p>adsjfkjkdajfljdsfjdskalj</p>
