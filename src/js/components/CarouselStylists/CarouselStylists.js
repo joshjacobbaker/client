@@ -8,7 +8,7 @@ const CarouselStylists = () => {
   return (
     <CarouselStylistsStyled>
       {Images.map((image) => (
-        <LazyLoadedImageStyled threshold="100" effect="blur" src={image} height="400px" width="100%" />
+        <LazyLoadedImageStyled threshold="100" effect="blur" src={image} height="450px" width="100%" />
       ))}
     </CarouselStylistsStyled>
   )

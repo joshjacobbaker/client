@@ -38,3 +38,6 @@ Mobile First Design
   . Apple recommends at least a 44-pixel square for touch targets.
 
 <!-- https://xd.adobe.com/ideas/process/ui-design/what-is-mobile-first-design/ -->
+
+// Pictures
+https://squoosh.app/

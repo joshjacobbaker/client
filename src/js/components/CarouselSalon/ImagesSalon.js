@@ -1,6 +1,6 @@
-import image1 from "../../../images/salon/salon1.jpg"
-import image3 from "../../../images/salon/salon3.jpg"
-import image4 from "../../../images/salon/salon4.jpg"
-import image5 from "../../../images/salon/salon5.jpg"
+import image1 from "../../../images/salon/salon12.webp"
+import image3 from "../../../images/salon/salon32.webp"
+import image4 from "../../../images/salon/salon42.webp"
+import image5 from "../../../images/salon/salon52.webp"
 
 export default [image1, image3, image4, image5]

@@ -96,20 +96,19 @@
 
 ### WIP
 
-- [Lazy Load images]("https://www.youtube.com/watch?v=0-Ze5dEgVFk")
+- [Minimize Photo Size]("https://squoosh.app/")
 - [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
-
-- Optimize Images with NextJs Image Component
-- Swipe Modal to close
-- Update CustomerPageMain to see if it'll render on github "/" route
-- Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
-- [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
-- [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
 
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 
 ### Finished
 
+- [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
+- [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
+- Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
+- Update CustomerPageMain to see if it'll render on github "/" route
+- [Lazy Load images]("https://www.youtube.com/watch?v=0-Ze5dEgVFk")
+- Swipe Modal to close
 - Put hyphen between Sign-in and Sign-up on Modal
 - [Shared Styled-Component CSS styling]("https://stackoverflow.com/questions/65272529/react-create-one-styled-components-for-two-different-icons")
 - Darker green, and really light pink, Softer Pink... forest green, pale pink, powder pink.... Dark green background, pale pink squares.
