@@ -8,7 +8,7 @@ const CarouselSalon = () => {
   return (
     <CarouselSalonStyled>
       {Images.map((image) => (
-        <LazyLoadedImage threshold="100" effect="blur" src={image} height="400px" width="100%"></LazyLoadedImage>
+        <LazyLoadedImage src={image} height="400" width="100%"></LazyLoadedImage>
       ))}
     </CarouselSalonStyled>
   )

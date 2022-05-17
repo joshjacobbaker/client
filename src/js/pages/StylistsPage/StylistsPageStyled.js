@@ -22,7 +22,7 @@ export default StylistsPageStyled
 
 export const StylistsRouteDivStyled = styled(motion.div)`
   display: grid;
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
   &:hover {

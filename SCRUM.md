@@ -4,6 +4,9 @@
 
 ### Backlog
 
+- [Products Page, Services Page]("")
+- [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
+- [Modal Menu Sidebar Animation]("https://www.youtube.com/watch?v=FxBQa-0kpfs")
 - [Intersection Observer for Animations when in view]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Motion One Animation?]
 - [Drag and Drop]("https://www.youtube.com/watch?v=Q1PYQPK9TaM")
@@ -95,6 +98,7 @@
 - React.lazy & React.suspense
 - [Authentication Routes]("https://www.youtube.com/watch?v=X8eAbu1RWZ4&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG&index=15")
 - export const useAuth = useContext(authContext) ..... so we don't need to import useContext in each file
+- Signin, Signup Context, Local Storage, database, server route
 - RequireAuth.js wrap protected Routes
 
 ### WIP

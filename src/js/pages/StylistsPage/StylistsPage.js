@@ -6,14 +6,14 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 // Layout
 import StylistsPageStyled from "./StylistsPageStyled"
 // Page Components
-import Carousel from "../../components/CarouselStylists/CarouselStylists"
+import StylistsCarousel from "../../components/CarouselStylists/CarouselStylists"
 // Animations
 import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const StylistsPage = () => {
   return (
     <StylistsPageStyled key="stylistspage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
-      <Carousel></Carousel>
+      <StylistsCarousel />
     </StylistsPageStyled>
   )
 }
