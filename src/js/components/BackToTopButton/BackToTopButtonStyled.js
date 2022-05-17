@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const SmoothScrollStyled = styled.a`
+const BackToTopButtonStyled = styled.button`
   display: grid;
   justify-items: center;
   align-items: center;
@@ -18,4 +18,4 @@ const SmoothScrollStyled = styled.a`
   text-align: center;
 `
 
-export default SmoothScrollStyled
+export default BackToTopButtonStyled

@@ -5,11 +5,21 @@ import { motion, AnimatePresence } from "framer-motion"
 const SocialMediaIcons = () => {
   return (
     <SocialMediaIconsContainerFooterStyled>
-      <FaBuildingStyled />
-      <FaEnvelopeStyled />
-      <FaPhoneSquareAltStyled />
-      <FaFacebookStyled />
-      <FaInstagramSquareStyled />
+      <a href="#">
+        <FaBuildingStyled />
+      </a>
+      <a href="#">
+        <FaEnvelopeStyled />
+      </a>
+      <a href="#">
+        <FaPhoneSquareAltStyled />
+      </a>
+      <a href="#">
+        <FaFacebookStyled />
+      </a>
+      <a href="#">
+        <FaInstagramSquareStyled />
+      </a>
     </SocialMediaIconsContainerFooterStyled>
   )
 }

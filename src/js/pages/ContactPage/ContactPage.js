@@ -16,21 +16,34 @@ const ContactPage = () => {
         <h1>We Love You!</h1>
         <ul>
           <li>
-            <FaPhoneSquareAltStyled /> (360)-123-4567
+            <a href="#">
+              <FaPhoneSquareAltStyled />
+            </a>
+            <p>(360)-123-4567</p>
           </li>
           <li>
-            <FaEnvelopeStyled /> You@gmail.com
+            <a href="#">
+              <FaEnvelopeStyled />
+            </a>
+            <p>You@gmail.com</p>
           </li>
           <li>
-            <FaInstagramSquareStyled />
-            @You.Handle.Instagram
+            <a href="#">
+              <FaInstagramSquareStyled />
+            </a>
+            <p>@You.Handle.Instagram</p>
           </li>
           <li>
-            <FaFacebookStyled /> @You.Handle.Facebook
+            <a href="#">
+              <FaFacebookStyled />
+            </a>
+            <p>@You.Handle.Facebook</p>
           </li>
           <li>
-            <FaBuildingStyled />
-            Address: 123 Fake St. Mount Vernon, Wa 98273
+            <a href="#">
+              <FaBuildingStyled />
+            </a>
+            <p>Address: 123 Fake St. Mount Vernon, Wa 98273</p>
           </li>
         </ul>
       </ContactPageDivStyled>

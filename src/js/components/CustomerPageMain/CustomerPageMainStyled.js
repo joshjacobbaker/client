@@ -5,7 +5,7 @@ const CustomerPageMainStyled = styled(motion.main)`
   height: 100%;
   width: 100vw;
   grid-area: main;
-  overflow: scroll;
+  overflow-y: auto;
   display: grid;
   justify-items: center;
   align-items: center;

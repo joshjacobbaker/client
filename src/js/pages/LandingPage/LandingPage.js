@@ -6,7 +6,6 @@ import useElementOnScreen from "../../hooks/useElementOnScreen"
 // Layout
 import LandingPageStyled, { LandingPageDivStyled } from "./LandingPageStyled"
 // Components
-import SmoothScroll from "../../components/smoothScroll/SmoothScroll"
 // Animations
 import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
@@ -21,16 +20,9 @@ const LandingPage = () => {
     targetRef
   )
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    })
-  }
-
   return (
-    <LandingPageStyled key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
-      <LandingPageDivStyled id="top">
+    <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+      <LandingPageDivStyled>
         <p>ajfkadslfjadskfklsadfjda</p>
         <p>adsjfkjkdajfljdsfjdskalj</p>
       </LandingPageDivStyled>
@@ -47,9 +39,8 @@ const LandingPage = () => {
       </LandingPageDivStyled>
       <LandingPageDivStyled>
         <p>adsjfkjkdajfljdsfjdskalj</p>
-        <p ref={targetRef}>adsjfkjkdajfljdsfjdskalj</p>
+        <p ref={targetRef}>{isVisible ? "is visible" : "Not Visible"}</p>
       </LandingPageDivStyled>
-      {!isVisible ? null : <SmoothScroll />}
     </LandingPageStyled>
   )
 }

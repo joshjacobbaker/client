@@ -17,6 +17,8 @@ import CustomerPageHeader from "./components/CustomerPageHeader/CustomerPageHead
 import CustomerPageMain from "./components/CustomerPageMain/CustomerPageMain"
 import CustomerPageFooter from "./components/CustomerPageFooter/CustomerPageFooter"
 import HelmetHead from "./components/HelmetHead/HelmetHead"
+import BackToTopButton from "./components/BackToTopButton/BackToTopButton"
+
 // Routes
 import ContactPage from "./pages/ContactPage/ContactPage"
 import LandingPage from "./pages/LandingPage/LandingPage"
