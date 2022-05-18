@@ -18,6 +18,7 @@ import CustomerPageMain from "./components/CustomerPageMain/CustomerPageMain"
 import CustomerPageFooter from "./components/CustomerPageFooter/CustomerPageFooter"
 import HelmetHead from "./components/HelmetHead/HelmetHead"
 import BackToTopButton from "./components/BackToTopButton/BackToTopButton"
+import RouteNotFound from "./components/RouteNotFound/RouteNotFound"
 
 // Routes
 import ContactPage from "./pages/ContactPage/ContactPage"
@@ -46,6 +47,7 @@ const App = () => {
                 <Route path="login" element={<SigninPage />} />
                 <Route path="stylists" element={<StylistsPage />} />
                 <Route path="salon" element={<SalonPage />} />
+                <Route path="*" element={<RouteNotFound />} />
               </Routes>
             </AnimatePresence>
           </CustomerPageMain>

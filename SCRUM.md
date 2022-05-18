@@ -4,6 +4,9 @@
 
 ### Backlog
 
+- [useSWR]("https://www.youtube.com/watch?v=a7JigiLw_OY")
+- [Lighthouse Website Performance Tracker]("")
+- [React Routes Lazy Loaded & Suspense & Error-Boundary]("https://www.youtube.com/watch?v=IBrmsyy9R94")
 - [Products Page, Services Page]("")
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - [Modal Menu Sidebar Animation]("https://www.youtube.com/watch?v=FxBQa-0kpfs")
