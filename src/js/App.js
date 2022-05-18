@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, Suspense } from "react"
 
 // Framer Motion
 import { motion, AnimatePresence } from "framer-motion"
@@ -21,12 +21,30 @@ import BackToTopButton from "./components/BackToTopButton/BackToTopButton"
 import RouteNotFound from "./components/RouteNotFound/RouteNotFound"
 
 // Routes
-import ContactPage from "./pages/ContactPage/ContactPage"
-import LandingPage from "./pages/LandingPage/LandingPage"
-import SalonPage from "./pages/SalonPage/SalonPage"
-import StylistsPage from "./pages/StylistsPage/StylistsPage"
-import SigninPage from "./pages/LoginPage/LoginPage"
-import SignupPage from "./pages/SignupPage/SignupPage"
+// import ContactPage from "./pages/ContactPage/ContactPage"
+// import LandingPage from "./pages/LandingPage/LandingPage"
+// import SalonPage from "./pages/SalonPage/SalonPage"
+// import StylistsPage from "./pages/StylistsPage/StylistsPage"
+// import SigninPage from "./pages/LoginPage/LoginPage"
+// import SignupPage from "./pages/SignupPage/SignupPage"
+const ContactPageLazy = React.lazy(() => {
+  return import("./pages/ContactPage/ContactPage")
+})
+const LandingPageLazy = React.lazy(() => {
+  return import("./pages/LandingPage/LandingPage")
+})
+const SalonPageLazy = React.lazy(() => {
+  return import("./pages/SalonPage/SalonPage")
+})
+const StylistsPageLazy = React.lazy(() => {
+  return import("./pages/StylistsPage/StylistsPage")
+})
+const LoginPageLazy = React.lazy(() => {
+  return import("./pages/LoginPage/LoginPage")
+})
+const SignupPageLazy = React.lazy(() => {
+  return import("./pages/SignupPage/SignupPage")
+})
 
 const App = () => {
   const location = useLocation()
@@ -39,16 +57,18 @@ const App = () => {
           <CustomerPageHeader />
           <CustomerPageMain>
             <AnimatePresence initial={false} exitBeforeEnter>
-              <Routes location={location} key={location.pathname}>
-                <Route path="/" exact element={<LandingPage />} />
-                <Route path="landing" element={<LandingPage />} />
-                <Route path="signup" element={<SignupPage />} />
-                <Route path="contact" element={<ContactPage />} />
-                <Route path="login" element={<SigninPage />} />
-                <Route path="stylists" element={<StylistsPage />} />
-                <Route path="salon" element={<SalonPage />} />
-                <Route path="*" element={<RouteNotFound />} />
-              </Routes>
+              <Suspense fallback={<div>...Loading</div>}>
+                <Routes location={location} key={location.pathname}>
+                  <Route path="/" exact element={<LandingPageLazy />} />
+                  <Route path="landing" element={<LandingPageLazy />} />
+                  <Route path="signup" element={<SignupPageLazy />} />
+                  <Route path="contact" element={<ContactPageLazy />} />
+                  <Route path="login" element={<LoginPageLazy />} />
+                  <Route path="stylists" element={<StylistsPageLazy />} />
+                  <Route path="salon" element={<SalonPageLazy />} />
+                  <Route path="*" element={<RouteNotFound />} />
+                </Routes>
+              </Suspense>
             </AnimatePresence>
           </CustomerPageMain>
           <CustomerPageFooter />

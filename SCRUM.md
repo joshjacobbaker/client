@@ -4,9 +4,14 @@
 
 ### Backlog
 
+- [startTransition]("https://reactjs.org/docs/code-splitting.html")
+- Champagne Pink with less saturation
+- Figma Design
+- Inspect React Developer tools
+- Breakpoint
+- lazy load admin routes... heavy charting libraries, etc.
 - [useSWR]("https://www.youtube.com/watch?v=a7JigiLw_OY")
-- [Lighthouse Website Performance Tracker]("")
-- [React Routes Lazy Loaded & Suspense & Error-Boundary]("https://www.youtube.com/watch?v=IBrmsyy9R94")
+
 - [Products Page, Services Page]("")
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - [Modal Menu Sidebar Animation]("https://www.youtube.com/watch?v=FxBQa-0kpfs")
@@ -103,16 +108,19 @@
 - export const useAuth = useContext(authContext) ..... so we don't need to import useContext in each file
 - Signin, Signup Context, Local Storage, database, server route
 - RequireAuth.js wrap protected Routes
+- [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
 
 ### WIP
 
-- [Minimize Photo Size]("https://squoosh.app/")
-- [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
-
-- [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
+- web.dev Website Performance Test
+- [Lighthouse Website Performance Tracker]("")
+- [Error Boundary around react lazy loaded suspense routes]("https://www.youtube.com/watch?v=IBrmsyy9R94")
 
 ### Finished
 
+- [React Routes Lazy Loaded & Suspense & Error-Boundary]("https://www.youtube.com/watch?v=IBrmsyy9R94")
+- [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
+- [Minimize Photo Size]("https://squoosh.app/")
 - [ThemeProvider & Themehook]("https://www.udemy.com/course/react-and-serverless/learn/lecture/20073518#overview")
 - [framer motion animations]("https://www.youtube.com/watch?v=iiKOAseIxTw&list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i&index=18")
 - Integrate FA Icons with Styled Component styling -- current context provider is throwing parsing error for css styling..?
@@ -175,4 +183,9 @@ New:
 
 ### Netlify
 
+- https://bucolic-dragon-4f576d.netlify.app/
+
+### PageSpeed Test
+
+- https://pagespeed.web.dev/
 - https://bucolic-dragon-4f576d.netlify.app/
