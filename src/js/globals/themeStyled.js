@@ -39,6 +39,8 @@ import sectionSizes from "./sectionSizes"
 const themeNanah6 = {
   baseTheme: {
     id: "baseTheme",
+    backToTopButtonBackgroundColor: "#ffbebec4",
+    backToTopButtonFontColor: "#103730",
     headerBackgroundColor: "#ffbebec4",
     headerFontColor: "#103730",
     // menuBackgroundColor: "#ff9f9fcf",
@@ -86,6 +88,8 @@ const themeNanah6 = {
   },
   darkTheme: {
     id: "darkTheme",
+    backToTopButtonBackgroundColor: "#103730",
+    backToTopButtonFontColor: "#ffbebec4",
     headerBackgroundColor: "#103730",
     headerFontColor: "#ffbebec4",
     // menuBackgroundColor: "#103730",

@@ -32,6 +32,8 @@ module.exports = {
   output: {
     filename: "[name].[chunkhash].js",
     path: path.resolve(__dirname, "../dist"),
+    // `chunkFilename` provides a template for naming code-split bundles (optional)
+    chunkFilename: "[name].[chunkhash].js",
     // publicPath: "/",
     clean: true,
     assetModuleFilename: "images/[name].[hash][ext][query]",

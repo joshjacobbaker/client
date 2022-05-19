@@ -4,6 +4,11 @@
 
 ### Backlog
 
+- [Asset Video of Salon, etc. will want to add asset folder]("")
+- [React Accessibility]("https://reactjs.org/docs/accessibility.html")
+- [Webpack Optimization Production Bundle Minimizer]("https://reactjs.org/docs/optimizing-performance.html")
+- [Sort Themed Colors Alphabetically]
+- [Server Side Rendered using Razzle]("fhttps://www.youtube.com/watch?v=5l-s87A3cms&list=PLIvCYh5AD3Hy8Z6cIR5UbWOYaQYCS7PT8&index=5")
 - [startTransition]("https://reactjs.org/docs/code-splitting.html")
 - Champagne Pink with less saturation
 - Figma Design
@@ -13,7 +18,7 @@
 - [useSWR]("https://www.youtube.com/watch?v=a7JigiLw_OY")
 
 - [Products Page, Services Page]("")
-- [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
+
 - [Modal Menu Sidebar Animation]("https://www.youtube.com/watch?v=FxBQa-0kpfs")
 - [Intersection Observer for Animations when in view]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Motion One Animation?]
@@ -112,12 +117,14 @@
 
 ### WIP
 
+- [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - web.dev Website Performance Test
 - [Lighthouse Website Performance Tracker]("")
-- [Error Boundary around react lazy loaded suspense routes]("https://www.youtube.com/watch?v=IBrmsyy9R94")
+- [chunkFileName in webpack for lazy loaded pages]("https://gist.github.com/gaearon/ca6e803f5c604d37468b0091d9959269")
 
 ### Finished
 
+- [Error Boundary around react lazy loaded suspense routes]("https://www.youtube.com/watch?v=IBrmsyy9R94")
 - [React Routes Lazy Loaded & Suspense & Error-Boundary]("https://www.youtube.com/watch?v=IBrmsyy9R94")
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
 - [Minimize Photo Size]("https://squoosh.app/")

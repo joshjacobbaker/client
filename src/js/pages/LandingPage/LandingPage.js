@@ -4,7 +4,7 @@ import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
 import useElementOnScreen from "../../hooks/useElementOnScreen"
 
 // Layout
-import LandingPageStyled, { LandingPageDivStyled } from "./LandingPageStyled"
+import LandingPageStyled, { LandingPageCardLargeStyled, LandingPageCardMediumStyled, LandingPageCardSmallStyled } from "./LandingPageStyled"
 // Components
 // Animations
 import pageTransitionVariants from "../../animations/pageTransitionVariants"
@@ -22,25 +22,25 @@ const LandingPage = () => {
 
   return (
     <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
-      <LandingPageDivStyled>
+      <LandingPageCardLargeStyled>
         <p>ajfkadslfjadskfklsadfjda</p>
         <p>adsjfkjkdajfljdsfjdskalj</p>
-      </LandingPageDivStyled>
-      <LandingPageDivStyled>
+      </LandingPageCardLargeStyled>
+      <LandingPageCardSmallStyled>
         <p>adsjfkjkdajfljdsfjdskalj</p>
         <p>adsjfkjkdajfljdsfjdskalj</p>
-      </LandingPageDivStyled>
-      <LandingPageDivStyled>
+      </LandingPageCardSmallStyled>
+      <LandingPageCardMediumStyled>
         <p>Landing Page</p>
-      </LandingPageDivStyled>
-      <LandingPageDivStyled>
+      </LandingPageCardMediumStyled>
+      <LandingPageCardMediumStyled>
         <p>jfdaskfjakdsjads</p>
         <p>fadsjfasdkjflasdj</p>
-      </LandingPageDivStyled>
-      <LandingPageDivStyled>
+      </LandingPageCardMediumStyled>
+      <LandingPageCardSmallStyled>
         <p>adsjfkjkdajfljdsfjdskalj</p>
         <p ref={targetRef}>{isVisible ? "is visible" : "Not Visible"}</p>
-      </LandingPageDivStyled>
+      </LandingPageCardSmallStyled>
     </LandingPageStyled>
   )
 }

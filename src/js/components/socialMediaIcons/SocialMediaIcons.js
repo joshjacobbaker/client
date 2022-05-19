@@ -11,13 +11,13 @@ const SocialMediaIcons = () => {
       <a href="#">
         <FaEnvelopeStyled />
       </a>
-      <a href="#">
+      <a href="https://instagram.com">
         <FaPhoneSquareAltStyled />
       </a>
-      <a href="#">
+      <a href="https://facebook.com">
         <FaFacebookStyled />
       </a>
-      <a href="#">
+      <a href="https://instagram.com">
         <FaInstagramSquareStyled />
       </a>
     </SocialMediaIconsContainerFooterStyled>
