@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- [Styled Components, TailwindCSS, Twin.Macro Library]("https://www.youtube.com/watch?v=do3LSqK929Q")
 - [Asset Video of Salon, etc. will want to add asset folder]("")
 - [React Accessibility]("https://reactjs.org/docs/accessibility.html")
 - [Webpack Optimization Production Bundle Minimizer]("https://reactjs.org/docs/optimizing-performance.html")

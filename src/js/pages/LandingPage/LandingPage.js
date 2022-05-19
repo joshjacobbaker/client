@@ -12,12 +12,20 @@ import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const LandingPage = () => {
   const { ref: targetRef1, inView: isVisible1 } = useInView({
-    threshold: 0.5,
+    threshold: 0.3,
   })
-  const { ref: targetRef2, inView: isVisible2 } = useInView()
-  const { ref: targetRef3, inView: isVisible3 } = useInView()
-  const { ref: targetRef4, inView: isVisible4 } = useInView()
-  const { ref: targetRef5, inView: isVisible5 } = useInView()
+  const { ref: targetRef2, inView: isVisible2 } = useInView({
+    threshold: 0.3,
+  })
+  const { ref: targetRef3, inView: isVisible3 } = useInView({
+    threshold: 0.3,
+  })
+  const { ref: targetRef4, inView: isVisible4 } = useInView({
+    threshold: 0.3,
+  })
+  const { ref: targetRef5, inView: isVisible5 } = useInView({
+    threshold: 0.3,
+  })
 
   const animation1 = useAnimation()
   const animation2 = useAnimation()
@@ -26,6 +34,7 @@ const LandingPage = () => {
   const animation5 = useAnimation()
   useEffect(() => {
     if (isVisible1) {
+      console.log(`isVisible1? ${isVisible1}`)
       animation1.start({
         x: 0,
         transition: {
@@ -34,19 +43,124 @@ const LandingPage = () => {
           bounce: 0.3,
         },
       })
+    }
 
-      if (!isVisible1) {
-        animation1.start({
-          x: "-100vw",
-          transition: {
-            type: "spring",
-            duration: 1,
-            bounce: 0.3,
-          },
-        })
-      }
+    if (!isVisible1) {
+      console.log(`isVisible1? ${isVisible1}`)
+      animation1.start({
+        x: -150,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.3,
+        },
+      })
     }
   }, [isVisible1])
+
+  useEffect(() => {
+    if (isVisible2) {
+      console.log(`isVisible2? ${isVisible2}`)
+      animation2.start({
+        x: 0,
+        transition: {
+          type: "spring",
+          duration: 2,
+          bounce: 0.3,
+        },
+      })
+    }
+
+    if (!isVisible2) {
+      console.log(`isVisible2? ${isVisible2}`)
+      animation2.start({
+        x: -150,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.3,
+        },
+      })
+    }
+  }, [isVisible2])
+
+  useEffect(() => {
+    if (isVisible3) {
+      console.log(`isVisible3? ${isVisible3}`)
+      animation3.start({
+        x: 0,
+        transition: {
+          type: "spring",
+          duration: 2,
+          bounce: 0.3,
+        },
+      })
+    }
+
+    if (!isVisible3) {
+      console.log(`isVisible3? ${isVisible3}`)
+      animation3.start({
+        x: -150,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.3,
+        },
+      })
+    }
+  }, [isVisible3])
+
+  useEffect(() => {
+    if (isVisible4) {
+      console.log(`isVisible4? ${isVisible4}`)
+      animation4.start({
+        x: 0,
+        transition: {
+          type: "spring",
+          duration: 2,
+          bounce: 0.3,
+        },
+      })
+    }
+
+    if (!isVisible4) {
+      console.log(`isVisible4? ${isVisible4}`)
+      animation4.start({
+        x: -150,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.3,
+        },
+      })
+    }
+  }, [isVisible4])
+
+  useEffect(() => {
+    if (isVisible5) {
+      console.log(`isVisible5? ${isVisible5}`)
+      animation5.start({
+        x: 0,
+        transition: {
+          type: "spring",
+          duration: 2,
+          bounce: 0.3,
+        },
+      })
+    }
+
+    if (!isVisible5) {
+      console.log(`isVisible5? ${isVisible5}`)
+      animation5.start({
+        x: -150,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.3,
+        },
+      })
+    }
+  }, [isVisible5])
 
   return (
     <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
@@ -54,19 +168,19 @@ const LandingPage = () => {
         <p>ajfkadslfjadskfklsadfjda</p>
         <p>{isVisible1 ? "is visible" : "Not Visible"}</p>
       </LandingPageCardLargeStyled>
-      <LandingPageCardSmallStyled ref={targetRef2} isVisible={isVisible2}>
+      <LandingPageCardSmallStyled animate={animation2} ref={targetRef2} isVisible={isVisible2}>
         <p>adsjfkjkdajfljdsfjdskalj</p>
         <p>{isVisible2 ? "is visible" : "Not Visible"}</p>
         <p>adsjfkjkdajfljdsfjdskalj</p>
       </LandingPageCardSmallStyled>
-      <LandingPageCardMediumStyled ref={targetRef3} alternate isVisible={isVisible3}>
+      <LandingPageCardMediumStyled animate={animation3} ref={targetRef3} alternate isVisible={isVisible3}>
         <p>{isVisible3 ? "is visible" : "Not Visible"}</p>
       </LandingPageCardMediumStyled>
-      <LandingPageCardMediumStyled ref={targetRef4} isVisible={isVisible4}>
+      <LandingPageCardMediumStyled animate={animation4} ref={targetRef4} isVisible={isVisible4}>
         <p>jfdaskfjakdsjads</p>
         <p>{isVisible4 ? "is visible" : "Not Visible"}</p>
       </LandingPageCardMediumStyled>
-      <LandingPageCardSmallStyled ref={targetRef5} isVisible={isVisible1}>
+      <LandingPageCardSmallStyled animate={animation5} ref={targetRef5} isVisible={isVisible1}>
         <p>adsjfkjkdajfljdsfjdskalj</p>
         <p>{isVisible5 ? "is visible" : "Not Visible"}</p>
       </LandingPageCardSmallStyled>

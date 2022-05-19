@@ -41,6 +41,9 @@ const cardStyling = css`
   overflow: hidden;
   text-align: center;
   overflow: hidden;
+  &:last-child {
+    margin-bottom: 100px;
+  }
 `
 
 export const LandingPageCardLargeStyled = styled(motion.div)`
