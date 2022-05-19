@@ -117,6 +117,7 @@
 
 ### WIP
 
+- [landing page observer inview animation]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - web.dev Website Performance Test
 - [Lighthouse Website Performance Tracker]("")

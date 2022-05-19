@@ -27,3 +27,9 @@ const useElementOnScreen = (options, targetRef) => {
 }
 
 export default useElementOnScreen
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+// https://www.youtube.com/watch?v=wkztoWlwTXU
+// https://www.youtube.com/watch?v=hkhskSrT5SY
+
+// ? react intersection observer.....?
