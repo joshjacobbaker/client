@@ -16,6 +16,7 @@ const LandingPageStyled = styled(motion.div)`
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
+    overflow-x: hidden;
   }
 `
 export default LandingPageStyled
@@ -26,21 +27,26 @@ const cardStyling = css`
   /* align-content: center; */
   /* justify-items: center; */
   font-size: 1.5rem;
-  grid-auto-rows: 50px;
-  align-items: center;
+  align-items: start;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+  text-align: center;
+  overflow: hidden;
   &:hover {
     background-color: #105b72c2;
   }
   height: 70vh;
-  width: 80%;
+  width: 90%;
   ${(p) => css`
     background: ${p.alternate ? p.theme.landingPageFontColor : p.theme.landingPageBackgroundColor};
     color: ${p.alternate ? p.theme.landingPageBackgroundColor : p.theme.landingPageFontColor};
     font-size: ${p.isVisible ? "35px" : ""};
   `}
-  overflow: hidden;
-  text-align: center;
-  overflow: hidden;
+
+  &:first-child {
+    margin-top: 30px;
+  }
+
   &:last-child {
     margin-bottom: 100px;
   }
