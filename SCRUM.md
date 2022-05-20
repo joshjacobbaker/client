@@ -119,6 +119,9 @@
 - [chunkFileName in webpack for lazy loaded pages]("https://gist.github.com/gaearon/ca6e803f5c604d37468b0091d9959269")
 - Add Animate Presence Around Scroll To Top Button
 - Add A landing Route Page with Modal Routes as Content
+- Add Salon Background image in black and white
+- Parallax Effect
+- Grid Abstract Pattern
 
 ### WIP
 

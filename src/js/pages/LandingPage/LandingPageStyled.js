@@ -32,7 +32,7 @@ const cardStyling = css`
   text-align: center;
   overflow: hidden;
   &:hover {
-    background-color: #105b72c2;
+    background-color: ${(p) => p.theme.landingPageFontColor};
   }
   height: 70vh;
   width: 80%;
