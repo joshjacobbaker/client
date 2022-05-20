@@ -4,6 +4,7 @@
 
 ### Backlog
 
+- [create custom hook for intersection observer animation]("")
 - [Styled Components, TailwindCSS, Twin.Macro Library]("https://www.youtube.com/watch?v=do3LSqK929Q")
 - [Asset Video of Salon, etc. will want to add asset folder]("")
 - [React Accessibility]("https://reactjs.org/docs/accessibility.html")

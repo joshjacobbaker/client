@@ -24,8 +24,8 @@ const SignupStyled = styled.form`
   }
 
   button {
-    background-color: ${(props) => props.theme.fg};
-    color: white;
+    background-color: ${(props) => props.theme.signupPageFontColor};
+    color: ${(props) => props.theme.signupPageBackgroundColor};
     width: 80%;
     margin: 0 auto;
   }

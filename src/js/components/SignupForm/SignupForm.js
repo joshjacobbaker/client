@@ -9,7 +9,7 @@ const onFormSubmitHandler = (e) => {
 const SignupForm = () => {
   return (
     <SignupFormStyled onSubmit={onFormSubmitHandler} action="submit">
-      <h1>Signup with YOU</h1>
+      <h1>Sign-up with YOU</h1>
       <fieldset>
         {/* <label htmlFor="email">Email</label> */}
         <input id="email" type="text" placeholder="Email" />

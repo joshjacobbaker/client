@@ -24,8 +24,8 @@ const LoginStyled = styled.form`
   }
 
   button {
-    background-color: ${(props) => props.theme.fg};
-    color: white;
+    background-color: ${(props) => props.theme.loginPageFontColor};
+    color: ${(props) => props.theme.loginPageBackgroundColor};
     width: 80%;
     margin: 0 auto;
   }

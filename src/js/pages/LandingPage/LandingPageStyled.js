@@ -36,7 +36,9 @@ const cardStyling = css`
     background-color: #105b72c2;
   }
   height: 70vh;
-  width: 90%;
+  width: 80%;
+  overflow-x: hidden;
+  overflow-y: scroll;
   ${(p) => css`
     background: ${p.alternate ? p.theme.landingPageFontColor : p.theme.landingPageBackgroundColor};
     color: ${p.alternate ? p.theme.landingPageBackgroundColor : p.theme.landingPageFontColor};

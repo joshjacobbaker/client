@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react"
-import { HashRouter, Routes, Route, Redirect, Outlet } from "react-router-dom"
+import { HashRouter, Routes, Route, Redirect, Outlet, Link } from "react-router-dom"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import useElementOnScreen from "../../hooks/useElementOnScreen"
@@ -7,6 +7,9 @@ import useElementOnScreen from "../../hooks/useElementOnScreen"
 // Layout
 import LandingPageStyled, { LandingPageCardLargeStyled, LandingPageCardMediumStyled, LandingPageCardSmallStyled } from "./LandingPageStyled"
 // Components
+import LazyLoadedImage from "../../components/LazyLoadedImage/LazyLoadedImage"
+import Salon1 from "../../../images/salon/salon1.webp"
+import Stylists1 from "../../../images/stylists/stylists1.webp"
 // Animations
 import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
@@ -187,12 +190,18 @@ const LandingPage = () => {
   return (
     <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <LandingPageCardLargeStyled ref={targetRef1} alternate isVisible={isVisible1}>
-        <motion.p animate={animation1}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
-        <motion.p animate={animation1}>{isVisible1 ? "is visible" : "Not Visible"}</motion.p>
+        <Link to="/salon" style={{ height: "100%" }}>
+          <LazyLoadedImage src={Salon1} height="100%" width="100%" />
+        </Link>
+        {/* <motion.p animate={animation1}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
+        <motion.p animate={animation1}>{isVisible1 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardLargeStyled>
       <LandingPageCardSmallStyled ref={targetRef2} isVisible={isVisible2}>
-        <motion.p animate={animation2}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
-        <motion.p animate={animation2}>{isVisible2 ? "is visible" : "Not Visible"}</motion.p>
+        <Link to="/stylists" style={{ height: "100%" }}>
+          <LazyLoadedImage src={Stylists1} height="100%" width="100%" />
+        </Link>
+        {/* <motion.p animate={animation2}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
+        <motion.p animate={animation2}>{isVisible2 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardSmallStyled>
       <LandingPageCardMediumStyled ref={targetRef3} alternate isVisible={isVisible3}>
         <motion.p animate={animation3}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
