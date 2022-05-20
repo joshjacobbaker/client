@@ -28,13 +28,13 @@ const ContactPage = () => {
             <p>You@gmail.com</p>
           </li>
           <li>
-            <a href="#">
+            <a href="https://instagram.com">
               <FaInstagramSquareStyled />
             </a>
             <p>@You.Handle.Instagram</p>
           </li>
           <li>
-            <a href="#">
+            <a href="https://facebook.com">
               <FaFacebookStyled />
             </a>
             <p>@You.Handle.Facebook</p>

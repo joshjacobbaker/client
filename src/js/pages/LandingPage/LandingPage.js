@@ -8,8 +8,13 @@ import useElementOnScreen from "../../hooks/useElementOnScreen"
 import LandingPageStyled, { LandingPageCardLargeStyled, LandingPageCardMediumStyled, LandingPageCardSmallStyled } from "./LandingPageStyled"
 // Components
 import LazyLoadedImage from "../../components/LazyLoadedImage/LazyLoadedImage"
+// Images
 import Salon1 from "../../../images/salon/salon1.webp"
 import Stylists1 from "../../../images/stylists/stylists1.webp"
+import ContactComponentLandingPage from "../../../images/pageImages/ContactComponentLandingPage.webp"
+import SignupComponentLandingPage from "../../../images/pageImages/SignUpComponentLandingPage.webp"
+import LoginComponentLandingPage from "../../../images/pageImages/LoginComponentLandingPage.webp"
+
 // Animations
 import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
@@ -204,18 +209,27 @@ const LandingPage = () => {
         <motion.p animate={animation2}>{isVisible2 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardSmallStyled>
       <LandingPageCardMediumStyled ref={targetRef3} alternate isVisible={isVisible3}>
-        <motion.p animate={animation3}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
-        <motion.p animate={animation3}>{isVisible3 ? "is visible" : "Not Visible"}</motion.p>
+        <Link to="/contact" style={{ height: "100%" }}>
+          <LazyLoadedImage src={ContactComponentLandingPage} height="100%" width="100%" />
+        </Link>
+        {/* <motion.p animate={animation3}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
+        <motion.p animate={animation3}>{isVisible3 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardMediumStyled>
       <LandingPageCardMediumStyled isVisible={isVisible4}>
-        <motion.p animate={animation4} ref={targetRef4}>
+        <Link to="/signup" style={{ height: "100%" }}>
+          <LazyLoadedImage src={SignupComponentLandingPage} height="100%" width="100%" />
+        </Link>
+        {/* <motion.p animate={animation4} ref={targetRef4}>
           {isVisible4 ? "is visible" : "Not Visible"}
         </motion.p>
-        <motion.p animate={animation4}>{isVisible4 ? "is visible" : "Not Visible"}</motion.p>
+        <motion.p animate={animation4}>{isVisible4 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardMediumStyled>
       <LandingPageCardSmallStyled ref={targetRef5} isVisible={isVisible1}>
-        <motion.p animate={animation5}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
-        <motion.p animate={animation5}>{isVisible5 ? "is visible" : "Not Visible"}</motion.p>
+        <Link to="/login" style={{ height: "100%" }}>
+          <LazyLoadedImage src={LoginComponentLandingPage} height="100%" width="100%" />
+        </Link>
+        {/* <motion.p animate={animation5}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
+        <motion.p animate={animation5}>{isVisible5 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardSmallStyled>
     </LandingPageStyled>
   )
