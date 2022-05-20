@@ -122,6 +122,7 @@
 
 ### WIP
 
+- Remove Error handling as all lazy loaded images are throwing errors
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - Prevent Images from scrolling on landing page
 - change on hover background color

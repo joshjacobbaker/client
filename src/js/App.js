@@ -49,24 +49,24 @@ const App = () => {
           <CustomerPageHeader />
           <CustomerPageMain>
             <AnimatePresence initial={false} exitBeforeEnter>
-              <ErrorBoundary
+              {/* <ErrorBoundary
                 FallbackComponent={ErrorFallback}
                 onReset={() => {
                   navigate("/landing")
-                }}>
-                <Suspense fallback={<div></div>}>
-                  <Routes location={location} key={location.pathname}>
-                    <Route index element={<LandingPageLazy />} />
-                    <Route path="landing" element={<LandingPageLazy />} />
-                    <Route path="signup" element={<SignupPageLazy />} />
-                    <Route path="contact" element={<ContactPageLazy />} />
-                    <Route path="login" element={<LoginPageLazy />} />
-                    <Route path="stylists" element={<StylistsPageLazy />} />
-                    <Route path="salon" element={<SalonPageLazy />} />
-                    <Route path="*" element={<RouteNotFound />} />
-                  </Routes>
-                </Suspense>
-              </ErrorBoundary>
+                }}> */}
+              <Suspense fallback={<div></div>}>
+                <Routes location={location} key={location.pathname}>
+                  <Route index element={<LandingPageLazy />} />
+                  <Route path="landing" element={<LandingPageLazy />} />
+                  <Route path="signup" element={<SignupPageLazy />} />
+                  <Route path="contact" element={<ContactPageLazy />} />
+                  <Route path="login" element={<LoginPageLazy />} />
+                  <Route path="stylists" element={<StylistsPageLazy />} />
+                  <Route path="salon" element={<SalonPageLazy />} />
+                  <Route path="*" element={<RouteNotFound />} />
+                </Routes>
+              </Suspense>
+              {/* </ErrorBoundary> */}
             </AnimatePresence>
           </CustomerPageMain>
           <CustomerPageFooter />
