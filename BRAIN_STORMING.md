@@ -13,6 +13,7 @@
 - Catalog of different haircuts from former customers
 - Customer Hot Hair
 - Carousel Component for Stylists and Salon
+- time lapse image video app over the years with different haircuts
 
 # Page Layout
 

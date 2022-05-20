@@ -123,6 +123,9 @@
 ### WIP
 
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
+- Prevent Images from scrolling on landing page
+- change on hover background color
+- add gold beveling to borders and text shadow..?
 - web.dev Website Performance Test
 - [Lighthouse Website Performance Tracker]("")
 

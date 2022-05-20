@@ -196,14 +196,14 @@ const LandingPage = () => {
     <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
       <LandingPageCardLargeStyled ref={targetRef1} alternate isVisible={isVisible1}>
         <Link to="/salon" style={{ height: "100%" }}>
-          <LazyLoadedImage src={Salon1} height="100%" width="100%" />
+          <LazyLoadedImage src={Salon1} height="100%" width="100%" style={{ overflow: "hidden" }} />
         </Link>
         {/* <motion.p animate={animation1}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
         <motion.p animate={animation1}>{isVisible1 ? "is visible" : "Not Visible"}</motion.p> */}
       </LandingPageCardLargeStyled>
       <LandingPageCardSmallStyled ref={targetRef2} isVisible={isVisible2}>
         <Link to="/stylists" style={{ height: "100%" }}>
-          <LazyLoadedImage src={Stylists1} height="100%" width="100%" />
+          <LazyLoadedImage src={Stylists1} height="100%" width="100%" style={{ overflow: "hidden" }} />
         </Link>
         {/* <motion.p animate={animation2}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
         <motion.p animate={animation2}>{isVisible2 ? "is visible" : "Not Visible"}</motion.p> */}
@@ -217,7 +217,7 @@ const LandingPage = () => {
       </LandingPageCardMediumStyled>
       <LandingPageCardMediumStyled isVisible={isVisible4}>
         <Link to="/signup" style={{ height: "100%" }}>
-          <LazyLoadedImage src={SignupComponentLandingPage} height="100%" width="100%" />
+          <LazyLoadedImage src={SignupComponentLandingPage} height="100%" width="100%" style={{ overflow: "hidden" }} />
         </Link>
         {/* <motion.p animate={animation4} ref={targetRef4}>
           {isVisible4 ? "is visible" : "Not Visible"}
@@ -226,7 +226,7 @@ const LandingPage = () => {
       </LandingPageCardMediumStyled>
       <LandingPageCardSmallStyled ref={targetRef5} isVisible={isVisible1}>
         <Link to="/login" style={{ height: "100%" }}>
-          <LazyLoadedImage src={LoginComponentLandingPage} height="100%" width="100%" />
+          <LazyLoadedImage src={LoginComponentLandingPage} height="100%" width="100%" style={{ overflow: "hidden" }} />
         </Link>
         {/* <motion.p animate={animation5}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
         <motion.p animate={animation5}>{isVisible5 ? "is visible" : "Not Visible"}</motion.p> */}
