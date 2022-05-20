@@ -108,7 +108,6 @@
 - Products Page
 - useParams dynamic routes
 - useSearchParams
-- LazyLoad Routes with React Router
 - Capitalize all lowercase "react" to "React"
 - React.lazy & React.suspense
 - [Authentication Routes]("https://www.youtube.com/watch?v=X8eAbu1RWZ4&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG&index=15")
@@ -118,6 +117,8 @@
 - [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
 - [Video Editing Tool]("artgrid.io")
 - [chunkFileName in webpack for lazy loaded pages]("https://gist.github.com/gaearon/ca6e803f5c604d37468b0091d9959269")
+- Add Animate Presence Around Scroll To Top Button
+- Add A landing Route Page with Modal Routes as Content
 
 ### WIP
 
@@ -127,6 +128,7 @@
 
 ### Finished
 
+- LazyLoad Routes with React Router
 - [useAnimation imperative Controls]("https://www.youtube.com/watch?v=1vKiPwEYbyk")
 - [landing page observer inview animation]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Error Boundary around react lazy loaded suspense routes]("https://www.youtube.com/watch?v=IBrmsyy9R94")

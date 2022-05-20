@@ -16,7 +16,6 @@ const LandingPageStyled = styled(motion.div)`
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
-    overflow-x: hidden;
   }
 `
 export default LandingPageStyled

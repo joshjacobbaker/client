@@ -56,7 +56,7 @@ const App = () => {
                 }}>
                 <Suspense fallback={<div></div>}>
                   <Routes location={location} key={location.pathname}>
-                    <Route path="/" exact element={<LandingPageLazy />} />
+                    <Route index element={<LandingPageLazy />} />
                     <Route path="landing" element={<LandingPageLazy />} />
                     <Route path="signup" element={<SignupPageLazy />} />
                     <Route path="contact" element={<ContactPageLazy />} />
