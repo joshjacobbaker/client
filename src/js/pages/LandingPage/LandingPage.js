@@ -12,19 +12,19 @@ import pageTransitionVariants from "../../animations/pageTransitionVariants"
 
 const LandingPage = () => {
   const { ref: targetRef1, inView: isVisible1 } = useInView({
-    threshold: 0.3,
+    threshold: 0.15,
   })
   const { ref: targetRef2, inView: isVisible2 } = useInView({
-    threshold: 0.3,
+    threshold: 0.15,
   })
   const { ref: targetRef3, inView: isVisible3 } = useInView({
-    threshold: 0.3,
+    threshold: 0.15,
   })
   const { ref: targetRef4, inView: isVisible4 } = useInView({
-    threshold: 0.3,
+    threshold: 0.15,
   })
   const { ref: targetRef5, inView: isVisible5 } = useInView({
-    threshold: 0.3,
+    threshold: 0.15,
   })
 
   const animation1 = useAnimation()
@@ -39,9 +39,11 @@ const LandingPage = () => {
 
       animation1.start({
         x: 0,
+        opacity: 1,
+        scale: 1,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -50,10 +52,12 @@ const LandingPage = () => {
     if (!isVisible1) {
       console.log(`isVisible1? ${isVisible1}`)
       animation1.start({
-        x: -50,
+        x: -15,
+        opacity: 0.5,
+        scale: 0.9,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -65,9 +69,11 @@ const LandingPage = () => {
       console.log(`isVisible2? ${isVisible2}`)
       animation2.start({
         x: 0,
+        opacity: 1,
+        scale: 1,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -76,10 +82,12 @@ const LandingPage = () => {
     if (!isVisible2) {
       console.log(`isVisible2? ${isVisible2}`)
       animation2.start({
-        x: 50,
+        x: 15,
+        opacity: 0.5,
+        scale: 0.9,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -91,9 +99,11 @@ const LandingPage = () => {
       console.log(`isVisible3? ${isVisible3}`)
       animation3.start({
         x: 0,
+        opacity: 1,
+        scale: 1,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -102,10 +112,12 @@ const LandingPage = () => {
     if (!isVisible3) {
       console.log(`isVisible3? ${isVisible3}`)
       animation3.start({
-        x: -50,
+        x: -15,
+        opacity: 0.5,
+        scale: 0.9,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -117,9 +129,11 @@ const LandingPage = () => {
       console.log(`isVisible4? ${isVisible4}`)
       animation4.start({
         x: 0,
+        opacity: 1,
+        scale: 1,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -128,10 +142,12 @@ const LandingPage = () => {
     if (!isVisible4) {
       console.log(`isVisible4? ${isVisible4}`)
       animation4.start({
-        x: 50,
+        x: 15,
+        opacity: 0.5,
+        scale: 0.9,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -143,9 +159,11 @@ const LandingPage = () => {
       console.log(`isVisible5? ${isVisible5}`)
       animation5.start({
         x: 0,
+        opacity: 1,
+        scale: 1,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -154,10 +172,12 @@ const LandingPage = () => {
     if (!isVisible5) {
       console.log(`isVisible5? ${isVisible5}`)
       animation5.start({
-        x: -50,
+        x: -15,
+        opacity: 0.5,
+        scale: 0.9,
         transition: {
           type: "spring",
-          duration: 2,
+          duration: 4,
           bounce: 0.3,
         },
       })
@@ -173,7 +193,6 @@ const LandingPage = () => {
       <LandingPageCardSmallStyled ref={targetRef2} isVisible={isVisible2}>
         <motion.p animate={animation2}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
         <motion.p animate={animation2}>{isVisible2 ? "is visible" : "Not Visible"}</motion.p>
-        <p>adsjfkjkdajfljdsfjdskalj</p>
       </LandingPageCardSmallStyled>
       <LandingPageCardMediumStyled ref={targetRef3} alternate isVisible={isVisible3}>
         <motion.p animate={animation3}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
@@ -181,15 +200,13 @@ const LandingPage = () => {
       </LandingPageCardMediumStyled>
       <LandingPageCardMediumStyled isVisible={isVisible4}>
         <motion.p animate={animation4} ref={targetRef4}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil?{" "}
+          {isVisible4 ? "is visible" : "Not Visible"}
         </motion.p>
-        <motion.p animate={animation4}>jfdaskfjakdsjads</motion.p>
-        <p>{isVisible4 ? "is visible" : "Not Visible"}</p>
+        <motion.p animate={animation4}>{isVisible4 ? "is visible" : "Not Visible"}</motion.p>
       </LandingPageCardMediumStyled>
       <LandingPageCardSmallStyled ref={targetRef5} isVisible={isVisible1}>
         <motion.p animate={animation5}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Siis dolore temporibus nihil? </motion.p>
-        <motion.p animate={animation5}>adsjfkjkdajfljdsfjdskalj</motion.p>
-        <p>{isVisible5 ? "is visible" : "Not Visible"}</p>
+        <motion.p animate={animation5}>{isVisible5 ? "is visible" : "Not Visible"}</motion.p>
       </LandingPageCardSmallStyled>
     </LandingPageStyled>
   )

@@ -116,18 +116,18 @@
 - RequireAuth.js wrap protected Routes
 - [Small blurry images to large sharper images]("https://www.youtube.com/watch?v=2QYpkrX2N48")
 - [Video Editing Tool]("artgrid.io")
+- [chunkFileName in webpack for lazy loaded pages]("https://gist.github.com/gaearon/ca6e803f5c604d37468b0091d9959269")
 
 ### WIP
 
-- [useAnimation imperative Controls]("https://www.youtube.com/watch?v=1vKiPwEYbyk")
-- [landing page observer inview animation]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - web.dev Website Performance Test
 - [Lighthouse Website Performance Tracker]("")
-- [chunkFileName in webpack for lazy loaded pages]("https://gist.github.com/gaearon/ca6e803f5c604d37468b0091d9959269")
 
 ### Finished
 
+- [useAnimation imperative Controls]("https://www.youtube.com/watch?v=1vKiPwEYbyk")
+- [landing page observer inview animation]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Error Boundary around react lazy loaded suspense routes]("https://www.youtube.com/watch?v=IBrmsyy9R94")
 - [React Routes Lazy Loaded & Suspense & Error-Boundary]("https://www.youtube.com/watch?v=IBrmsyy9R94")
 - [React-Redux]("https://redux.js.org/tutorials/essentials/part-6-performance-normalization")
