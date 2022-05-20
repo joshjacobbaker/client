@@ -34,11 +34,14 @@ import sectionSizes from "./sectionSizes"
 
 // White: #FFFFFF
 // Champagne Pink: #F8DECD
+// Gold Glitter ##DFB722
+// https://www.color-name.com/gold-glitter.color
 ///
 
 const themeNanah7 = {
   baseTheme: {
     id: "baseTheme",
+    goldBeveling: "#DFB722",
     backToTopButtonBackgroundColor: "#F8DECD",
     backToTopButtonFontColor: "#103730",
     headerBackgroundColor: "#F8DECD",
@@ -88,6 +91,7 @@ const themeNanah7 = {
   },
   darkTheme: {
     id: "darkTheme",
+    goldBeveling: "#DFB722",
     backToTopButtonBackgroundColor: "#103730",
     backToTopButtonFontColor: "#F8DECD",
     headerBackgroundColor: "#103730",

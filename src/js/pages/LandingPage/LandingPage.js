@@ -8,6 +8,7 @@ import useElementOnScreen from "../../hooks/useElementOnScreen"
 import LandingPageStyled, { LandingPageCardLargeStyled, LandingPageCardMediumStyled, LandingPageCardSmallStyled } from "./LandingPageStyled"
 // Components
 import LazyLoadedImage from "../../components/LazyLoadedImage/LazyLoadedImage"
+import ImageHoverComponent from "../../components/ImageHoverComponent/ImageHoverComponent"
 // Images
 import Salon1 from "../../../images/salon/salon1.webp"
 import Stylists1 from "../../../images/stylists/stylists1.webp"
@@ -194,6 +195,9 @@ const LandingPage = () => {
 
   return (
     <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+      <LandingPageCardSmallStyled>
+        <ImageHoverComponent />
+      </LandingPageCardSmallStyled>
       <LandingPageCardLargeStyled ref={targetRef1} alternate isVisible={isVisible1}>
         {/* <Link to="/salon" style={{ height: "100%", width: "100%" }}>
           <LazyLoadedImage src={Salon1} height="100%" width="100%" style={{ overflow: "hidden" }} />
