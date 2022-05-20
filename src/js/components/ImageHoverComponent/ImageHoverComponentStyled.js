@@ -49,3 +49,4 @@ export const ImageHoverComponentCaptionStyled = styled.div`
 `
 
 // goldBeveling: "#DFB722"
+// https://styled-components.com/docs/advanced

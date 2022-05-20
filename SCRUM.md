@@ -122,6 +122,9 @@
 - Add Salon Background image in black and white
 - Parallax Effect
 - Grid Abstract Pattern
+- [React Scroll Parallax]("https://www.npmjs.com/package/react-scroll-parallax")
+- [React Spring Parallax]("https://www.npmjs.com/package/@react-spring/parallax")
+- [Parallax with CSS]("https://www.youtube.com/watch?v=mxHoPYFsTuk")
 
 ### WIP
 
