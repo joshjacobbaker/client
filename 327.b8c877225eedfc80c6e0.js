@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreactserversiderendering=self.webpackChunkreactserversiderendering||[]).push([[327],{9186:function(e,r,s){e.exports=s.p+"images/salon1.5e338d78770b873ac5e2.webp"}}]);
