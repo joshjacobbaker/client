@@ -10,6 +10,7 @@ import LandingPageStyled, { LandingPageCardLargeStyled, LandingPageCardMediumSty
 import LazyLoadedImage from "../../components/LazyLoadedImage/LazyLoadedImage"
 import ImageHoverComponent from "../../components/ImageHoverComponent/ImageHoverComponent"
 import ParallaxComponent from "../../components/ParallaxComponent/ParallaxComponent"
+import ImageSliderComponent from "../../components/ImageSliderComponent/ImageSliderComponent"
 // Images
 import Salon1 from "../../../images/salon/salon1.webp"
 import Stylists1 from "../../../images/stylists/stylists1.webp"
@@ -196,6 +197,9 @@ const LandingPage = () => {
 
   return (
     <LandingPageStyled id="top" key="landingpage" transitions={{ duration: 1 }} variants={pageTransitionVariants} initial="initial" animate="animate" exit="exit">
+      <LandingPageCardSmallStyled>
+        <ImageSliderComponent />
+      </LandingPageCardSmallStyled>
       <LandingPageCardSmallStyled>
         <ImageHoverComponent />
       </LandingPageCardSmallStyled>
