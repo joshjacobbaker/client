@@ -125,6 +125,7 @@
 - [React Scroll Parallax]("https://www.npmjs.com/package/react-scroll-parallax")
 - [React Spring Parallax]("https://www.npmjs.com/package/@react-spring/parallax")
 - [Parallax with CSS]("https://www.youtube.com/watch?v=mxHoPYFsTuk")
+- [Parallax with CSS and JS]("https://www.youtube.com/watch?v=Dxm6EwvQIl8")
 
 ### WIP
 

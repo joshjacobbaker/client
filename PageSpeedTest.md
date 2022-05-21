@@ -12,3 +12,4 @@ May 18th 10:54 -- Performance 89 -- Added react lazy loading to react router pag
 May 19th 17:54 -- Performance 85 -- Added animations to landing page
 May 19th 20:05 -- Performance 82 -- Added images and links to landing page
 May 20th 12:05 -- Performance 87 -- Removed images and Links to landing page
+May 20th 12:05 -- Performance 74 -- Added Hover Effect & Parallax Component

@@ -7,6 +7,7 @@ const ParallaxComponentStyled = styled.div`
   overflow-x: hidden;
   perspective: 10px;
   background-color: #105b72c2;
+  color: white;
 `
 
 export default ParallaxComponentStyled
@@ -27,7 +28,7 @@ export const ForegroundStyled = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: -1;
 `
 
 export const BackgroundStyled = styled.img`
@@ -37,5 +38,5 @@ export const BackgroundStyled = styled.img`
   height: 100%;
   width: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: -1;
 `

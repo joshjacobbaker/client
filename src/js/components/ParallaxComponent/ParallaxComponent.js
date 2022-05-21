@@ -20,6 +20,14 @@ const ParallaxComponent = () => {
 
 export default ParallaxComponent
 
-// https://www.youtube.com/watch?v=mxHoPYFsTuk
-// https://www.npmjs.com/package/react-scroll-parallax
-// https://www.npmjs.com/package/@react-spring/parallax
+/*
+Fixed = parallax
+Scroll = normal
+*/
+// background-attachment: fixed;
+
+// Implemented CSS Parallax: https://www.youtube.com/watch?v=mxHoPYFsTuk
+// Background Image Parallax JS: https://www.youtube.com/watch?v=JttTcnidSdQ
+// Simple JavaScript Parallax: https://www.youtube.com/watch?v=llv5kW4sz0U&t=1s
+// React Scroll Parallax: https://www.npmjs.com/package/react-scroll-parallax
+// React-Spring Parallax: https://www.npmjs.com/package/@react-spring/parallax

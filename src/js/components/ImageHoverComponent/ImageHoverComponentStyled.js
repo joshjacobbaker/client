@@ -4,8 +4,18 @@ const ImageHoverComponentStyled = styled.div`
   position: relative;
   height: 100%;
   width: 100%;
+  transition: all 3s;
+  overflow: hidden;
+
+  &:hover {
+    > img {
+      transition: all 3s;
+      transform: rotate(10deg) scale(1.3);
+    }
+  }
 
   > img {
+    transition: all 3s;
     height: 100%;
     width: 100%;
   }
@@ -24,10 +34,11 @@ export const ImageHoverComponentCaptionStyled = styled.div`
   justify-content: center;
   align-content: center;
   opacity: 0;
-  transition: all 0.5s;
-
+  transition: all 3s;
+  background: rgba(0, 0, 0, 0);
   ${ImageHoverComponentStyled}:hover & {
     opacity: 0.75;
+    transition: all 3s;
   }
 
   ${(p) => css`
