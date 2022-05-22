@@ -46,3 +46,12 @@ https://squoosh.app/
 Tester: https://pagespeed.web.dev/
 Testee: https://bucolic-dragon-4f576d.netlify.app/
 May 18th 9:58 -- Performance 77 to 81
+
+// Webpages of Inspiration
+
+<!-- https://garoaskincare.com/ -->
+
+<!-- Video Hero -->
+<!-- https://www.youtube.com/watch?v=--U9EUy6oFA -->
+
+Video.js

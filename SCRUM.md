@@ -18,9 +18,7 @@
 - Breakpoint
 - lazy load admin routes... heavy charting libraries, etc.
 - [useSWR]("https://www.youtube.com/watch?v=a7JigiLw_OY")
-
 - [Products Page, Services Page]("")
-
 - [Modal Menu Sidebar Animation]("https://www.youtube.com/watch?v=FxBQa-0kpfs")
 - [Intersection Observer for Animations when in view]("https://www.youtube.com/watch?v=hkhskSrT5SY")
 - [Motion One Animation?]
@@ -126,19 +124,25 @@
 - [React Spring Parallax]("https://www.npmjs.com/package/@react-spring/parallax")
 - [Parallax with CSS]("https://www.youtube.com/watch?v=mxHoPYFsTuk")
 - [Parallax with CSS and JS]("https://www.youtube.com/watch?v=Dxm6EwvQIl8")
+- [Parallax Background on Body simple HTML CSS]("https://www.youtube.com/watch?v=p5L8rKHbC5E")
+- [Parallax HTML CSS]("https://www.youtube.com/watch?v=ln5BWnYMSQA")
+- [DND React]("https://www.youtube.com/watch?v=-MfTv5VRM0A")
+- [DND React Advanced]("https://www.youtube.com/watch?v=uEVHJf30bWI
+  ")
+- [react-beautiful-dnd]("https://www.npmjs.com/package/react-beautiful-dnd")
 
 ### WIP
 
-- Remove Error handling as all lazy loaded images are throwing errors
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
-- Prevent Images from scrolling on landing page
-- change on hover background color
 - add gold beveling to borders and text shadow..?
 - web.dev Website Performance Test
 - [Lighthouse Website Performance Tracker]("")
 
 ### Finished
 
+- change on hover background color
+- Prevent Images from scrolling on landing page
+- Remove Error handling as all lazy loaded images are throwing errors
 - LazyLoad Routes with React Router
 - [useAnimation imperative Controls]("https://www.youtube.com/watch?v=1vKiPwEYbyk")
 - [landing page observer inview animation]("https://www.youtube.com/watch?v=hkhskSrT5SY")

@@ -1,9 +1,8 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
 const ImagePopUpComponentStyled = styled.div`
   height: 100%;
   width: 100%;
-  background-color: teal;
   transition: all 2s;
   &:hover {
     transition: all 2s;
@@ -13,6 +12,9 @@ const ImagePopUpComponentStyled = styled.div`
     }
   }
   overflow: hidden;
+  ${(p) => css`
+    background-color: ${p.theme.goldBeveling};
+  `}
 
   > img {
     height: 100%;
@@ -29,11 +31,11 @@ export const ImagePopUpCaptionComponentStyled = styled.div`
   display: grid;
   align-content: center;
   justify-content: center;
-  background-color: teal;
   transform: translateY(100%);
   transition: all 2s;
   ${ImagePopUpComponentStyled}:hover & {
     transform: translateY(-100%);
     transition: all 2s;
   }
+  color: white;
 `
