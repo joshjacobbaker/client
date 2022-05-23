@@ -94,7 +94,8 @@
 - Google analytics in website
 
 - const inputRef = useRef() inputRef.current.focus()
-
+- Admin Page with Table & Chart, etc.
+- Protected React-Router-Dom page for Admin's
 - Add more menu modal items in the list
 - Work on Media Queries--different screensizes
 - Nav html tags for modal, header, nested navigation
