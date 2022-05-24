@@ -131,6 +131,9 @@
 - [DND React Advanced]("https://www.youtube.com/watch?v=uEVHJf30bWI
   ")
 - [react-beautiful-dnd]("https://www.npmjs.com/package/react-beautiful-dnd")
+- [CSS Typewriter Effect]("https://www.youtube.com/watch?v=Vsy6ijn82UY")
+- [CSS Sprite Sheet Animation]("https://www.youtube.com/watch?v=Vsy6ijn82UY")
+- [SocketIO React]("https://www.youtube.com/watch?v=djMy4QsPWiI")
 
 ### WIP
 
