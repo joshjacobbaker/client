@@ -137,6 +137,8 @@
 - [Dynamic Routes for Hair Stylists via React Router DOM]("https://www.youtube.com/watch?v=Law7wfdg_ls")
 - [Filtered Products, Hairstylists]("https://www.youtube.com/watch?v=nyg5Lpl6AiM")
 - [Media Queries for different screensizes]("")
+- [UseRoutes Navigation]("https://www.youtube.com/watch?v=F5eDWtJRYaI")
+- [Deploy DigitalOcean SSL]("https://www.youtube.com/watch?v=kR06NoSzAXY")
 
 ### WIP
 
