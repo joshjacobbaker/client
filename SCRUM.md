@@ -139,6 +139,7 @@
 - [Media Queries for different screensizes]("")
 - [UseRoutes Navigation]("https://www.youtube.com/watch?v=F5eDWtJRYaI")
 - [Deploy DigitalOcean SSL]("https://www.youtube.com/watch?v=kR06NoSzAXY")
+- [Clean Code , Restructure Code, Provide Comments]("")
 
 ### WIP
 
