@@ -141,6 +141,10 @@
 - [Deploy DigitalOcean SSL]("https://www.youtube.com/watch?v=kR06NoSzAXY")
 - [Clean Code , Restructure Code, Provide Comments]("")
 - [TypeScript]("")
+- [Google Analytics]("")
+- [HTTP 2]("")
+- [SSL / TLS]("")
+- [CDN]("")
 
 ### WIP
 
