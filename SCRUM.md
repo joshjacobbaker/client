@@ -145,6 +145,14 @@
 - [HTTP 2]("")
 - [SSL / TLS]("")
 - [CDN]("")
+- [useRef Enter Keyboard Event ForwardRef Input Component]("https://www.youtube.com/watch?v=ScT4ElKd6eo")
+- [HTTP2/3 Best practices]("https://www.youtube.com/watch?v=r5oT_2ndjms")
+- [Setup CDN for Static Webpage Content]("")
+- [Setup NGINX]("")
+- [Notification API Coupon Sale]("https://www.youtube.com/watch?v=EEhohSp0if4&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh")
+- [Local Storage to save State]("https://www.youtube.com/watch?v=fe6rCk7a6u0&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh&index=11")
+- [Screensize Observer for additional content for larger screens]("https://www.youtube.com/watch?v=jxcoo5oM_oQ&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh&index=28")
+- [Infinite Scroll]("https://www.youtube.com/watch?v=1EeVzn02grw&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh&index=26")
 
 ### WIP
 
