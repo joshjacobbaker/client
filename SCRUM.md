@@ -153,6 +153,15 @@
 - [Local Storage to save State]("https://www.youtube.com/watch?v=fe6rCk7a6u0&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh&index=11")
 - [Screensize Observer for additional content for larger screens]("https://www.youtube.com/watch?v=jxcoo5oM_oQ&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh&index=28")
 - [Infinite Scroll]("https://www.youtube.com/watch?v=1EeVzn02grw&list=PLyuRouwmQCjlBGMxI_0Ly_Dw-vrniOYNh&index=26")
+- [URL maker]("https://www.youtube.com/watch?v=RIBiQ5GNYWo")
+- [Prefetch and Preload Assets for optimized website]("https://www.youtube.com/watch?v=R_D0rL094F4&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=79")
+- [HTML5 Permissions API]("https://www.youtube.com/watch?v=U0vmh2sd3g8&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=90")
+- [JavaScript Worker for Analytics, ]("https://www.youtube.com/watch?v=EiPytIxrZtU&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=109")
+- [LocalStorage API Shopping Cart]("https://www.youtube.com/watch?v=oXtCOiG-7_A&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=111")
+- [DOM mutation observers and disconnect]("https://www.youtube.com/watch?v=RQ1N_EP07xs&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=106")
+- [QR Code]("https://www.youtube.com/watch?v=xeLsiAj3fI8&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=103")
+- [Infinite Scroll Lazy Load]("https://www.youtube.com/watch?v=1EeVzn02grw&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=141")
+- [URL Search Params]("https://www.youtube.com/watch?v=b867xRQkjVA&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=167")
 
 ### WIP
 
