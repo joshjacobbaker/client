@@ -163,6 +163,7 @@
 - [Infinite Scroll Lazy Load]("https://www.youtube.com/watch?v=1EeVzn02grw&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=141")
 - [URL Search Params]("https://www.youtube.com/watch?v=b867xRQkjVA&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=167")
 - [Progress Bar on Page Scroll within top header]("Steve Griffith")
+- [CORS, Cookies]("https://www.youtube.com/watch?v=34wC1C61lg0&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=167")
 
 ### WIP
 
