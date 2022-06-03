@@ -168,6 +168,8 @@
 - [Cookies, Sessions, JSON Web Tokens Easy]("https://www.youtube.com/watch?v=uXDnS5PcjCA")
 - [SVG animations]("https://www.youtube.com/watch?v=UTHgr6NLeEw")
 - [Fetch, Axios, React-Query]()
+- [Pointer Events are better than Mouse Events]("https://www.youtube.com/watch?v=MhUCYR9Tb9c")
+- [How to use phone while developing, Touch Events too]("https://www.youtube.com/watch?v=TaPdgj8mucI")
 
 ### WIP
 
