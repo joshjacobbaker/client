@@ -165,6 +165,9 @@
 - [Progress Bar on Page Scroll within top header]("Steve Griffith")
 - [CORS, Cookies]("https://www.youtube.com/watch?v=34wC1C61lg0&list=PLyuRouwmQCjmQTKvgqIgah03HF1wrYkA9&index=167")
 - [CORS, Client Server Easy]("https://www.youtube.com/watch?v=xq34NS4S59o")
+- [Cookies, Sessions, JSON Web Tokens Easy]("https://www.youtube.com/watch?v=uXDnS5PcjCA")
+- [SVG animations]("https://www.youtube.com/watch?v=UTHgr6NLeEw")
+- [Fetch, Axios, React-Query]()
 
 ### WIP
 
