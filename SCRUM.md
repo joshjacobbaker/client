@@ -177,6 +177,7 @@
 - [Get back to work!]("")
 - [Get back to work!]("")
 - [Navigator History Pushstate Back, Forward Buttons]("")
+- [Canvas Animation]("https://www.youtube.com/watch?v=EO6OkltgudE")
 
 ### WIP
 
