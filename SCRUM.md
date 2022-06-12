@@ -179,6 +179,8 @@
 - [Navigator History Pushstate Back, Forward Buttons]("")
 - [Canvas Animation]("https://www.youtube.com/watch?v=yq2au9EfeRQ&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=3")
 - [TypeScript]("https://www.udemy.com/course/understanding-typescript/learn/lecture/16888066#overview")
+- [Protect Code by Minifying it and compiling it to older javascript standard supported by browsers]("")
+- [RxJs]("")
 
 ### WIP
 
