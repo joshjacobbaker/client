@@ -179,8 +179,20 @@
 - [Navigator History Pushstate Back, Forward Buttons]("")
 - [Canvas Animation]("https://www.youtube.com/watch?v=yq2au9EfeRQ&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=3")
 - [TypeScript]("https://www.udemy.com/course/understanding-typescript/learn/lecture/16888066#overview")
+
+- [RxJs Recompose React TypeWriter Effect...Clock?]("https://egghead.io/lessons/react-pass-a-react-prop-to-a-stream-in-rxjs")
+- [Recompose RxJs React]("https://egghead.io/lessons/react-pass-a-react-prop-to-a-stream-in-rxjs")
+- [RxJs... Requests, Buffer, Debounce, Interval]("https://egghead.io/lessons/react-refactor-react-render-props-to-streaming-props-with-rxjs-and-recompose")
+- [Debounce Mouse]("https://egghead.io/lessons/react-debounce-callbacks-on-dom-events-in-react-apps")
+- [Production Codebase Deployment]("https://egghead.io/lessons/react-use-the-react-production-build")
 - [Protect Code by Minifying it and compiling it to older javascript standard supported by browsers]("")
-- [RxJs]("")
+- [React - Window component load reduction]("https://egghead.io/lessons/react-virtualize-long-lists-of-data-in-react")
+- [Tree Shaking]("https://egghead.io/lessons/react-tree-shake-your-react-application-modules")
+- [Webpack BUndle Analyzer]("https://egghead.io/lessons/react-view-package-sizes-in-a-react-app-with-webpack-analyzer")
+- [React Lazy Load]("https://egghead.io/lessons/react-code-split-components-with-react-lazy-loadable-components")
+- [Google Web Vitals]("")
+- [Machine Learning Lambda Function on Serverless AWS infra?]("")
+- [Redux, Redux Observable]("https://egghead.io/lessons/redux-add-redux-observable-to-an-existing-redux-project")
 
 ### WIP
 
