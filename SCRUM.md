@@ -193,6 +193,7 @@
 - [Google Web Vitals]("")
 - [Machine Learning Lambda Function on Serverless AWS infra?]("")
 - [Redux, Redux Observable]("https://egghead.io/lessons/redux-add-redux-observable-to-an-existing-redux-project")
+- [RxJs, Styled-Components, React-Router-DOM, axios, Redux-Observable, Redux, React, ]("")
 
 ### WIP
 
