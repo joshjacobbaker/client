@@ -197,6 +197,7 @@
 - [Nested Routes, React Router]("https://egghead.io/lessons/react-render-nested-routes-with-react-router-v4")
 - [Redirect Protected Route for users only]("https://egghead.io/lessons/react-redirect-to-another-page-with-react-router-v4")
 - [Reduce Function for Data Analysis]("https://www.youtube.com/watch?v=dtG8QamrAis&list=PLo63gcFIe8o0nnhu0F-PpsTc8nkhNe9yu&index=11")
+- [CSS Grid repeat auto-fit min-max for small, medium, large screen sizes ]("")
 
 ### WIP
 
