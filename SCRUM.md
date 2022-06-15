@@ -194,6 +194,9 @@
 - [Machine Learning Lambda Function on Serverless AWS infra?]("")
 - [Redux, Redux Observable]("https://egghead.io/lessons/redux-add-redux-observable-to-an-existing-redux-project")
 - [RxJs, Styled-Components, React-Router-DOM, axios, Redux-Observable, Redux, React, ]("")
+- [Nested Routes, React Router]("https://egghead.io/lessons/react-render-nested-routes-with-react-router-v4")
+- [Redirect Protected Route for users only]("https://egghead.io/lessons/react-redirect-to-another-page-with-react-router-v4")
+- [Reduce Function for Data Analysis]("https://www.youtube.com/watch?v=dtG8QamrAis&list=PLo63gcFIe8o0nnhu0F-PpsTc8nkhNe9yu&index=11")
 
 ### WIP
 
