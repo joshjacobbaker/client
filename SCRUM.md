@@ -199,6 +199,13 @@
 - [Reduce Function for Data Analysis]("https://www.youtube.com/watch?v=dtG8QamrAis&list=PLo63gcFIe8o0nnhu0F-PpsTc8nkhNe9yu&index=11")
 - [CSS Grid repeat auto-fit min-max for small, medium, large screen sizes ]("")
 - [Media Query grid-area, small medium large screen sizes]("")
+- [Framer Motion Animation Layout ID]("https://egghead.io/lessons/react-animate-elements-when-their-layout-changes-with-framer-motion-layoutid")
+- [Framer Motion Custom Prop, delay list item animations]("https://egghead.io/lessons/react-create-dynamic-animation-values-with-framer-motion-for-different-elements-with-custom")
+- [Framer-Motion Micro-Interactions Gesture Props -- WhileHover, WhileTap, etc.]("https://egghead.io/lessons/react-create-micro-interactions-with-framer-motion-gesture-props")
+- [Framer-Motion SVG Animation ]("https://egghead.io/lessons/react-animate-svg-paths-with-framer-motion")
+- [FramerMotion Reorder List--customer appointment times? shopping list?]("https://egghead.io/lessons/egghead-drag-and-animate-list-reorders-with-reorder-components")
+- [React Leaflet Map]("https://egghead.io/courses/build-maps-with-react-leaflet")
+- [Redux-Observable, Epics, RxJs]("https://egghead.io/lessons/redux-observable-filter-a-stream-to-exclude-empty-values")
 
 ### WIP
 
