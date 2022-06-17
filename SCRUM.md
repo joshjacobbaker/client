@@ -206,6 +206,9 @@
 - [FramerMotion Reorder List--customer appointment times? shopping list?]("https://egghead.io/lessons/egghead-drag-and-animate-list-reorders-with-reorder-components")
 - [React Leaflet Map]("https://egghead.io/courses/build-maps-with-react-leaflet")
 - [Redux-Observable, Epics, RxJs]("https://egghead.io/lessons/redux-observable-filter-a-stream-to-exclude-empty-values")
+- [Setup Redux]("https://egghead.io/lessons/react-split-your-redux-store-into-multiple-reducers")
+- [MongoDB Client, mongoose?]("")
+- [Build Twelve Factor Node.js App with Docker]("https://egghead.io/lessons/git-use-git-flow-as-a-reliable-version-control-model")
 
 ### WIP
 
