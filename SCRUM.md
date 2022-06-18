@@ -209,6 +209,8 @@
 - [Setup Redux]("https://egghead.io/lessons/react-split-your-redux-store-into-multiple-reducers")
 - [MongoDB Client, mongoose?]("")
 - [Build Twelve Factor Node.js App with Docker]("https://egghead.io/lessons/git-use-git-flow-as-a-reliable-version-control-model")
+- [TailWind CSS Sam Egghead]("https://egghead.io/lessons/tailwind-intro-to-styling-custom-uis-with-tailwind-utility-classes")
+- [TailWind State, Class Object, Utility Classes]("https://egghead.io/lessons/tailwind-using-a-state-variable-to-add-unread-states-to-the-channel-nav")
 
 ### WIP
 
