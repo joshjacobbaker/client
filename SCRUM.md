@@ -212,6 +212,8 @@
 - [TailWind CSS Sam Egghead]("https://egghead.io/lessons/tailwind-intro-to-styling-custom-uis-with-tailwind-utility-classes")
 - [TailWind State, Class Object, Utility Classes]("https://egghead.io/lessons/tailwind-using-a-state-variable-to-add-unread-states-to-the-channel-nav")
 - [GraphQL Apollo Client]("https://egghead.io/lessons/apollo-understand-how-apollo-stores-data-in-its-cache")
+- [Modern Redux with RTK +TypeScript, Shopping Cart]("https://egghead.io/lessons/react-setup-and-explore-our-shopping-cart-application-to-learn-redux-with-typescript")
+- [Recompose RxJs React]("https://egghead.io/courses/build-react-components-from-streams-with-rxjs-and-recompose")
 
 ### WIP
 
