@@ -216,7 +216,7 @@
 - [Recompose RxJs React]("https://egghead.io/courses/build-react-components-from-streams-with-rxjs-and-recompose")
 - [LoDash Collection Array of Objects]("https://www.udemy.com/course/lodash-4-the-master-guide/learn/lecture/28959970#overview")
 - [DataForge, VegaLiteApi, TfJs]("")
-
+- [Redux-Observable]("")
 ### WIP
 
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
