@@ -215,6 +215,7 @@
 - [Modern Redux with RTK +TypeScript, Shopping Cart]("https://egghead.io/lessons/react-setup-and-explore-our-shopping-cart-application-to-learn-redux-with-typescript")
 - [Recompose RxJs React]("https://egghead.io/courses/build-react-components-from-streams-with-rxjs-and-recompose")
 - [LoDash Collection Array of Objects]("https://www.udemy.com/course/lodash-4-the-master-guide/learn/lecture/28959970#overview")
+- [DataForge, VegaLiteApi, TfJs]("")
 
 ### WIP
 
