@@ -217,6 +217,7 @@
 - [LoDash Collection Array of Objects]("https://www.udemy.com/course/lodash-4-the-master-guide/learn/lecture/28959970#overview")
 - [DataForge, VegaLiteApi, TfJs]("")
 - [Redux-Observable]("")
+- [React Memo, UseCallback, UseMemo]("https://www.youtube.com/watch?v=uojLJFt9SzY")
 ### WIP
 
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
