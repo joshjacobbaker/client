@@ -218,6 +218,10 @@
 - [DataForge, VegaLiteApi, TfJs]("")
 - [Redux-Observable]("")
 - [React Memo, UseCallback, UseMemo]("https://www.youtube.com/watch?v=uojLJFt9SzY")
+- [Figma Draw Screen Layouts]("")
+- [Small, Medium, Large Screen Size -- Responsize Web Layout Design, CSS Grid, etc.]("")
+- [Build React-Native App]("")
+
 ### WIP
 
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
