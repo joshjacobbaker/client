@@ -221,6 +221,7 @@
 - [Figma Draw Screen Layouts]("")
 - [Small, Medium, Large Screen Size -- Responsize Web Layout Design, CSS Grid, etc.]("")
 - [Build React-Native App]("")
+- [VS Code Hint Show Parameter Suggestions]("https://stackoverflow.com/questions/53731271/how-to-trigger-parameter-hints-in-visual-studio-code")
 
 ### WIP
 
