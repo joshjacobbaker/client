@@ -33,7 +33,12 @@
 - add products
 - update marketing promotions
 - Update Stylists bio
--
+- Advertising
+
+# DevOps
+
+- Page Visit Statistics
+- Server statistics
 
 # Design
 
