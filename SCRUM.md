@@ -228,6 +228,7 @@
 - [Take Pictures in JavaScript with Navigator API and video, canvas html elements]("https://www.youtube.com/watch?v=4sLUfUGLEp0&list=RDCMUCBBGM84ZOs7z5jpTQAaZ_Hg&index=9")
 - [QR code React in JavaScript]("https://www.youtube.com/watch?v=74zwJzCTNBE&list=RDCMUCBBGM84ZOs7z5jpTQAaZ_Hg&index=29")
 - [TailwindCSS @apply normal classNames but with TWCSS declarations]("https://www.youtube.com/watch?v=UBOj6rqRUME") -[React Testing]("https://testing-library.com/docs/example-input-event")
+- [Redux Testing in TS]("https://egghead.io/lessons/redux-mocking-out-our-api-helper-with-jest-mock")
 
 ### WIP
 
