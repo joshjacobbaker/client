@@ -233,6 +233,7 @@
 - [Mock Server Worker Library for Mocking Asynchronous calls]("")
 - [Mock Components that need BrowserRouter, Redux Provider, Context Wrapper, etc. HigherOrderComponents for testing]("")
 - [React Query]("https://www.youtube.com/watch?v=NQULKpW6hK4")
+- [useSWR fetching]("")
 
 ### WIP
 
