@@ -236,6 +236,16 @@
 - [useSWR fetching]("")
 - [NextJS?]("")
 - [Develop Form]("https://www.youtube.com/watch?v=tIdNeoHniEY")
+- [Aria Accessibility]("")
+- [Toast Notifications on screen for sales, user actions, etc.]("https://www.youtube.com/watch?v=nX_xDBR_gqo&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=3")
+- [Tooltip for customer assistance in navigating the page]("https://www.youtube.com/watch?v=8y4Dr9jJtF0&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=5")
+- [Idle Timer... Log User out after they've been inactive for a certain period of time..?]("https://www.youtube.com/watch?v=_wgCPufTAYI&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=7")
+- [A color picker for customer merchandise?]("https://www.youtube.com/watch?v=qX6FFDENac0&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=8")
+- [Credit Card Component for handling customer payments]("https://www.youtube.com/watch?v=HpmL7dvyRUY&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=9")
+- [Date Picker to allow customer's to select dates for appointments]("https://www.youtube.com/watch?v=tojwQEdI-QI&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=10")
+- [React Video for Stylist/Customer Testimonials and advertisements]("https://www.youtube.com/watch?v=7sDY4m8KNLc&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=12")
+- [Loading Indicators for API requests]("https://www.youtube.com/watch?v=T0i0zHyryrs&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=13")
+- [Flex box]("")
 
 ### WIP
 
