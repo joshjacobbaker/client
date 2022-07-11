@@ -247,6 +247,7 @@
 - [Loading Indicators for API requests]("https://www.youtube.com/watch?v=T0i0zHyryrs&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=13")
 - [Flex box]("")
 - [Formik]("https://www.youtube.com/watch?v=dWKPkGDe9pw&list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu&index=10")
+- [React Query CRUD]("https://www.youtube.com/watch?v=4UCwA2n4gsA")
 
 ### WIP
 
