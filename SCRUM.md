@@ -249,6 +249,7 @@
 - [Formik]("https://www.youtube.com/watch?v=dWKPkGDe9pw&list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu&index=10")
 - [React Query CRUD]("https://www.youtube.com/watch?v=4UCwA2n4gsA")
 - [TailwindCSS]("")
+- [Webpack Plugins for new technologies]("")
 
 ### WIP
 
