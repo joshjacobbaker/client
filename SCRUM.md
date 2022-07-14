@@ -251,6 +251,7 @@
 - [TailwindCSS]("")
 - [Webpack Plugins for new technologies]("")
 - [CDN cache on CloudFlare]("https://www.youtube.com/watch?v=hHaPgfyxIvY")
+- [TailwindCSS & Styled-Components]("https://www.youtube.com/watch?v=do3LSqK929Q")
 
 ### WIP
 
