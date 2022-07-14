@@ -250,6 +250,7 @@
 - [React Query CRUD]("https://www.youtube.com/watch?v=4UCwA2n4gsA")
 - [TailwindCSS]("")
 - [Webpack Plugins for new technologies]("")
+- [CDN cache on CloudFlare]("https://www.youtube.com/watch?v=hHaPgfyxIvY")
 
 ### WIP
 
