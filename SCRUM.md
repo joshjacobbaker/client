@@ -252,6 +252,21 @@
 - [Webpack Plugins for new technologies]("")
 - [CDN cache on CloudFlare]("https://www.youtube.com/watch?v=hHaPgfyxIvY")
 - [TailwindCSS & Styled-Components]("https://www.youtube.com/watch?v=do3LSqK929Q")
+- [TailwindCSS & Styled-Components FUll tutorial with Tw-Macro]("https://www.youtube.com/watch?v=RuhpLRAVvmM")
+- [Gzip bundle
+  Compress bundle
+  Lazy Load bundle
+  Test bundle
+  Transpile bundle
+  Bundle statistics
+  Disguise bundle source code with transpiled version of html, css, js
+  Specific Optimizations: html, css, javascript,
+  Purge css, html, js, etc.
+  TailwindCSS purge]("")
+  - [.eslint
+    standards
+    built-in to development and CICD testing]("")
+- [Cache? Cookies? Local Storage? Web Browser Apis?]("")
 
 ### WIP
 
