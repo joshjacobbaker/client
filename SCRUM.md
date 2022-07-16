@@ -2,7 +2,7 @@
 
 [Youtube Tutorial]("https://www.youtube.com/watch?v=JsX_iCZPyOM")
 
-### Backlog
+### Backlog -- Todo
 
 - [create custom hook for intersection observer animation]("")
 - [Styled Components, TailwindCSS, Twin.Macro Library]("https://www.youtube.com/watch?v=do3LSqK929Q")
@@ -267,15 +267,16 @@
     standards
     built-in to development and CICD testing]("")
 - [Cache? Cookies? Local Storage? Web Browser Apis?]("")
+- [Domain Name, Hosting, TLS Certificate]("")
 
-### WIP
+### WIP -- In-Progress
 
 - [Explore other salon websites for ideas]("https://www.envysalon-spa.com/")
 - add gold beveling to borders and text shadow..?
 - web.dev Website Performance Test
 - [Lighthouse Website Performance Tracker]("")
 
-### Finished
+### Finished -- Done
 
 - change on hover background color
 - Prevent Images from scrolling on landing page
@@ -334,7 +335,7 @@
 New:
 
 - We have a .github hook that runs a build script
-- Does it build Netlify?
+- It should push to Netlify's server, but is it?
   <!-- - We run "npm run gitpushmaster" and our github-actions-workflow-build-pipeline-webhook deploys our app to gh-pages and Netlify builds too. -->
     <!-- "gitpushmaster": "git push -u origin master" -->
     <!-- .github/workflows/node.js.yml -->
