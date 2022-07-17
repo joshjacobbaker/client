@@ -12,6 +12,8 @@
 
 ### Backlog -- Todo
 
+- [Prettier Dev Dependency]("")
+- [EsLint Dev Dependency]("")
 - [Nginx Reverse-Proxy with React/NextJS DNS]("https://www.youtube.com/watch?v=DbREUJNgxqw")
 - [create custom hook for intersection observer animation]("")
 - [Styled Components, TailwindCSS, Twin.Macro Library]("https://www.youtube.com/watch?v=do3LSqK929Q")
