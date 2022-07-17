@@ -2,8 +2,17 @@
 
 [Youtube Tutorial]("https://www.youtube.com/watch?v=JsX_iCZPyOM")
 
+## Definition of Done
+
+## Functional Requirements
+
+## Non-Functional Requirements
+
+### Technical Debt
+
 ### Backlog -- Todo
 
+- [Nginx Reverse-Proxy with React/NextJS DNS]("https://www.youtube.com/watch?v=DbREUJNgxqw")
 - [create custom hook for intersection observer animation]("")
 - [Styled Components, TailwindCSS, Twin.Macro Library]("https://www.youtube.com/watch?v=do3LSqK929Q")
 - [Asset Video of Salon, etc. will want to add asset folder]("")
@@ -268,6 +277,7 @@
     built-in to development and CICD testing]("")
 - [Cache? Cookies? Local Storage? Web Browser Apis?]("")
 - [Domain Name, Hosting, TLS Certificate]("")
+- [setup cms content management system ]("")
 
 ### WIP -- In-Progress
 
