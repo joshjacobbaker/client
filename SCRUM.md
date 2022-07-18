@@ -12,8 +12,11 @@
 
 ### Backlog -- Todo
 
-- [Prettier Dev Dependency]("")
-- [EsLint Dev Dependency]("")
+- [copy icon from figma, convert to svg via website, and add to project within svg/path component...]("")
+- [create NPM library]("https://www.youtube.com/watch?v=XHQi5a0TmMc")
+- [Optimize Production React Bundle]("https://www.youtube.com/watch?v=gJxgjyhbGHQ")
+- [Prettier Dev Dependency]("https://www.youtube.com/watch?v=Iu5aZDqZt8E")
+- [EsLint Dev Dependency]("https://www.youtube.com/watch?v=Iu5aZDqZt8E")
 - [Nginx Reverse-Proxy with React/NextJS DNS]("https://www.youtube.com/watch?v=DbREUJNgxqw")
 - [create custom hook for intersection observer animation]("")
 - [Styled Components, TailwindCSS, Twin.Macro Library]("https://www.youtube.com/watch?v=do3LSqK929Q")
