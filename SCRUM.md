@@ -11,8 +11,8 @@
 ### Technical Debt
 
 ### Backlog -- Todo
-
-- [copy icon from figma, convert to svg via website, and add to project within svg/path component...]("")
+- [Svg Workflow]("https://jakearchibald.github.io/svgomg/")
+- [copy icon from figma, convert to svg via website, and add to project within svg/path component... normalize SVG strokes to fills]("")
 - [create NPM library]("https://www.youtube.com/watch?v=XHQi5a0TmMc")
 - [Optimize Production React Bundle]("https://www.youtube.com/watch?v=gJxgjyhbGHQ")
 - [Prettier Dev Dependency]("https://www.youtube.com/watch?v=Iu5aZDqZt8E")
