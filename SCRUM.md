@@ -11,6 +11,10 @@
 ### Technical Debt
 
 ### Backlog -- Todo
+
+- [GraphQL Backend Server]("https://www.udemy.com/course/graphql-bootcamp/learn/lecture/11838204#overview")
+- [React-Aria for button touch responsiveness]("https://www.youtube.com/watch?v=ydZSNUbHl_8")
+- [Tailwind-Styled-Component]("https://cssrepo.com/lib/MathiasGilson-Tailwind-Styled-Component")
 - [Svg Workflow]("https://jakearchibald.github.io/svgomg/")
 - [copy icon from figma, convert to svg via website, and add to project within svg/path component... normalize SVG strokes to fills]("")
 - [create NPM library]("https://www.youtube.com/watch?v=XHQi5a0TmMc")
