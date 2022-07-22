@@ -12,6 +12,7 @@
 
 ### Backlog -- Todo
 
+- [RQ & GRAPHQL]("https://www.youtube.com/watch?v=ZZrr82beJQk")
 - [GraphQL Backend Server]("https://www.udemy.com/course/graphql-bootcamp/learn/lecture/11838204#overview")
 - [React-Aria for button touch responsiveness]("https://www.youtube.com/watch?v=ydZSNUbHl_8")
 - [Tailwind-Styled-Component]("https://cssrepo.com/lib/MathiasGilson-Tailwind-Styled-Component")
