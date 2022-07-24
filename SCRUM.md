@@ -11,8 +11,8 @@
 ### Technical Debt
 
 ### Backlog -- Todo
-
-- [Prisma GraphQL backend]("")
+- [Accessibility, A11y, Aria..]("")
+- [Prisma GraphQL backend]("https://www.youtube.com/watch?v=K8k0fXnDAnA")
 - [TailwindCSS mode="jit"]("https://www.youtube.com/watch?v=7iVL7b0L4xc")
 - [RQ & GRAPHQL]("https://www.youtube.com/watch?v=ZZrr82beJQk")
 - [GraphQL Backend Server]("https://www.udemy.com/course/graphql-bootcamp/learn/lecture/11838204#overview")
