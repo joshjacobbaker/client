@@ -12,6 +12,8 @@
 
 ### Backlog -- Todo
 
+- [Change Fetch request to backend based on client location with geolaction header]("")
+- [Incremetal Serverside Rendering]("")
 - [Eslint, husky, perttier configs]("")
 - [Monorepos vs metarepos... ]("https://javascript.plainenglish.io/5-best-lerna-alternatives-42ffe75d403e")
 - [Accessibility, A11y, Aria..]("")
