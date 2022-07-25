@@ -11,6 +11,9 @@
 ### Technical Debt
 
 ### Backlog -- Todo
+
+- [Eslint, husky, perttier configs]("")
+- [Monorepos vs metarepos... ]("https://javascript.plainenglish.io/5-best-lerna-alternatives-42ffe75d403e")
 - [Accessibility, A11y, Aria..]("")
 - [Prisma GraphQL backend]("https://www.youtube.com/watch?v=K8k0fXnDAnA")
 - [TailwindCSS mode="jit"]("https://www.youtube.com/watch?v=7iVL7b0L4xc")
