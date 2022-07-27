@@ -12,6 +12,9 @@
 
 ### Backlog -- Todo
 
+- [Mock Service Worker in testing Jest runner React Testing library]("")
+- [AirBNB ESlint Configuration includes the A11y lint plugin]("")
+- [Toast Notification after reservation]("")
 - [Change Fetch request to backend based on client location with geolaction header]("")
 - [Incremetal Serverside Rendering]("")
 - [Eslint, husky, perttier configs]("")
