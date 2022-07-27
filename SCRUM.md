@@ -12,7 +12,10 @@
 
 ### Backlog -- Todo
 
-- [Mock Service Worker in testing Jest runner React Testing library]("")
+- [TailwindCSS]("https://www.youtube.com/watch?v=xpGNcQDmV2A")
+- [pNpm workspace]("")
+- [TurboRepo monorepo]("")
+- [Mock Service Worker in testing Jest runner React Testing library]("https://www.udemy.com/course/nextjs-testing/learn/lecture/32203696#overview")
 - [AirBNB ESlint Configuration includes the A11y lint plugin]("")
 - [Toast Notification after reservation]("")
 - [Change Fetch request to backend based on client location with geolaction header]("")
