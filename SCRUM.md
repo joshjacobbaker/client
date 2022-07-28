@@ -12,6 +12,10 @@
 
 ### Backlog -- Todo
 
+- [TailwindCSS & Adding DarkMode]("https://www.youtube.com/watch?v=NvoYr7eQ2Xo")
+- [NextJS & Adding DarkMode with TailwindCSS]("https://www.youtube.com/watch?v=CaXnsvJqwUY")
+- [NextJS & Google Analytics]("https://www.youtube.com/watch?v=DT8vx50Asrk")
+- [Suspense boundary during API request]("https://www.youtube.com/watch?v=FpFetyxapto")
 - [TailwindCSS]("https://www.youtube.com/watch?v=xpGNcQDmV2A")
 - [pNpm workspace]("")
 - [TurboRepo monorepo]("")
