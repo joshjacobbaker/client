@@ -12,6 +12,7 @@
 
 ### Backlog -- Todo
 
+- [Artificial Delays in UI/UX to improve performance]("https://www.youtube.com/watch?v=YnksFDAN_GA")
 - [Notion CMS]("https://www.youtube.com/watch?v=mukkm6o6Pjw")
 - [TailwindCSS & Adding DarkMode]("https://www.youtube.com/watch?v=NvoYr7eQ2Xo")
 - [NextJS & Adding DarkMode with TailwindCSS]("https://www.youtube.com/watch?v=CaXnsvJqwUY")
