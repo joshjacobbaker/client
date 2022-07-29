@@ -12,8 +12,11 @@
 
 ### Backlog -- Todo
 
+- [Notion CMS]("https://www.youtube.com/watch?v=mukkm6o6Pjw")
 - [TailwindCSS & Adding DarkMode]("https://www.youtube.com/watch?v=NvoYr7eQ2Xo")
 - [NextJS & Adding DarkMode with TailwindCSS]("https://www.youtube.com/watch?v=CaXnsvJqwUY")
+- [Google Analytics & SPA]("https://www.youtube.com/watch?v=QuqX-qRNI_Y&t=593s")
+- [Google Analytics & SPA 2022]("https://www.youtube.com/watch?v=RyoMaZ51agA")
 - [NextJS & Google Analytics]("https://www.youtube.com/watch?v=DT8vx50Asrk")
 - [Suspense boundary during API request]("https://www.youtube.com/watch?v=FpFetyxapto")
 - [TailwindCSS]("https://www.youtube.com/watch?v=xpGNcQDmV2A")
