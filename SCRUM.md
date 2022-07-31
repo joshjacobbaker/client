@@ -12,7 +12,13 @@
 
 ### Backlog -- Todo
 
-- [Artificial Delays in UI/UX to improve performance]("https://www.youtube.com/watch?v=YnksFDAN_GA")
+- [Turborepo tutorial]("https://www.youtube.com/watch?v=A-FE_cn7mFo")
+- [focus states tailwindcss outline, shadow, border, ring on inputs when selected by the keyboard or mouse]("")
+- [Tailwindcss headless ecommerce, shopify, nextJs]("https://www.youtube.com/watch?v=xNMYz74zNHM")
+- [vsCode auto-import]()
+- [Ways to measure and improve server response times (TTFB time to first byte) and google SEO rankings]("https://phoenixnap.com/kb/reduce-server-response-time")
+- [GeoLocation block and perhaps client & server geolocation urls]("https://www.youtube.com/watch?v=_TQ7ts1WJ7I")
+- [Artificial Delays in UI/UX to improve performance, immediate reads and throttled writes]("https://www.youtube.com/watch?v=YnksFDAN_GA")
 - [Notion CMS]("https://www.youtube.com/watch?v=mukkm6o6Pjw")
 - [TailwindCSS & Adding DarkMode]("https://www.youtube.com/watch?v=NvoYr7eQ2Xo")
 - [NextJS & Adding DarkMode with TailwindCSS]("https://www.youtube.com/watch?v=CaXnsvJqwUY")
