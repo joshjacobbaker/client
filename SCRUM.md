@@ -11,7 +11,7 @@
 ### Technical Debt
 
 ### Backlog -- Todo
-
+- [TailwindCss Animations]("https://www.youtube.com/watch?v=z9sHOXheE_M")
 - [Turborepo tutorial]("https://www.youtube.com/watch?v=A-FE_cn7mFo")
 - [focus states tailwindcss outline, shadow, border, ring on inputs when selected by the keyboard or mouse]("")
 - [Tailwindcss headless ecommerce, shopify, nextJs]("https://www.youtube.com/watch?v=xNMYz74zNHM")
