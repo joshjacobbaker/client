@@ -12,7 +12,17 @@
 
 ### Backlog -- Todo
 
-- [Vercel Deployment CDN geo-location redirect or rewrite header]("")
+- [NextAuth.js for authentication, etc.]("https://www.youtube.com/watch?v=C6eH6zsPgSk&list=PLzYM-WGWIJDQzw0bEJKHCyx_ZDdZ13IWt")
+- [Dynamic Pages with getStaticPaths]("https://www.youtube.com/watch?v=VMJEan1qUh8&list=PLynWqC6VC9KOvExUuzhTFsWaxnpP_97BD&index=14")
+- [NextJS Layout Component]("https://www.youtube.com/watch?v=hz95FuVA5gI&list=PLynWqC6VC9KOvExUuzhTFsWaxnpP_97BD&index=8")
+- [Expo is to React-Native as NextJS is to React]("")
+- [React Native & NextJS in a Monorepo]("https://www.youtube.com/watch?v=0lnbdRweJtA&list=RDCMUCLq8gNoee7oXM7MvTdjyQvA&index=14")
+- [Core Web Vitals]("")
+- [Vercel Nextjs Configuration for middleware redirect rewrite, etc. next.config.js ]("https://www.youtube.com/watch?v=3QbgzJe6HV8&list=RDCMUCLq8gNoee7oXM7MvTdjyQvA&index=7")
+- [Revalidate on demand with ISR Incremental Static Regeneration]("")
+- [name functions for logging and error tracing purposes]("")
+- [Advanced Nextjs Configuration for middleware redirect rewrite, etc. next.config.js ]("https://www.youtube.com/watch?v=ndTh5KOIRVQ")
+- [Vercel Deployment CDN geo-location redirect or rewrite header middleware]("https://www.youtube.com/watch?v=fCA8nnoJrbQ")
 - [NextJS MongoDB Crud operations for Customers and Stylists]("https://www.youtube.com/watch?v=RKDfKbLJkZQ")
 - [Begin versioning with branches]("")
 - [TailwindCss Animations]("https://www.youtube.com/watch?v=z9sHOXheE_M")
