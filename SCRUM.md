@@ -11,8 +11,11 @@
 ### Technical Debt
 
 ### Backlog -- Todo
-
-- [NextAuth.js for authentication, etc.]("https://www.youtube.com/watch?v=C6eH6zsPgSk&list=PLzYM-WGWIJDQzw0bEJKHCyx_ZDdZ13IWt")
+- [TurboRepo ]("https://www.youtube.com/watch?v=A-FE_cn7mFo&t=143s")
+- [Adding absolute imports to Nextjs]("https://egghead.io/lessons/next-js-adding-absolute-imports-to-next-js-app")
+- [NextJS authentication part 2, Social and Credential Providers ]("https://www.youtube.com/watch?v=-ukn2FGe47k&list=PLzYM-WGWIJDQzw0bEJKHCyx_ZDdZ13IWt&index=3")
+- [NextJS Cookies]("https://www.youtube.com/watch?v=w8n7Soz7khw")
+- [NextAuth.js for authentication, Setup and Email Provider]("https://www.youtube.com/watch?v=C6eH6zsPgSk&list=PLzYM-WGWIJDQzw0bEJKHCyx_ZDdZ13IWt")
 - [Dynamic Pages with getStaticPaths]("https://www.youtube.com/watch?v=VMJEan1qUh8&list=PLynWqC6VC9KOvExUuzhTFsWaxnpP_97BD&index=14")
 - [NextJS Layout Component]("https://www.youtube.com/watch?v=hz95FuVA5gI&list=PLynWqC6VC9KOvExUuzhTFsWaxnpP_97BD&index=8")
 - [Expo is to React-Native as NextJS is to React]("")
