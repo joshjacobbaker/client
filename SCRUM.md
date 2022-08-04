@@ -11,6 +11,8 @@
 ### Technical Debt
 
 ### Backlog -- Todo
+- [NextJS layout component New Feature!!!]("https://www.youtube.com/watch?v=JoSqibRgNy0")
+- [Find Starter Templates & Kits]("")
 - [TurboRepo ]("https://www.youtube.com/watch?v=A-FE_cn7mFo&t=143s")
 - [Adding absolute imports to Nextjs]("https://egghead.io/lessons/next-js-adding-absolute-imports-to-next-js-app")
 - [NextJS authentication part 2, Social and Credential Providers ]("https://www.youtube.com/watch?v=-ukn2FGe47k&list=PLzYM-WGWIJDQzw0bEJKHCyx_ZDdZ13IWt&index=3")
